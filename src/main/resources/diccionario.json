@@ -1,0 +1,84 @@
+[
+  {
+    "number": 1,
+    "entries": [
+      {
+        "type": "sustantivo",
+        "word": "本",
+        "translation": "Libro",
+        "meaning": "Objeto para leer",
+        "pronunciation": "ほん",
+        "url_imagen": "https://ejemplo.com/libro.jpg"
+      },
+      {
+        "type": "verbo",
+        "word": "食べる",
+        "translation": "Comer",
+        "meaning": "Ingerir alimentos",
+        "pronunciation": "たべる",
+        "url_imagen": "https://ejemplo.com/comer.jpg"
+      },
+      {
+        "type": "adjetivo",
+        "word": "大きい",
+        "translation": "Grande",
+        "meaning": null,
+        "pronunciation": "おおきい",
+        "url_imagen": null
+      }
+    ],
+    "grammars": [
+      {
+        "structure": "~は~です",
+        "explanation": "Se usa para describir algo o alguien.",
+        "example": "私は学生です (Yo soy estudiante)"
+      },
+      {
+        "structure": "~が好きです",
+        "explanation": "Se usa para expresar gustos.",
+        "example": "犬が好きです (Me gustan los perros)"
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "entries": [
+      {
+        "type": "sustantivo",
+        "word": "猫",
+        "translation": "Gato",
+        "meaning": null,
+        "pronunciation": "ねこ",
+        "url_imagen": null
+      },
+      {
+        "type": "verbo",
+        "word": "見る",
+        "translation": "Ver/Mirar",
+        "meaning": null,
+        "pronunciation": "みる",
+        "url_imagen": null
+      },
+      {
+        "type": "adjetivo",
+        "word": "小さい",
+        "translation": "Pequeño",
+        "meaning": null,
+        "pronunciation": null,
+        "url_imagen": null
+      }
+    ],
+    "grammars": [
+      {
+        "structure": "~をください",
+        "explanation": null,
+        "example": null
+      },
+      {
+        "structure": "~があります",
+        "explanation": null,
+        "example": null
+      }
+    ]
+  }
+  ]
