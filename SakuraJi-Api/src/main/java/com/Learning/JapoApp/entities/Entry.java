@@ -6,15 +6,15 @@ import lombok.Data;
 public class Entry {
     private String type;
     private String word;
-    private String translation;
+    private String[] translation;
     private String meaning;
-    private String pronunciation;
+    private String[] pronunciation;
     private String url_imagen;
 
     public Entry() {
     }
 
-    public Entry(String type, String word, String translation, String meaning, String url_imagen, String pronunciation) {
+    public Entry(String type, String word, String[] translation, String meaning, String url_imagen, String[] pronunciation) {
         this.type = type;
         this.word = word;
         this.translation = translation;
@@ -47,19 +47,19 @@ public class Entry {
         this.meaning = meaning;
     }
 
-    public String getTranslation() {
+    public String[] getTranslation() {
         return translation;
     }
 
-    public void setTranslation(String translation) {
+    public void setTranslation(String[] translation) {
         this.translation = translation;
     }
 
-    public String getPronunciation() {
+    public String[] getPronunciation() {
         return pronunciation;
     }
 
-    public void setPronunciation(String pronunciation) {
+    public void setPronunciation(String[] pronunciation) {
         this.pronunciation = pronunciation;
     }
 

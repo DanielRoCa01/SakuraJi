@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -46,12 +47,21 @@ public class JapaneseLessonsController {
     }
 
     @GetMapping("/{lessonNumber}/entries")
-    public ResponseEntity<List<Entry>> getEntriesByLesson(@PathVariable int lessonNumber) {
-        return lessons.stream()
+    public ResponseEntity<List<Entry>> getEntriesByLesson(
+            @PathVariable int lessonNumber,
+            @RequestParam(required = false) String type) {
+
+        List<Entry> entries = lessons.stream()
                 .filter(l -> l.getNumber() == lessonNumber)
                 .findFirst()
-                .map(l -> ResponseEntity.ok(l.getEntries()))
-                .orElse(ResponseEntity.notFound().build());
+                .map(l -> l.getEntries())
+                .orElse(Collections.emptyList());
+
+        List<Entry> filteredEntries = entries.stream()
+                .filter(e -> type == null || e.getType().equals(type))
+                .collect(Collectors.toList());
+
+        return ResponseEntity.ok(filteredEntries);
     }
 
     @GetMapping("/{lessonNumber}/grammars")
@@ -68,13 +78,11 @@ public class JapaneseLessonsController {
         List<Entry> resultados = lessons.stream()
                 .flatMap(l -> l.getEntries().stream())
                 .filter(e -> e.getWord().equals(term) ||
-                        e.getTranslation().equalsIgnoreCase(term) ||
-                        e.getPronunciation().equals(term))
+                        Arrays.stream(e.getTranslation()).anyMatch(t -> t.equalsIgnoreCase(term)) || // Check if any translation matches
+                        Arrays.stream(e.getPronunciation()).anyMatch(p -> p.equals(term))) // check if any pronunciation matches
                 .collect(Collectors.toList());
 
-        return !resultados.isEmpty() ?
-                ResponseEntity.ok(resultados) :
-                ResponseEntity.notFound().build();
+        return ResponseEntity.ok(resultados);
     }
     @GetMapping("/lessons")
     public ResponseEntity<List<Lesson>> getLessons() {

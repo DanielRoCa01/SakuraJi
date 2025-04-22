@@ -3,6 +3,263 @@
     "number": 1,
     "entries": [
       {
+        "type": "Vocabulario",
+        "word": "わたし",
+        "translation": ["Yo"],
+        "meaning": "Pronombre personal para referirse a uno mismo",
+        "pronunciation": ["わたし"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "あなた",
+        "translation": ["Tú", "Usted"],
+        "meaning": "Pronombre personal para referirse a la persona con la que se habla",
+        "pronunciation": ["あなた"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "あのひと",
+        "translation": ["Aquella persona", "Él", "Ella"],
+        "meaning": "Forma común para referirse a una persona que no está presente",
+        "pronunciation": ["あのひと"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "あのかた",
+        "translation": ["Aquella persona (formal)"],
+        "meaning": "Forma formal para referirse a una persona que no está presente",
+        "pronunciation": ["あのかた"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "みなさん",
+        "translation": ["Todos ustedes"],
+        "meaning": "Forma plural y respetuosa para referirse a un grupo de personas",
+        "pronunciation": ["みなさん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～さん",
+        "translation": ["Sr.", "Sra.", "Srta."],
+        "meaning": "Sufijo de cortesía usado después del nombre",
+        "pronunciation": ["さん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～ちゃん",
+        "translation": ["Sufijo para niños"],
+        "meaning": "Sufijo cariñoso usado para niños o personas cercanas",
+        "pronunciation": ["ちゃん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～じん",
+        "translation": ["Nacionalidad"],
+        "meaning": "Sufijo para indicar nacionalidad (ejemplo: アメリカじん - estadounidense)",
+        "pronunciation": ["じん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "せんせい",
+        "translation": ["Maestro", "Profesor"],
+        "meaning": "Título para referirse a maestros o profesores (no se usa para uno mismo)",
+        "pronunciation": ["せんせい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "きょうし",
+        "translation": ["Profesor", "Maestro"],
+        "meaning": "Profesión de profesor o maestro (usado para uno mismo)",
+        "pronunciation": ["きょうし"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "がくせい",
+        "translation": ["Estudiante"],
+        "meaning": "Persona que estudia en una institución educativa",
+        "pronunciation": ["がくせい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かいしゃいん",
+        "translation": ["Empleado de empresa"],
+        "meaning": "Persona que trabaja en una empresa",
+        "pronunciation": ["かいしゃいん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "しゃいん",
+        "translation": ["Empleado"],
+        "meaning": "Empleado de una empresa (usado junto al nombre de la empresa)",
+        "pronunciation": ["しゃいん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ぎんこういん",
+        "translation": ["Empleado de banco"],
+        "meaning": "Persona que trabaja en un banco",
+        "pronunciation": ["ぎんこういん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いしゃ",
+        "translation": ["Médico"],
+        "meaning": "Profesión médica",
+        "pronunciation": ["いしゃ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "けんきゅうしゃ",
+        "translation": ["Investigador"],
+        "meaning": "Persona dedicada a la investigación",
+        "pronunciation": ["けんきゅうしゃ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "エンジニア",
+        "translation": ["Ingeniero"],
+        "meaning": "Profesión de ingeniería",
+        "pronunciation": ["エンジニア"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "だいがく",
+        "translation": ["Universidad"],
+        "meaning": "Institución de educación superior",
+        "pronunciation": ["だいがく"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "びょういん",
+        "translation": ["Hospital"],
+        "meaning": "Centro médico para atención sanitaria",
+        "pronunciation": ["びょういん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "でんき",
+        "translation": ["Electricidad"],
+        "meaning": "Electricidad, luz eléctrica",
+        "pronunciation": ["でんき"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "だれ",
+        "translation": ["Quién"],
+        "meaning": "Pregunta para identificar persona",
+        "pronunciation": ["だれ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "どなた",
+        "translation": ["Quién (formal)"],
+        "meaning": "Forma formal para preguntar por una persona",
+        "pronunciation": ["どなた"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "なんさい",
+        "translation": ["Cuántos años"],
+        "meaning": "Pregunta para la edad",
+        "pronunciation": ["なんさい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おいくつ",
+        "translation": ["Cuántos años (formal)"],
+        "meaning": "Forma formal para preguntar la edad",
+        "pronunciation": ["おいくつ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "はい",
+        "translation": ["Sí"],
+        "meaning": "Afirmación",
+        "pronunciation": ["はい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いいえ",
+        "translation": ["No"],
+        "meaning": "Negación",
+        "pronunciation": ["いいえ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "しつれいですが",
+        "translation": ["Disculpe, pero..."],
+        "meaning": "Expresión para iniciar una pregunta cortés",
+        "pronunciation": ["しつれいですが"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おなまえは？",
+        "translation": ["¿Cómo se llama?"],
+        "meaning": "Pregunta para pedir el nombre",
+        "pronunciation": ["おなまえは？"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "はじめまして",
+        "translation": ["Mucho gusto"],
+        "meaning": "Saludo al presentarse por primera vez",
+        "pronunciation": ["はじめまして"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "どうぞよろしく（おねがいします）",
+        "translation": ["Encantado/a de conocerle"],
+        "meaning": "Expresión para finalizar una presentación",
+        "pronunciation": ["どうぞよろしく", "おねがいします"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "こちらは～さんです",
+        "translation": ["Le presento a..."],
+        "meaning": "Frase para presentar a alguien",
+        "pronunciation": ["こちらは～さんです"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～からきました",
+        "translation": ["Vengo de..."],
+        "meaning": "Frase para decir el lugar de procedencia",
+        "pronunciation": ["～からきました"],
+        "url_imagen": null
+      }
+      ,
+      {
         "type": "Kanji",
         "word": "日",
         "translation": ["Sol", "Día"],
@@ -163,6 +420,342 @@
         "meaning": "Yo (私・わたし), privado (私立・しりつ), personal (私事・しじ)",
         "pronunciation": ["わたし", "シ"],
         "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "これ",
+        "translation": ["Esto"],
+        "meaning": "Se refiere a un objeto cerca del hablante.",
+        "pronunciation": ["これ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "それ",
+        "translation": ["Eso"],
+        "meaning": "Se refiere a un objeto cerca del oyente.",
+        "pronunciation": ["それ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "あれ",
+        "translation": ["Aquello"],
+        "meaning": "Se refiere a un objeto lejos de ambos, hablante y oyente.",
+        "pronunciation": ["あれ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "この",
+        "translation": ["Este/esta"],
+        "meaning": "Se usa antes de un sustantivo para indicar que está cerca del hablante.",
+        "pronunciation": ["この"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "その",
+        "translation": ["Ese/esa"],
+        "meaning": "Se usa antes de un sustantivo para indicar que está cerca del oyente.",
+        "pronunciation": ["その"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "あの",
+        "translation": ["Aquel/aquella"],
+        "meaning": "Se usa antes de un sustantivo para indicar que está lejos de ambos.",
+        "pronunciation": ["あの"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ほん",
+        "translation": ["Libro"],
+        "meaning": "Objeto para leer o estudiar.",
+        "pronunciation": ["ほん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "じしょ",
+        "translation": ["Diccionario"],
+        "meaning": "Libro de consulta de palabras.",
+        "pronunciation": ["じしょ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ざっし",
+        "translation": ["Revista"],
+        "meaning": "Publicación periódica con artículos y fotos.",
+        "pronunciation": ["ざっし"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "しんぶん",
+        "translation": ["Periódico"],
+        "meaning": "Publicación diaria con noticias.",
+        "pronunciation": ["しんぶん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ノート",
+        "translation": ["Cuaderno"],
+        "meaning": "Libro para tomar apuntes.",
+        "pronunciation": ["ノート"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "てちょう",
+        "translation": ["Agenda", "Libreta"],
+        "meaning": "Pequeño cuaderno para anotaciones personales.",
+        "pronunciation": ["てちょう"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "カード",
+        "translation": ["Tarjeta"],
+        "meaning": "Objeto rectangular usado para identificación, crédito, etc.",
+        "pronunciation": ["カード"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "えんぴつ",
+        "translation": ["Lápiz"],
+        "meaning": "Instrumento para escribir o dibujar.",
+        "pronunciation": ["えんぴつ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ボールペン",
+        "translation": ["Bolígrafo"],
+        "meaning": "Instrumento para escribir con tinta.",
+        "pronunciation": ["ボールペン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "シャープペンシル",
+        "translation": ["Portaminas"],
+        "meaning": "Lápiz mecánico con mina intercambiable.",
+        "pronunciation": ["シャープペンシル"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かぎ",
+        "translation": ["Llave"],
+        "meaning": "Objeto para abrir o cerrar cerraduras.",
+        "pronunciation": ["かぎ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "とけい",
+        "translation": ["Reloj"],
+        "meaning": "Instrumento para medir el tiempo.",
+        "pronunciation": ["とけい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かさ",
+        "translation": ["Paraguas"],
+        "meaning": "Objeto para protegerse de la lluvia.",
+        "pronunciation": ["かさ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かばん",
+        "translation": ["Bolso", "Maletín"],
+        "meaning": "Objeto para llevar libros, documentos, etc.",
+        "pronunciation": ["かばん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ラジオ",
+        "translation": ["Radio"],
+        "meaning": "Aparato para escuchar emisiones de radio.",
+        "pronunciation": ["ラジオ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "カメラ",
+        "translation": ["Cámara"],
+        "meaning": "Aparato para tomar fotografías.",
+        "pronunciation": ["カメラ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "コンピューター",
+        "translation": ["Computadora"],
+        "meaning": "Máquina electrónica para procesar información.",
+        "pronunciation": ["コンピューター"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "くるま",
+        "translation": ["Coche", "Automóvil"],
+        "meaning": "Vehículo de cuatro ruedas.",
+        "pronunciation": ["くるま"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "つくえ",
+        "translation": ["Escritorio", "Mesa"],
+        "meaning": "Mueble para estudiar o trabajar.",
+        "pronunciation": ["つくえ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いす",
+        "translation": ["Silla"],
+        "meaning": "Asiento con respaldo.",
+        "pronunciation": ["いす"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "チョコレート",
+        "translation": ["Chocolate"],
+        "meaning": "Dulce hecho a base de cacao.",
+        "pronunciation": ["チョコレート"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "コーヒー",
+        "translation": ["Café"],
+        "meaning": "Bebida hecha con granos de café.",
+        "pronunciation": ["コーヒー"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おみやげ",
+        "translation": ["Souvenir", "Recuerdo"],
+        "meaning": "Regalo típico que se lleva de un viaje.",
+        "pronunciation": ["おみやげ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "えいご",
+        "translation": ["Inglés (idioma)"],
+        "meaning": "Idioma inglés.",
+        "pronunciation": ["えいご"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "にほんご",
+        "translation": ["Japonés (idioma)"],
+        "meaning": "Idioma japonés.",
+        "pronunciation": ["にほんご"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～ご",
+        "translation": ["Idioma ～"],
+        "meaning": "Sufijo para indicar idioma (ejemplo: スペインご - español).",
+        "pronunciation": ["ご"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "なん",
+        "translation": ["Qué"],
+        "meaning": "Palabra interrogativa para preguntar por una cosa.",
+        "pronunciation": ["なん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "そう",
+        "translation": ["Así", "De ese modo"],
+        "meaning": "Se usa para afirmar o confirmar algo.",
+        "pronunciation": ["そう"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ちがいます",
+        "translation": ["No es así", "Está equivocado"],
+        "meaning": "Expresión para corregir o negar algo.",
+        "pronunciation": ["ちがいます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "あのう",
+        "translation": ["Esto...", "Eh..."],
+        "meaning": "Expresión para llamar la atención o dudar antes de hablar.",
+        "pronunciation": ["あのう"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ほんのきもちです",
+        "translation": ["Es un simple detalle"],
+        "meaning": "Expresión de modestia al dar un regalo.",
+        "pronunciation": ["ほんのきもちです"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "どうぞ",
+        "translation": ["Por favor (al ofrecer algo)"],
+        "meaning": "Palabra usada al ofrecer algo a alguien.",
+        "pronunciation": ["どうぞ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "どうも",
+        "translation": ["Gracias"],
+        "meaning": "Palabra de agradecimiento.",
+        "pronunciation": ["どうも"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ありがとうございます",
+        "translation": ["Muchas gracias"],
+        "meaning": "Expresión formal de agradecimiento.",
+        "pronunciation": ["ありがとうございます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "これからおせわになります",
+        "translation": ["Le agradezco de antemano su apoyo"],
+        "meaning": "Expresión usada al empezar una relación laboral o personal.",
+        "pronunciation": ["これからおせわになります"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "こちらこそよろしく",
+        "translation": ["Igualmente", "El gusto es mío"],
+        "meaning": "Respuesta a 'どうぞよろしく' para expresar reciprocidad.",
+        "pronunciation": ["こちらこそよろしく"],
+        "url_imagen": null
       }
     ]
   ,
@@ -182,6 +775,287 @@
   {
     "number" : 3,
     "entries": [
+      {
+        "type": "Vocabulario",
+        "word": "ここ",
+        "translation": ["Aquí"],
+        "meaning": "Lugar cerca del hablante.",
+        "pronunciation": ["ここ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "そこ",
+        "translation": ["Ahí"],
+        "meaning": "Lugar cerca del oyente.",
+        "pronunciation": ["そこ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "あそこ",
+        "translation": ["Allí"],
+        "meaning": "Lugar lejos de ambos, hablante y oyente.",
+        "pronunciation": ["あそこ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "どこ",
+        "translation": ["Dónde"],
+        "meaning": "Palabra interrogativa para preguntar por un lugar.",
+        "pronunciation": ["どこ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "きょうしつ",
+        "translation": ["Aula", "Salón de clases"],
+        "meaning": "Sala donde se imparten las clases.",
+        "pronunciation": ["きょうしつ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "しょくどう",
+        "translation": ["Comedor", "Cafetería"],
+        "meaning": "Lugar donde se come en la escuela, empresa, etc.",
+        "pronunciation": ["しょくどう"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "じむしょ",
+        "translation": ["Oficina"],
+        "meaning": "Lugar donde se realiza trabajo administrativo.",
+        "pronunciation": ["じむしょ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かいぎしつ",
+        "translation": ["Sala de reuniones"],
+        "meaning": "Sala destinada a reuniones o juntas.",
+        "pronunciation": ["かいぎしつ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "うけつけ",
+        "translation": ["Recepción"],
+        "meaning": "Mostrador o persona que recibe a los visitantes.",
+        "pronunciation": ["うけつけ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "へや",
+        "translation": ["Habitación", "Cuarto"],
+        "meaning": "Espacio cerrado dentro de un edificio.",
+        "pronunciation": ["へや"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "トイレ",
+        "translation": ["Baño", "Aseo"],
+        "meaning": "Lugar para necesidades fisiológicas.",
+        "pronunciation": ["トイレ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かいだん",
+        "translation": ["Escalera"],
+        "meaning": "Estructura para subir o bajar entre pisos.",
+        "pronunciation": ["かいだん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "エレベーター",
+        "translation": ["Ascensor", "Elevador"],
+        "meaning": "Aparato para subir o bajar entre pisos.",
+        "pronunciation": ["エレベーター"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "エスカレーター",
+        "translation": ["Escalera mecánica"],
+        "meaning": "Escalera automática para subir o bajar entre pisos.",
+        "pronunciation": ["エスカレーター"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "くに",
+        "translation": ["País"],
+        "meaning": "Nación, estado.",
+        "pronunciation": ["くに"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かいしゃ",
+        "translation": ["Empresa", "Compañía"],
+        "meaning": "Organización dedicada a actividades comerciales.",
+        "pronunciation": ["かいしゃ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "うち",
+        "translation": ["Casa", "Hogar"],
+        "meaning": "Lugar donde vive una persona.",
+        "pronunciation": ["うち"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "でんわ",
+        "translation": ["Teléfono"],
+        "meaning": "Aparato para comunicarse a distancia.",
+        "pronunciation": ["でんわ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "くつ",
+        "translation": ["Zapatos"],
+        "meaning": "Calzado para los pies.",
+        "pronunciation": ["くつ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ネクタイ",
+        "translation": ["Corbata"],
+        "meaning": "Accesorio de vestir que se lleva en el cuello.",
+        "pronunciation": ["ネクタイ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ワイン",
+        "translation": ["Vino"],
+        "meaning": "Bebida alcohólica hecha de uvas.",
+        "pronunciation": ["ワイン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "たばこ",
+        "translation": ["Tabaco", "Cigarro"],
+        "meaning": "Producto para fumar.",
+        "pronunciation": ["たばこ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "うりば",
+        "translation": ["Sección de ventas", "Mostrador"],
+        "meaning": "Lugar donde se venden productos en una tienda.",
+        "pronunciation": ["うりば"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ちか",
+        "translation": ["Sótano", "Subsuelo"],
+        "meaning": "Piso subterráneo de un edificio.",
+        "pronunciation": ["ちか"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～かい / ～がい",
+        "translation": ["Piso", "Planta"],
+        "meaning": "Contador para pisos o plantas de un edificio.",
+        "pronunciation": ["かい", "がい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "なんがい",
+        "translation": ["¿Qué piso?"],
+        "meaning": "Pregunta para saber en qué piso está algo.",
+        "pronunciation": ["なんがい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いくら",
+        "translation": ["¿Cuánto?"],
+        "meaning": "Pregunta por el precio.",
+        "pronunciation": ["いくら"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ひゃく",
+        "translation": ["Cien"],
+        "meaning": "Número 100.",
+        "pronunciation": ["ひゃく"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "せん",
+        "translation": ["Mil"],
+        "meaning": "Número 1000.",
+        "pronunciation": ["せん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "まん",
+        "translation": ["Diez mil"],
+        "meaning": "Número 10,000.",
+        "pronunciation": ["まん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "すみません",
+        "translation": ["Disculpe", "Perdón"],
+        "meaning": "Expresión para llamar la atención o pedir disculpas.",
+        "pronunciation": ["すみません"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いらっしゃいませ",
+        "translation": ["Bienvenido"],
+        "meaning": "Expresión de bienvenida usada en tiendas y restaurantes.",
+        "pronunciation": ["いらっしゃいませ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "をみせてください",
+        "translation": ["Por favor, muéstreme..."],
+        "meaning": "Expresión para pedir ver un objeto en una tienda.",
+        "pronunciation": ["をみせてください"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "じゃ",
+        "translation": ["Entonces", "Pues"],
+        "meaning": "Palabra para enlazar frases o indicar decisión.",
+        "pronunciation": ["じゃ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ください",
+        "translation": ["Por favor (deme)"],
+        "meaning": "Expresión para pedir algo.",
+        "pronunciation": ["ください"],
+        "url_imagen": null
+      }
+      ,
       {
         "type": "Kanji",
         "word": "一",
@@ -310,6 +1184,359 @@
     "number" : 4,
     "entries": [
       {
+        "type": "Verbos",
+        "word": "おきます",
+        "translation": ["Levantarse", "Despertarse"],
+        "meaning": "Acción de levantarse de la cama o despertarse.",
+        "pronunciation": ["おきます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "ねます",
+        "translation": ["Dormir", "Acostarse"],
+        "meaning": "Irse a la cama o dormir.",
+        "pronunciation": ["ねます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "はたらきます",
+        "translation": ["Trabajar"],
+        "meaning": "Realizar una actividad laboral.",
+        "pronunciation": ["はたらきます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "やすみます",
+        "translation": ["Descansar", "Tomar vacaciones"],
+        "meaning": "Tomarse un descanso o vacaciones.",
+        "pronunciation": ["やすみます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "べんきょうします",
+        "translation": ["Estudiar"],
+        "meaning": "Realizar actividades de aprendizaje.",
+        "pronunciation": ["べんきょうします"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "おわります",
+        "translation": ["Terminar", "Acabar"],
+        "meaning": "Finalizar una actividad.",
+        "pronunciation": ["おわります"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "デパート",
+        "translation": ["Gran almacén", "Tienda departamental"],
+        "meaning": "Tienda grande con varias secciones.",
+        "pronunciation": ["デパート"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ぎんこう",
+        "translation": ["Banco"],
+        "meaning": "Institución financiera.",
+        "pronunciation": ["ぎんこう"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ゆうびんきょく",
+        "translation": ["Oficina de correos"],
+        "meaning": "Lugar donde se envían y reciben cartas y paquetes.",
+        "pronunciation": ["ゆうびんきょく"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "としょかん",
+        "translation": ["Biblioteca"],
+        "meaning": "Lugar donde se pueden leer o pedir prestados libros.",
+        "pronunciation": ["としょかん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いま",
+        "translation": ["Ahora"],
+        "meaning": "En este momento.",
+        "pronunciation": ["いま"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～じ",
+        "translation": ["~hora"],
+        "meaning": "Sufijo para indicar la hora.",
+        "pronunciation": ["じ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～ふん／～ぷん",
+        "translation": ["~minuto"],
+        "meaning": "Sufijo para indicar los minutos.",
+        "pronunciation": ["ふん", "ぷん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "はん",
+        "translation": ["Media", "Y media"],
+        "meaning": "Treinta minutos, la mitad de la hora.",
+        "pronunciation": ["はん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "なんじ",
+        "translation": ["¿Qué hora?"],
+        "meaning": "Pregunta para saber la hora.",
+        "pronunciation": ["なんじ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "なんふん",
+        "translation": ["¿Qué minuto?"],
+        "meaning": "Pregunta para saber el minuto.",
+        "pronunciation": ["なんぷん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ごぜん",
+        "translation": ["A.M.", "De la mañana"],
+        "meaning": "Indica el periodo antes del mediodía.",
+        "pronunciation": ["ごぜん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ごご",
+        "translation": ["P.M.", "De la tarde"],
+        "meaning": "Indica el periodo después del mediodía.",
+        "pronunciation": ["ごご"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "あさ",
+        "translation": ["Mañana (temprano)"],
+        "meaning": "Periodo del día desde el amanecer hasta antes del mediodía.",
+        "pronunciation": ["あさ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ひる",
+        "translation": ["Mediodía", "Día"],
+        "meaning": "Periodo del día alrededor de las 12 del mediodía.",
+        "pronunciation": ["ひる"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ばん",
+        "translation": ["Noche"],
+        "meaning": "Periodo del día después del atardecer.",
+        "pronunciation": ["ばん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "よる",
+        "translation": ["Noche"],
+        "meaning": "Periodo del día cuando está oscuro.",
+        "pronunciation": ["よる"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "やすみ",
+        "translation": ["Descanso", "Día libre", "Vacaciones"],
+        "meaning": "Periodo sin trabajo o escuela.",
+        "pronunciation": ["やすみ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ひるやすみ",
+        "translation": ["Descanso del mediodía"],
+        "meaning": "Pausa para almorzar.",
+        "pronunciation": ["ひるやすみ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "まいあさ",
+        "translation": ["Cada mañana"],
+        "meaning": "Todas las mañanas.",
+        "pronunciation": ["まいあさ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "まいばん",
+        "translation": ["Cada noche"],
+        "meaning": "Todas las noches.",
+        "pronunciation": ["まいばん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "まいにち",
+        "translation": ["Cada día", "Todos los días"],
+        "meaning": "Todos los días.",
+        "pronunciation": ["まいにち"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "げつようび",
+        "translation": ["Lunes"],
+        "meaning": "Primer día de la semana laboral.",
+        "pronunciation": ["げつようび"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かようび",
+        "translation": ["Martes"],
+        "meaning": "Segundo día de la semana laboral.",
+        "pronunciation": ["かようび"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "すいようび",
+        "translation": ["Miércoles"],
+        "meaning": "Tercer día de la semana laboral.",
+        "pronunciation": ["すいようび"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "もくようび",
+        "translation": ["Jueves"],
+        "meaning": "Cuarto día de la semana laboral.",
+        "pronunciation": ["もくようび"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "きんようび",
+        "translation": ["Viernes"],
+        "meaning": "Quinto día de la semana laboral.",
+        "pronunciation": ["きんようび"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "どようび",
+        "translation": ["Sábado"],
+        "meaning": "Sexto día de la semana.",
+        "pronunciation": ["どようび"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "にちようび",
+        "translation": ["Domingo"],
+        "meaning": "Séptimo día de la semana.",
+        "pronunciation": ["にちようび"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "なんようび",
+        "translation": ["¿Qué día de la semana?"],
+        "meaning": "Pregunta para saber el día de la semana.",
+        "pronunciation": ["なんようび"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～から～まで",
+        "translation": ["Desde ~ hasta ~"],
+        "meaning": "Expresión para indicar el inicio y fin de un periodo.",
+        "pronunciation": ["から", "まで"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "と",
+        "translation": ["Y (conjunción)"],
+        "meaning": "Partícula para unir palabras.",
+        "pronunciation": ["と"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "たいへん",
+        "translation": ["Duro", "Difícil"],
+        "meaning": "Describe una situación complicada o difícil.",
+        "pronunciation": ["たいへん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ですね",
+        "translation": ["¿Verdad?", "¿No es así?"],
+        "meaning": "Expresión de confirmación o empatía.",
+        "pronunciation": ["ですね"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "えーと",
+        "translation": ["Eh...", "Esto..."],
+        "meaning": "Expresión para pensar o dudar antes de hablar.",
+        "pronunciation": ["えーと"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おねがいします",
+        "translation": ["Por favor"],
+        "meaning": "Expresión de solicitud.",
+        "pronunciation": ["おねがいします"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かしこまりました",
+        "translation": ["Entendido", "Muy bien"],
+        "meaning": "Expresión formal para indicar que se ha entendido una solicitud.",
+        "pronunciation": ["かしこまりました"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ばんごう",
+        "translation": ["Número"],
+        "meaning": "Secuencia numérica.",
+        "pronunciation": ["ばんごう"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "なんばん",
+        "translation": ["¿Qué número?"],
+        "meaning": "Pregunta para saber el número.",
+        "pronunciation": ["なんばん"],
+        "url_imagen": null
+      }
+      ,
+      {
         "type": "Kanji",
         "word": "上",
         "translation": ["Arriba", "Encima", "Superior"],
@@ -397,6 +1624,143 @@
     "number" : 5,
     "entries": [
       {
+        "type": "Vocabulario",
+        "word": "へや",
+        "translation": ["Habitación", "Cuarto"],
+        "meaning": "Espacio dentro de una casa o edificio destinado a un uso específico.",
+        "pronunciation": ["へや"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "たからもの",
+        "translation": ["Tesoro", "Objeto valioso"],
+        "meaning": "Algo muy apreciado, de gran valor personal.",
+        "pronunciation": ["たからもの"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "まいにち",
+        "translation": ["Cada día", "Todos los días"],
+        "meaning": "Expresión de frecuencia diaria.",
+        "pronunciation": ["まいにち"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "まんが",
+        "translation": ["Manga", "Historieta japonesa"],
+        "meaning": "Cómic o novela gráfica de origen japonés.",
+        "pronunciation": ["まんが"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "これ",
+        "translation": ["Esto"],
+        "meaning": "Pronombre demostrativo para referirse a algo cerca del hablante.",
+        "pronunciation": ["これ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ぜんぶ",
+        "translation": ["Todo", "Todo completo"],
+        "meaning": "Indica totalidad o conjunto completo.",
+        "pronunciation": ["ぜんぶ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "すごい",
+        "translation": ["Increíble", "Genial"],
+        "meaning": "Expresión para mostrar asombro o admiración.",
+        "pronunciation": ["すごい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "こちら",
+        "translation": ["Por aquí", "Este lado"],
+        "meaning": "Forma cortés de 'aquí', usada para indicar dirección o lugar cercano al hablante.",
+        "pronunciation": ["こちら"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "どうぞ",
+        "translation": ["Por favor (al ofrecer o invitar)"],
+        "meaning": "Expresión para invitar o permitir a alguien hacer algo.",
+        "pronunciation": ["どうぞ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "よみます",
+        "translation": ["Leer"],
+        "meaning": "Acción de interpretar y comprender un texto escrito.",
+        "pronunciation": ["よみます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "います",
+        "translation": ["Estar", "Existir (seres animados)"],
+        "meaning": "Indica la existencia o presencia de seres vivos.",
+        "pronunciation": ["います"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "あります",
+        "translation": ["Estar", "Existir (cosas inanimadas)"],
+        "meaning": "Indica la existencia o presencia de objetos inanimados.",
+        "pronunciation": ["あります"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おなじ",
+        "translation": ["Igual", "Mismo"],
+        "meaning": "Indica que algo es igual a otra cosa.",
+        "pronunciation": ["おなじ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "たとえば",
+        "translation": ["Por ejemplo"],
+        "meaning": "Se usa para introducir ejemplos.",
+        "pronunciation": ["たとえば"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "もの",
+        "translation": ["Cosa", "Objeto"],
+        "meaning": "Objeto o cosa material.",
+        "pronunciation": ["もの"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ひみつ",
+        "translation": ["Secreto"],
+        "meaning": "Algo que no se debe contar o compartir.",
+        "pronunciation": ["ひみつ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いま",
+        "translation": ["Ahora"],
+        "meaning": "En este momento.",
+        "pronunciation": ["いま"],
+        "url_imagen": null
+      }
+      ,
+      {
         "type": "Kanji",
         "word": "明",
         "translation": ["Brillante", "Claro", "Luminoso"],
@@ -413,7 +1777,7 @@
         "url_imagen": null
       },
       {
-        "type": "Kanji",
+        "type": "Vocabulario",
         "word": "体",
         "translation": ["Cuerpo"],
         "meaning": "Cuerpo (体・からだ), salud (体力・たいりょく), forma física (体育・たいいく)",
@@ -421,7 +1785,7 @@
         "url_imagen": null
       },
       {
-        "type": "Kanji",
+        "type": "Vocabulario",
         "word": "好",
         "translation": ["Gustar", "Agradar"],
         "meaning": "Gustar (好き・すき), preferir (好む・このむ), afición (好意・こうい)",
@@ -483,6 +1847,303 @@
   {
     "number" : 6,
     "entries": [
+      {
+        "type": "Verbos",
+        "word": "たべます",
+        "translation": ["Comer"],
+        "meaning": "Acción de ingerir alimentos.",
+        "pronunciation": ["たべます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "のみます",
+        "translation": ["Beber"],
+        "meaning": "Acción de ingerir líquidos.",
+        "pronunciation": ["のみます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "すいます",
+        "translation": ["Fumar"],
+        "meaning": "Acción de fumar tabaco.",
+        "pronunciation": ["すいます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "みます",
+        "translation": ["Ver", "Mirar"],
+        "meaning": "Acción de observar o mirar algo.",
+        "pronunciation": ["みます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "ききます",
+        "translation": ["Escuchar", "Oír"],
+        "meaning": "Acción de oír o escuchar algo.",
+        "pronunciation": ["ききます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "よみます",
+        "translation": ["Leer"],
+        "meaning": "Acción de interpretar un texto escrito.",
+        "pronunciation": ["よみます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "かきます",
+        "translation": ["Escribir"],
+        "meaning": "Acción de escribir palabras o frases.",
+        "pronunciation": ["かきます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "かいます",
+        "translation": ["Comprar"],
+        "meaning": "Acción de adquirir algo a cambio de dinero.",
+        "pronunciation": ["かいます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "とります",
+        "translation": ["Tomar (fotos)", "Coger"],
+        "meaning": "Acción de tomar una fotografía o coger algo.",
+        "pronunciation": ["とります"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "あいます",
+        "translation": ["Encontrarse", "Ver a alguien"],
+        "meaning": "Acción de reunirse o encontrarse con alguien.",
+        "pronunciation": ["あいます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ごはん",
+        "translation": ["Arroz cocido", "Comida"],
+        "meaning": "Arroz preparado o comida en general.",
+        "pronunciation": ["ごはん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "パン",
+        "translation": ["Pan"],
+        "meaning": "Alimento hecho a base de harina y horneado.",
+        "pronunciation": ["パン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "たまご",
+        "translation": ["Huevo"],
+        "meaning": "Producto de gallina u otro ave.",
+        "pronunciation": ["たまご"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "にく",
+        "translation": ["Carne"],
+        "meaning": "Carne de animal para consumo.",
+        "pronunciation": ["にく"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "さかな",
+        "translation": ["Pescado"],
+        "meaning": "Animal acuático usado como alimento.",
+        "pronunciation": ["さかな"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "やさい",
+        "translation": ["Verdura", "Vegetal"],
+        "meaning": "Plantas o partes de plantas comestibles.",
+        "pronunciation": ["やさい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "くだもの",
+        "translation": ["Fruta"],
+        "meaning": "Fruto comestible de las plantas.",
+        "pronunciation": ["くだもの"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "みず",
+        "translation": ["Agua"],
+        "meaning": "Líquido esencial para la vida.",
+        "pronunciation": ["みず"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おちゃ",
+        "translation": ["Té"],
+        "meaning": "Bebida hecha con hojas de té.",
+        "pronunciation": ["おちゃ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "こうちゃ",
+        "translation": ["Té negro"],
+        "meaning": "Tipo de té fermentado.",
+        "pronunciation": ["こうちゃ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ぎゅうにゅう",
+        "translation": ["Leche"],
+        "meaning": "Líquido blanco producido por mamíferos.",
+        "pronunciation": ["ぎゅうにゅう"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ジュース",
+        "translation": ["Jugo", "Zumo"],
+        "meaning": "Bebida hecha de frutas o vegetales exprimidos.",
+        "pronunciation": ["ジュース"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ビール",
+        "translation": ["Cerveza"],
+        "meaning": "Bebida alcohólica hecha de cebada.",
+        "pronunciation": ["ビール"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おさけ",
+        "translation": ["Sake", "Licor japonés"],
+        "meaning": "Bebida alcohólica tradicional japonesa.",
+        "pronunciation": ["おさけ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "てがみ",
+        "translation": ["Carta"],
+        "meaning": "Mensaje escrito enviado a otra persona.",
+        "pronunciation": ["てがみ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "レポート",
+        "translation": ["Informe", "Reporte"],
+        "meaning": "Trabajo escrito sobre un tema.",
+        "pronunciation": ["レポート"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "しゃしん",
+        "translation": ["Fotografía"],
+        "meaning": "Imagen capturada con una cámara.",
+        "pronunciation": ["しゃしん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "みせ",
+        "translation": ["Tienda"],
+        "meaning": "Lugar donde se venden productos.",
+        "pronunciation": ["みせ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "にわ",
+        "translation": ["Jardín"],
+        "meaning": "Espacio con plantas, flores o árboles junto a una casa.",
+        "pronunciation": ["にわ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "しゅくだい",
+        "translation": ["Tarea", "Deberes"],
+        "meaning": "Trabajo escolar para hacer en casa.",
+        "pronunciation": ["しゅくだい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "テニス",
+        "translation": ["Tenis"],
+        "meaning": "Deporte de raqueta practicado entre dos o cuatro jugadores.",
+        "pronunciation": ["テニス"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "サッカー",
+        "translation": ["Fútbol"],
+        "meaning": "Deporte de equipo jugado con un balón.",
+        "pronunciation": ["サッカー"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ともだち",
+        "translation": ["Amigo", "Amiga"],
+        "meaning": "Persona con la que se tiene una relación de amistad.",
+        "pronunciation": ["ともだち"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ひとりで",
+        "translation": ["Solo", "Por uno mismo"],
+        "meaning": "Sin compañía de otras personas.",
+        "pronunciation": ["ひとりで"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いつも",
+        "translation": ["Siempre"],
+        "meaning": "En todo momento, habitualmente.",
+        "pronunciation": ["いつも"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ときどき",
+        "translation": ["A veces"],
+        "meaning": "En ocasiones, no siempre.",
+        "pronunciation": ["ときどき"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "それから",
+        "translation": ["Después", "Luego"],
+        "meaning": "Palabra para enlazar acciones o frases.",
+        "pronunciation": ["それから"],
+        "url_imagen": null
+      }
+      ,
       {
         "type": "Kanji",
         "word": "目",
@@ -571,6 +2232,254 @@
     "number" :7,
     "entries": [
       {
+        "type": "Verbos",
+        "word": "きります",
+        "translation": ["Cortar"],
+        "meaning": "Dividir o separar algo usando un objeto afilado.",
+        "pronunciation": ["きります"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "おくります",
+        "translation": ["Enviar"],
+        "meaning": "Mandar algo a otra persona o lugar.",
+        "pronunciation": ["おくります"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "あげます",
+        "translation": ["Dar", "Regalar"],
+        "meaning": "Entregar algo a otra persona como obsequio o favor.",
+        "pronunciation": ["あげます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "もらいます",
+        "translation": ["Recibir"],
+        "meaning": "Obtener algo de otra persona como obsequio o favor.",
+        "pronunciation": ["もらいます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "かします",
+        "translation": ["Prestar"],
+        "meaning": "Dar algo temporalmente para que otra persona lo use.",
+        "pronunciation": ["かします"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "かります",
+        "translation": ["Pedir prestado", "Tomar prestado"],
+        "meaning": "Recibir algo de otra persona para usarlo temporalmente.",
+        "pronunciation": ["かります"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "おしえます",
+        "translation": ["Enseñar", "Decir (información)"],
+        "meaning": "Transmitir conocimientos o información a otra persona.",
+        "pronunciation": ["おしえます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "ならいます",
+        "translation": ["Aprender"],
+        "meaning": "Adquirir conocimientos o habilidades de alguien.",
+        "pronunciation": ["ならいます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "かけます",
+        "translation": ["Llamar (por teléfono)"],
+        "meaning": "Hacer una llamada telefónica.",
+        "pronunciation": ["かけます"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "て",
+        "translation": ["Mano"],
+        "meaning": "Parte del cuerpo usada para agarrar o manipular objetos.",
+        "pronunciation": ["て"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "はし",
+        "translation": ["Palillos"],
+        "meaning": "Utensilios usados para comer en la cultura japonesa.",
+        "pronunciation": ["はし"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "スプーン",
+        "translation": ["Cuchara"],
+        "meaning": "Utensilio para comer sopas o alimentos líquidos.",
+        "pronunciation": ["スプーン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ナイフ",
+        "translation": ["Cuchillo"],
+        "meaning": "Utensilio para cortar alimentos.",
+        "pronunciation": ["ナイフ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "フォーク",
+        "translation": ["Tenedor"],
+        "meaning": "Utensilio para pinchar y comer alimentos.",
+        "pronunciation": ["フォーク"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "はさみ",
+        "translation": ["Tijeras"],
+        "meaning": "Herramienta para cortar papel, tela, etc.",
+        "pronunciation": ["はさみ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "けしゴム",
+        "translation": ["Goma de borrar"],
+        "meaning": "Objeto usado para borrar lápiz.",
+        "pronunciation": ["けしゴム"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かみ",
+        "translation": ["Papel"],
+        "meaning": "Material delgado y plano usado para escribir o envolver.",
+        "pronunciation": ["かみ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "シャツ",
+        "translation": ["Camisa"],
+        "meaning": "Prenda de vestir para la parte superior del cuerpo.",
+        "pronunciation": ["シャツ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "プレゼント",
+        "translation": ["Regalo"],
+        "meaning": "Objeto que se da a alguien por cortesía, afecto o celebración.",
+        "pronunciation": ["プレゼント"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "にもつ",
+        "translation": ["Equipaje", "Paquete"],
+        "meaning": "Maleta, bulto o paquete que se transporta.",
+        "pronunciation": ["にもつ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おかね",
+        "translation": ["Dinero"],
+        "meaning": "Medio de intercambio para comprar bienes y servicios.",
+        "pronunciation": ["おかね"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "きっぷ",
+        "translation": ["Boleto", "Billete"],
+        "meaning": "Papel o tarjeta que permite el acceso a un transporte o evento.",
+        "pronunciation": ["きっぷ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "クリスマス",
+        "translation": ["Navidad"],
+        "meaning": "Fiesta tradicional celebrada el 25 de diciembre.",
+        "pronunciation": ["クリスマス"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ちち",
+        "translation": ["Padre (propio)"],
+        "meaning": "Forma humilde de referirse al propio padre.",
+        "pronunciation": ["ちち"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "はは",
+        "translation": ["Madre (propia)"],
+        "meaning": "Forma humilde de referirse a la propia madre.",
+        "pronunciation": ["はは"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おとうさん",
+        "translation": ["Padre (de otro o formal)"],
+        "meaning": "Forma respetuosa de referirse al padre de otra persona o al propio en situaciones formales.",
+        "pronunciation": ["おとうさん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おかあさん",
+        "translation": ["Madre (de otro o formal)"],
+        "meaning": "Forma respetuosa de referirse a la madre de otra persona o a la propia en situaciones formales.",
+        "pronunciation": ["おかあさん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "もう",
+        "translation": ["Ya"],
+        "meaning": "Indica que algo ha sucedido o está realizado.",
+        "pronunciation": ["もう"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "まだ",
+        "translation": ["Todavía", "Aún"],
+        "meaning": "Indica que una acción o estado continúa.",
+        "pronunciation": ["まだ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "これから",
+        "translation": ["A partir de ahora", "En adelante"],
+        "meaning": "Desde este momento en adelante.",
+        "pronunciation": ["これから"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "すてき",
+        "translation": ["Bonito", "Lindo", "Maravilloso"],
+        "meaning": "Algo que resulta atractivo, agradable o encantador.",
+        "pronunciation": ["すてき"],
+        "url_imagen": null
+      },
+      {
         "type": "Kanji",
         "word": "花",
         "translation": ["Flor"],
@@ -649,6 +2558,295 @@
   {
     "number" : 8,
     "entries": [
+      {
+        "type": "Adjetivos",
+        "word": "あたらしい",
+        "translation": ["Nuevo"],
+        "meaning": "Que ha sido hecho o creado recientemente.",
+        "pronunciation": ["あたらしい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "ふるい",
+        "translation": ["Viejo", "Antiguo"],
+        "meaning": "Que existe desde hace mucho tiempo.",
+        "pronunciation": ["ふるい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "いい",
+        "translation": ["Bueno"],
+        "meaning": "De buena calidad o adecuado.",
+        "pronunciation": ["いい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "わるい",
+        "translation": ["Malo"],
+        "meaning": "De mala calidad o inadecuado.",
+        "pronunciation": ["わるい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "おおきい",
+        "translation": ["Grande"],
+        "meaning": "De tamaño o cantidad considerable.",
+        "pronunciation": ["おおきい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "ちいさい",
+        "translation": ["Pequeño"],
+        "meaning": "De tamaño o cantidad reducida.",
+        "pronunciation": ["ちいさい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "あつい",
+        "translation": ["Caliente", "Caluroso"],
+        "meaning": "Que tiene una temperatura elevada.",
+        "pronunciation": ["あつい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "さむい",
+        "translation": ["Frío (clima)"],
+        "meaning": "Que tiene una temperatura baja (para el clima).",
+        "pronunciation": ["さむい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "つめたい",
+        "translation": ["Frío (al tacto)"],
+        "meaning": "Que se siente frío al tocarlo.",
+        "pronunciation": ["つめたい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "むずかしい",
+        "translation": ["Difícil"],
+        "meaning": "Que requiere mucho esfuerzo o habilidad.",
+        "pronunciation": ["むずかしい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "やさしい",
+        "translation": ["Fácil", "Amable"],
+        "meaning": "Que no requiere mucho esfuerzo o habilidad; también se usa para describir a una persona amable.",
+        "pronunciation": ["やさしい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "たかい",
+        "translation": ["Caro", "Alto"],
+        "meaning": "De precio elevado o de gran altura.",
+        "pronunciation": ["たかい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "やすい",
+        "translation": ["Barato"],
+        "meaning": "De precio bajo.",
+        "pronunciation": ["やすい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "ひくい",
+        "translation": ["Bajo"],
+        "meaning": "De poca altura o nivel.",
+        "pronunciation": ["ひくい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "おもしろい",
+        "translation": ["Interesante", "Divertido"],
+        "meaning": "Que causa interés o diversión.",
+        "pronunciation": ["おもしろい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "おいしい",
+        "translation": ["Delicioso", "Rico"],
+        "meaning": "Que tiene buen sabor.",
+        "pronunciation": ["おいしい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "いそがしい",
+        "translation": ["Ocupado"],
+        "meaning": "Que tiene muchas cosas que hacer.",
+        "pronunciation": ["いそがしい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "たのしい",
+        "translation": ["Divertido", "Agradable"],
+        "meaning": "Que produce alegría o diversión.",
+        "pronunciation": ["たのしい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "まち",
+        "translation": ["Ciudad", "Pueblo"],
+        "meaning": "Zona urbana con edificios y habitantes.",
+        "pronunciation": ["まち"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "たべもの",
+        "translation": ["Comida", "Alimento"],
+        "meaning": "Cualquier cosa que se puede comer.",
+        "pronunciation": ["たべもの"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ところ",
+        "translation": ["Lugar"],
+        "meaning": "Sitio o espacio determinado.",
+        "pronunciation": ["ところ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "りょう",
+        "translation": ["Residencia", "Dormitorio"],
+        "meaning": "Lugar donde viven estudiantes o trabajadores.",
+        "pronunciation": ["りょう"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "せいかつ",
+        "translation": ["Vida", "Vida diaria"],
+        "meaning": "Forma de vivir o rutina cotidiana.",
+        "pronunciation": ["せいかつ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "しごと",
+        "translation": ["Trabajo", "Empleo"],
+        "meaning": "Actividad laboral.",
+        "pronunciation": ["しごと"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "どう",
+        "translation": ["Cómo"],
+        "meaning": "Palabra interrogativa para preguntar la manera o el estado de algo.",
+        "pronunciation": ["どう"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "どんな",
+        "translation": ["Qué tipo de", "Cómo"],
+        "meaning": "Palabra interrogativa para preguntar la naturaleza o características de algo.",
+        "pronunciation": ["どんな"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "そして",
+        "translation": ["Y", "Además"],
+        "meaning": "Conjunción usada para añadir información.",
+        "pronunciation": ["そして"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～が、～",
+        "translation": ["Pero", "Sin embargo"],
+        "meaning": "Conjunción que conecta frases con contraste.",
+        "pronunciation": ["が"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おげんきですか",
+        "translation": ["¿Cómo está?"],
+        "meaning": "Expresión para preguntar por el estado de salud o ánimo.",
+        "pronunciation": ["おげんきですか"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "そうですね",
+        "translation": ["Así es", "Déjeme ver..."],
+        "meaning": "Expresión de acuerdo o para ganar tiempo antes de responder.",
+        "pronunciation": ["そうですね"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "もういっぱいいかがですか",
+        "translation": ["¿Le apetece otra taza/copa?"],
+        "meaning": "Expresión para ofrecer otra bebida o comida.",
+        "pronunciation": ["もういっぱいいかがですか"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "けっこうです",
+        "translation": ["No, gracias", "Estoy bien así"],
+        "meaning": "Expresión para rechazar cortésmente una oferta.",
+        "pronunciation": ["けっこうです"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "もう～です",
+        "translation": ["Ya es ~"],
+        "meaning": "Expresión para indicar que algo ya ha ocurrido.",
+        "pronunciation": ["もう～です"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "そろそろしつれいします",
+        "translation": ["Es hora de que me vaya"],
+        "meaning": "Expresión usada al despedirse.",
+        "pronunciation": ["そろそろしつれいします"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いいえ",
+        "translation": ["No"],
+        "meaning": "Negación.",
+        "pronunciation": ["いいえ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "またいらっしゃってください",
+        "translation": ["Por favor, vuelva otra vez"],
+        "meaning": "Expresión de invitación a regresar.",
+        "pronunciation": ["またいらっしゃってください"],
+        "url_imagen": null
+      }
+      ,
       {
         "type": "Kanji",
         "word": "新",
@@ -736,6 +2934,374 @@
   {
     "number" : 9,
     "entries": [
+      {
+        "type": "Verbos",
+        "word": "わかります",
+        "translation": ["Entender", "Comprender"],
+        "meaning": "Percibir y captar el sentido de algo.",
+        "pronunciation": ["わかります"],
+        "url_imagen": null
+      },
+      {
+        "type": "Verbos",
+        "word": "あります",
+        "translation": ["Tener", "Haber", "Existir (cosas inanimadas)"],
+        "meaning": "Indica existencia o posesión de cosas inanimadas.",
+        "pronunciation": ["あります"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "すき（な）",
+        "translation": ["Gustar", "Apreciado", "Preferido"],
+        "meaning": "Que gusta o es del agrado de alguien.",
+        "pronunciation": ["すき"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "きらい（な）",
+        "translation": ["No gustar", "Desagradable"],
+        "meaning": "Que no gusta o resulta desagradable.",
+        "pronunciation": ["きらい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "じょうず（な）",
+        "translation": ["Ser bueno", "Ser hábil"],
+        "meaning": "Tener habilidad o ser bueno en algo.",
+        "pronunciation": ["じょうず"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "へた（な）",
+        "translation": ["Ser malo", "No ser hábil"],
+        "meaning": "No tener habilidad o ser torpe en algo.",
+        "pronunciation": ["へた"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "りょうり",
+        "translation": ["Comida", "Cocina", "Plato"],
+        "meaning": "Comida preparada, plato o cocina de un país.",
+        "pronunciation": ["りょうり"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "のみもの",
+        "translation": ["Bebida"],
+        "meaning": "Líquido que se puede beber.",
+        "pronunciation": ["のみもの"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "スポーツ",
+        "translation": ["Deporte"],
+        "meaning": "Actividad física o juego competitivo.",
+        "pronunciation": ["スポーツ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "やきゅう",
+        "translation": ["Béisbol"],
+        "meaning": "Deporte de equipo jugado con bate y pelota.",
+        "pronunciation": ["やきゅう"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ダンス",
+        "translation": ["Baile", "Danza"],
+        "meaning": "Actividad de bailar.",
+        "pronunciation": ["ダンス"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おんがく",
+        "translation": ["Música"],
+        "meaning": "Arte de combinar sonidos y ritmos.",
+        "pronunciation": ["おんがく"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "うた",
+        "translation": ["Canción"],
+        "meaning": "Composición musical cantada.",
+        "pronunciation": ["うた"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "クラシック",
+        "translation": ["Música clásica"],
+        "meaning": "Género musical clásico.",
+        "pronunciation": ["クラシック"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ジャズ",
+        "translation": ["Jazz"],
+        "meaning": "Género musical originario de Estados Unidos.",
+        "pronunciation": ["ジャズ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "コンサート",
+        "translation": ["Concierto"],
+        "meaning": "Evento musical en vivo.",
+        "pronunciation": ["コンサート"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "カラオケ",
+        "translation": ["Karaoke"],
+        "meaning": "Actividad de cantar canciones grabadas.",
+        "pronunciation": ["カラオケ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かぶき",
+        "translation": ["Kabuki"],
+        "meaning": "Teatro tradicional japonés.",
+        "pronunciation": ["かぶき"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "え",
+        "translation": ["Pintura", "Cuadro", "Dibujo"],
+        "meaning": "Obra artística realizada con pintura o dibujo.",
+        "pronunciation": ["え"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "じ",
+        "translation": ["Letra", "Carácter"],
+        "meaning": "Símbolo escrito de un idioma.",
+        "pronunciation": ["じ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "かんじ",
+        "translation": ["Kanji"],
+        "meaning": "Caracteres chinos usados en la escritura japonesa.",
+        "pronunciation": ["かんじ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ひらがな",
+        "translation": ["Hiragana"],
+        "meaning": "Silabario japonés.",
+        "pronunciation": ["ひらがな"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "カタカナ",
+        "translation": ["Katakana"],
+        "meaning": "Silabario japonés para palabras extranjeras.",
+        "pronunciation": ["カタカナ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ローマじ",
+        "translation": ["Alfabeto romano", "Romanización"],
+        "meaning": "Sistema de escritura usando letras latinas.",
+        "pronunciation": ["ローマじ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "こまかいおかね",
+        "translation": ["Cambio", "Monedas"],
+        "meaning": "Dinero en monedas o billetes pequeños.",
+        "pronunciation": ["こまかいおかね"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "チケット",
+        "translation": ["Boleto", "Entrada"],
+        "meaning": "Documento para acceder a un evento o transporte.",
+        "pronunciation": ["チケット"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "じかん",
+        "translation": ["Tiempo", "Hora"],
+        "meaning": "Duración o momento.",
+        "pronunciation": ["じかん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ようじ",
+        "translation": ["Asunto", "Pendiente"],
+        "meaning": "Tarea o asunto que requiere atención.",
+        "pronunciation": ["ようじ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "やくそく",
+        "translation": ["Promesa", "Cita", "Compromiso"],
+        "meaning": "Acuerdo o compromiso entre personas.",
+        "pronunciation": ["やくそく"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "アルバイト",
+        "translation": ["Trabajo a tiempo parcial"],
+        "meaning": "Empleo temporal o de medio tiempo.",
+        "pronunciation": ["アルバイト"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ごしゅじん",
+        "translation": ["Esposo (de otra persona)"],
+        "meaning": "Forma respetuosa de referirse al esposo de otra persona.",
+        "pronunciation": ["ごしゅじん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おっと / しゅじん",
+        "translation": ["Mi esposo"],
+        "meaning": "Forma humilde de referirse al propio esposo.",
+        "pronunciation": ["おっと", "しゅじん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おくさん",
+        "translation": ["Esposa (de otra persona)"],
+        "meaning": "Forma respetuosa de referirse a la esposa de otra persona.",
+        "pronunciation": ["おくさん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "つま / かない",
+        "translation": ["Mi esposa"],
+        "meaning": "Forma humilde de referirse a la propia esposa.",
+        "pronunciation": ["つま", "かない"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "こども",
+        "translation": ["Niño", "Hijo", "Hija"],
+        "meaning": "Hijo o hija, niño/a.",
+        "pronunciation": ["こども"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "よく",
+        "translation": ["A menudo", "Frecuentemente"],
+        "meaning": "Con frecuencia, muchas veces.",
+        "pronunciation": ["よく"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "だいたい",
+        "translation": ["Más o menos", "En general"],
+        "meaning": "En términos generales, aproximadamente.",
+        "pronunciation": ["だいたい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "たいてい",
+        "translation": ["Generalmente", "Normalmente"],
+        "meaning": "En la mayoría de los casos.",
+        "pronunciation": ["たいてい"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "すこし",
+        "translation": ["Un poco"],
+        "meaning": "Cantidad pequeña.",
+        "pronunciation": ["すこし"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ぜんぜん",
+        "translation": ["Nada", "En absoluto"],
+        "meaning": "En frases negativas, indica negación total.",
+        "pronunciation": ["ぜんぜん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "はやく",
+        "translation": ["Rápido", "Temprano"],
+        "meaning": "De forma rápida o antes de lo habitual.",
+        "pronunciation": ["はやく"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ざんねんです（ね）",
+        "translation": ["Es una lástima", "Qué pena"],
+        "meaning": "Expresión de pesar o decepción.",
+        "pronunciation": ["ざんねんです"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いっしょに",
+        "translation": ["Juntos"],
+        "meaning": "En compañía de otra(s) persona(s).",
+        "pronunciation": ["いっしょに"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～は ちょっと・・・",
+        "translation": ["~ es un poco difícil", "~ no me viene bien"],
+        "meaning": "Expresión para rechazar indirectamente una invitación.",
+        "pronunciation": ["～は ちょっと"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "だめですか",
+        "translation": ["¿No es posible?", "¿No puede ser?"],
+        "meaning": "Pregunta para confirmar si algo es imposible.",
+        "pronunciation": ["だめですか"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "また こんど おねがいします",
+        "translation": ["Quizá en otra ocasión"],
+        "meaning": "Expresión para rechazar una invitación de manera cortés.",
+        "pronunciation": ["また こんど おねがいします"],
+        "url_imagen": null
+      },
       {
         "type": "Kanji",
         "word": "行",
@@ -839,6 +3405,382 @@
   {
     "number" : 10,
     "entries": [
+      {
+        "type": "Vocabulario",
+        "word": "あります",
+        "translation": ["Haber", "Estar", "Tener (cosas inanimadas)"],
+        "meaning": "Indica existencia o presencia de objetos inanimados.",
+        "pronunciation": ["あります"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "います",
+        "translation": ["Haber", "Estar", "Tener (seres animados)"],
+        "meaning": "Indica existencia o presencia de personas o animales.",
+        "pronunciation": ["います"],
+        "url_imagen": null
+      },
+      {
+        "type": "Adjetivos",
+        "word": "いろいろな",
+        "translation": ["Varios", "Diversos"],
+        "meaning": "De muchos tipos, variedad.",
+        "pronunciation": ["いろいろな"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おとこのひと",
+        "translation": ["Hombre"],
+        "meaning": "Persona de sexo masculino.",
+        "pronunciation": ["おとこのひと"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おんなのひと",
+        "translation": ["Mujer"],
+        "meaning": "Persona de sexo femenino.",
+        "pronunciation": ["おんなのひと"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おとこのこ",
+        "translation": ["Niño"],
+        "meaning": "Niño, chico.",
+        "pronunciation": ["おとこのこ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おんなのこ",
+        "translation": ["Niña"],
+        "meaning": "Niña, chica.",
+        "pronunciation": ["おんなのこ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いぬ",
+        "translation": ["Perro"],
+        "meaning": "Animal doméstico, canino.",
+        "pronunciation": ["いぬ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ねこ",
+        "translation": ["Gato"],
+        "meaning": "Animal doméstico, felino.",
+        "pronunciation": ["ねこ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "き",
+        "translation": ["Árbol"],
+        "meaning": "Planta leñosa de tallo único.",
+        "pronunciation": ["き"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "もの",
+        "translation": ["Cosa", "Objeto"],
+        "meaning": "Objeto material.",
+        "pronunciation": ["もの"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "フィルム",
+        "translation": ["Película", "Rollo fotográfico"],
+        "meaning": "Material para tomar fotos o grabar películas.",
+        "pronunciation": ["フィルム"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "でんち",
+        "translation": ["Pila", "Batería"],
+        "meaning": "Dispositivo que almacena energía eléctrica.",
+        "pronunciation": ["でんち"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "はこ",
+        "translation": ["Caja"],
+        "meaning": "Recipiente para guardar cosas.",
+        "pronunciation": ["はこ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "スイッチ",
+        "translation": ["Interruptor"],
+        "meaning": "Dispositivo para encender o apagar algo.",
+        "pronunciation": ["スイッチ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "れいぞうこ",
+        "translation": ["Refrigerador", "Nevera"],
+        "meaning": "Electrodoméstico para conservar alimentos fríos.",
+        "pronunciation": ["れいぞうこ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "テーブル",
+        "translation": ["Mesa"],
+        "meaning": "Mueble para comer, estudiar, etc.",
+        "pronunciation": ["テーブル"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ベッド",
+        "translation": ["Cama"],
+        "meaning": "Mueble para dormir.",
+        "pronunciation": ["ベッド"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "たな",
+        "translation": ["Estante", "Repisas"],
+        "meaning": "Mueble para colocar objetos.",
+        "pronunciation": ["たな"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ドア",
+        "translation": ["Puerta"],
+        "meaning": "Elemento que permite cerrar o abrir una entrada.",
+        "pronunciation": ["ドア"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "まど",
+        "translation": ["Ventana"],
+        "meaning": "Abertura en la pared para dejar pasar luz y aire.",
+        "pronunciation": ["まど"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ポスト",
+        "translation": ["Buzón"],
+        "meaning": "Caja para depositar cartas.",
+        "pronunciation": ["ポスト"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ビル",
+        "translation": ["Edificio"],
+        "meaning": "Construcción de varios pisos.",
+        "pronunciation": ["ビル"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "こうえん",
+        "translation": ["Parque"],
+        "meaning": "Espacio verde público.",
+        "pronunciation": ["こうえん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "きっさてん",
+        "translation": ["Cafetería"],
+        "meaning": "Lugar donde se sirve café y otras bebidas.",
+        "pronunciation": ["きっさてん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ほんや",
+        "translation": ["Librería"],
+        "meaning": "Tienda donde se venden libros.",
+        "pronunciation": ["ほんや"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "のりば",
+        "translation": ["Parada", "Andén"],
+        "meaning": "Lugar donde se toma un transporte público.",
+        "pronunciation": ["のりば"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "けん",
+        "translation": ["Prefectura"],
+        "meaning": "División administrativa de Japón.",
+        "pronunciation": ["けん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "うえ",
+        "translation": ["Arriba", "Encima"],
+        "meaning": "Parte superior de algo.",
+        "pronunciation": ["うえ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "した",
+        "translation": ["Abajo", "Debajo"],
+        "meaning": "Parte inferior de algo.",
+        "pronunciation": ["した"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "まえ",
+        "translation": ["Delante", "Enfrente"],
+        "meaning": "Parte frontal de algo.",
+        "pronunciation": ["まえ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "うしろ",
+        "translation": ["Detrás"],
+        "meaning": "Parte trasera de algo.",
+        "pronunciation": ["うしろ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "みぎ",
+        "translation": ["Derecha"],
+        "meaning": "Lado derecho.",
+        "pronunciation": ["みぎ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ひだり",
+        "translation": ["Izquierda"],
+        "meaning": "Lado izquierdo.",
+        "pronunciation": ["ひだり"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "なか",
+        "translation": ["Dentro", "En el interior"],
+        "meaning": "Parte interna de algo.",
+        "pronunciation": ["なか"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "そと",
+        "translation": ["Fuera", "Exterior"],
+        "meaning": "Parte externa de algo.",
+        "pronunciation": ["そと"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "となり",
+        "translation": ["Al lado", "Junto"],
+        "meaning": "Lugar o cosa que está justo al lado.",
+        "pronunciation": ["となり"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "あいだ",
+        "translation": ["Entre", "En medio"],
+        "meaning": "Espacio entre dos cosas.",
+        "pronunciation": ["あいだ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いちばん",
+        "translation": ["El más", "El número uno"],
+        "meaning": "El primero, el mejor o el más importante.",
+        "pronunciation": ["いちばん"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～だんめ",
+        "translation": ["Estante número ~"],
+        "meaning": "Contador para estantes.",
+        "pronunciation": ["だんめ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "奥",
+        "translation": ["Fondo", "Interior profundo"],
+        "meaning": "Parte más interna o profunda de un lugar.",
+        "pronunciation": ["おく"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "スパイス・コーナー",
+        "translation": ["Sección de especias"],
+        "meaning": "Zona de especias en una tienda.",
+        "pronunciation": ["スパイス・コーナー"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "東京ディズニーランド",
+        "translation": ["Tokyo Disneyland"],
+        "meaning": "Parque de atracciones en Tokio.",
+        "pronunciation": ["とうきょうディズニーランド"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "～や",
+        "translation": ["Tienda de ~"],
+        "meaning": "Sufijo para indicar el tipo de tienda.",
+        "pronunciation": ["や"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "など",
+        "translation": ["Etcétera", "Y otros"],
+        "meaning": "Indica que hay más elementos similares.",
+        "pronunciation": ["など"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "おく",
+        "translation": ["Fondo", "Interior"],
+        "meaning": "La parte más alejada de la entrada.",
+        "pronunciation": ["おく"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "いちばん うえ",
+        "translation": ["La parte más alta"],
+        "meaning": "El lugar más alto de algo.",
+        "pronunciation": ["いちばん うえ"],
+        "url_imagen": null
+      },
       {
         "type": "Kanji",
         "word": "朝",
