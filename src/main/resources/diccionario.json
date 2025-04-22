@@ -3,30 +3,71 @@
     "number": 1,
     "entries": [
       {
-        "type": "sustantivo",
-        "word": "本",
-        "translation": "Libro",
-        "meaning": "Objeto para leer",
-        "pronunciation": "ほん",
-        "url_imagen": "https://ejemplo.com/libro.jpg"
+        "type": "Kanji",
+        "word": "日",
+        "translation": ["Sol", "Día"],
+        "meaning": "Sol (太陽・たいよう), día (日曜日・にちようび), Japón (日本・にほん)",
+        "pronunciation": ["ひ", "ニチ", "ジツ"],
+        "url_imagen": null
       },
       {
-        "type": "verbo",
-        "word": "食べる",
-        "translation": "Comer",
-        "meaning": "Ingerir alimentos",
-        "pronunciation": "たべる",
-        "url_imagen": "https://ejemplo.com/comer.jpg"
+        "type": "Kanji",
+        "word": "月",
+        "translation": ["Luna", "Mes"],
+        "meaning": "Luna (月・つき), mes (月曜日・げつようび), enero (一月・いちがつ)",
+        "pronunciation": ["つき", "ゲツ", "ガツ"],
+        "url_imagen": null
       },
       {
-        "type": "adjetivo",
-        "word": "大きい",
-        "translation": "Grande",
-        "meaning": null,
-        "pronunciation": "おおきい",
+        "type": "Kanji",
+        "word": "山",
+        "translation": ["Montaña"],
+        "meaning": "Montaña (山・やま), monte Fuji (富士山・ふじさん), alpinismo (登山・とざん)",
+        "pronunciation": ["やま", "サン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "木",
+        "translation": ["Árbol", "Madera"],
+        "meaning": "Árbol (木・き), madera (木材・もくざい), jueves (木曜日・もくようび)",
+        "pronunciation": ["き", "モク", "ボク"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "川",
+        "translation": ["Río"],
+        "meaning": "Río (川・かわ), nombre de río (山川・やまかわ), río grande (大川・おおかわ)",
+        "pronunciation": ["かわ", "ガワ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "田",
+        "translation": ["Campo de arroz", "Arrozal"],
+        "meaning": "Campo de arroz (田・た), arrozal (田んぼ・たんぼ), apellido (田中・たなか)",
+        "pronunciation": ["た", "デン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "人",
+        "translation": ["Persona", "Gente", "Ser humano"],
+        "meaning": "Persona (人・ひと), japonés (日本人・にほんじん), adulto (大人・おとな)",
+        "pronunciation": ["ひと", "ジン", "ニン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "口",
+        "translation": ["Boca", "Apertura"],
+        "meaning": "Boca (口・くち), entrada (入口・いりぐち), salida (出口・でぐち)",
+        "pronunciation": ["くち", "コウ", "ク"],
         "url_imagen": null
       }
-    ],
+    ]
+  ,
     "grammars": [
       {
         "structure": "~は~です",
@@ -44,30 +85,87 @@
     "number": 2,
     "entries": [
       {
-        "type": "sustantivo",
-        "word": "猫",
-        "translation": "Gato",
-        "meaning": null,
-        "pronunciation": "ねこ",
+        "type": "Kanji",
+        "word": "火",
+        "translation": ["Fuego"],
+        "meaning": "Fuego (火・ひ), martes (火曜日・かようび), incendio (火事・かじ)",
+        "pronunciation": ["ひ", "カ"],
         "url_imagen": null
       },
       {
-        "type": "verbo",
-        "word": "見る",
-        "translation": "Ver/Mirar",
-        "meaning": null,
-        "pronunciation": "みる",
+        "type": "Kanji",
+        "word": "水",
+        "translation": ["Agua"],
+        "meaning": "Agua (水・みず), miércoles (水曜日・すいようび), acuario (水族館・すいぞくかん)",
+        "pronunciation": ["みず", "スイ"],
         "url_imagen": null
       },
       {
-        "type": "adjetivo",
-        "word": "小さい",
-        "translation": "Pequeño",
-        "meaning": null,
-        "pronunciation": null,
+        "type": "Kanji",
+        "word": "金",
+        "translation": ["Oro", "Dinero", "Metal"],
+        "meaning": "Oro (金・きん), dinero (お金・おかね), viernes (金曜日・きんようび)",
+        "pronunciation": ["かね", "キン", "コン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "土",
+        "translation": ["Tierra", "Suelo"],
+        "meaning": "Tierra (土・つち), suelo (土壌・どじょう), sábado (土曜日・どようび)",
+        "pronunciation": ["つち", "ド", "ト"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "子",
+        "translation": ["Niño", "Hijo"],
+        "meaning": "Niño (子供・こども), hijo (息子・むすこ), niña (女の子・おんなのこ)",
+        "pronunciation": ["こ", "シ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "女",
+        "translation": ["Mujer"],
+        "meaning": "Mujer (女・おんな), niña (女の子・おんなのこ), mujer adulta (女性・じょせい)",
+        "pronunciation": ["おんな", "ジョ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "学",
+        "translation": ["Estudio", "Aprender"],
+        "meaning": "Estudio (学問・がくもん), estudiante (学生・がくせい), escuela (学校・がっこう)",
+        "pronunciation": ["まな-ぶ", "ガク"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "生",
+        "translation": ["Vida", "Nacer", "Vivir"],
+        "meaning": "Vida (人生・じんせい), nacer (生まれる・うまれる), estudiante (学生・がくせい)",
+        "pronunciation": ["い-きる", "う-まれる", "セイ", "ショウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "先",
+        "translation": ["Previo", "Antes", "Delante"],
+        "meaning": "Previo (先月・せんげつ), antes (先に・さきに), maestro (先生・せんせい)",
+        "pronunciation": ["さき", "セン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "私",
+        "translation": ["Privado", "Yo"],
+        "meaning": "Yo (私・わたし), privado (私立・しりつ), personal (私事・しじ)",
+        "pronunciation": ["わたし", "シ"],
         "url_imagen": null
       }
-    ],
+    ]
+  ,
     "grammars": [
       {
         "structure": "~をください",
@@ -80,5 +178,765 @@
         "example": null
       }
     ]
+  },
+  {
+    "number" : 3,
+    "entries": [
+      {
+        "type": "Kanji",
+        "word": "一",
+        "translation": ["Uno"],
+        "meaning": "Uno (一・いち), primer día (一日・ついたち), un momento (一時・いちじ)",
+        "pronunciation": ["ひと", "イチ", "イツ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "二",
+        "translation": ["Dos"],
+        "meaning": "Dos (二・に), segundo día (二日・ふつか), dos personas (二人・ふたり)",
+        "pronunciation": ["ふた", "ニ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "三",
+        "translation": ["Tres"],
+        "meaning": "Tres (三・さん), tercer día (三日・みっか), tres personas (三人・さんにん)",
+        "pronunciation": ["み", "サン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "四",
+        "translation": ["Cuatro"],
+        "meaning": "Cuatro (四・し), cuarto día (四日・よっか), cuatro personas (四人・よにん)",
+        "pronunciation": ["よ", "よん", "シ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "五",
+        "translation": ["Cinco"],
+        "meaning": "Cinco (五・ご), quinto día (五日・いつか), cinco personas (五人・ごにん)",
+        "pronunciation": ["いつ", "ゴ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "六",
+        "translation": ["Seis"],
+        "meaning": "Seis (六・ろく), sexto día (六日・むいか), seis personas (六人・ろくにん)",
+        "pronunciation": ["む", "ロク", "ロッ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "七",
+        "translation": ["Siete"],
+        "meaning": "Siete (七・しち), séptimo día (七日・なのか), siete personas (七人・しちにん)",
+        "pronunciation": ["なな", "シチ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "八",
+        "translation": ["Ocho"],
+        "meaning": "Ocho (八・はち), octavo día (八日・ようか), ocho personas (八人・はちにん)",
+        "pronunciation": ["や", "ハチ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "九",
+        "translation": ["Nueve"],
+        "meaning": "Nueve (九・きゅう), noveno día (九日・ここのか), nueve personas (九人・きゅうにん)",
+        "pronunciation": ["ここの", "キュウ", "ク"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "十",
+        "translation": ["Diez"],
+        "meaning": "Diez (十・じゅう), décimo día (十日・とおか), diez personas (十人・じゅうにん)",
+        "pronunciation": ["とお", "ジュウ", "ジッ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "百",
+        "translation": ["Cien"],
+        "meaning": "Cien (百・ひゃく), cientos (百人・ひゃくにん), cien yenes (百円・ひゃくえん)",
+        "pronunciation": ["ヒャク", "ビャク", "ピャク"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "千",
+        "translation": ["Mil"],
+        "meaning": "Mil (千・せん), mil personas (千人・せんにん), mil yenes (千円・せんえん)",
+        "pronunciation": ["ち", "セン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "万",
+        "translation": ["Diez mil"],
+        "meaning": "Diez mil (万・まん), diez mil yenes (一万円・いちまんえん), multitud (万人・ばんにん)",
+        "pronunciation": ["マン", "バン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "円",
+        "translation": ["Yen", "Círculo"],
+        "meaning": "Yen (円・えん), moneda japonesa (百円・ひゃくえん), círculo (円形・えんけい)",
+        "pronunciation": ["エン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "年",
+        "translation": ["Año"],
+        "meaning": "Año (年・とし), año nuevo (新年・しんねん), estudiante de primer año (一年生・いちねんせい)",
+        "pronunciation": ["とし", "ネン"],
+        "url_imagen": null
+      }
+    ]
+  ,
+    "grammars": []
+  },
+  {
+    "number" : 4,
+    "entries": [
+      {
+        "type": "Kanji",
+        "word": "上",
+        "translation": ["Arriba", "Encima", "Superior"],
+        "meaning": "Arriba (上・うえ), subir (上がる・あがる), superior (上手・じょうず)",
+        "pronunciation": ["うえ", "ジョウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "下",
+        "translation": ["Abajo", "Debajo", "Inferior"],
+        "meaning": "Abajo (下・した), bajar (下がる・さがる), inferior (地下・ちか)",
+        "pronunciation": ["した", "カ", "ゲ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "中",
+        "translation": ["Medio", "Dentro", "Centro"],
+        "meaning": "Medio (中・なか), dentro (中・なか), China (中国・ちゅうごく)",
+        "pronunciation": ["なか", "チュウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "大",
+        "translation": ["Grande"],
+        "meaning": "Grande (大きい・おおきい), universidad (大学・だいがく), adulto (大人・おとな)",
+        "pronunciation": ["おお", "ダイ", "タイ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "小",
+        "translation": ["Pequeño"],
+        "meaning": "Pequeño (小さい・ちいさい), escuela primaria (小学校・しょうがっこう), poco (小雨・こさめ)",
+        "pronunciation": ["ちい", "コ", "ショウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "本",
+        "translation": ["Raíz", "Libro", "Origen"],
+        "meaning": "Raíz (本・もと), libro (本・ほん), Japón (日本・にほん)",
+        "pronunciation": ["もと", "ホン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "半",
+        "translation": ["Mitad", "Medio"],
+        "meaning": "Mitad (半分・はんぶん), media hora (半時・はんじ), medio año (半年・はんとし)",
+        "pronunciation": ["ハン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "分",
+        "translation": ["División", "Minuto", "Parte"],
+        "meaning": "División (分ける・わける), minuto (五分・ごふん), entender (分かる・わかる)",
+        "pronunciation": ["わ", "フン", "ブン", "プン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "力",
+        "translation": ["Poder", "Fuerza"],
+        "meaning": "Fuerza (力・ちから), poder (能力・のうりょく), físico (力学・りきがく)",
+        "pronunciation": ["ちから", "リョク", "リキ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "何",
+        "translation": ["Qué"],
+        "meaning": "Qué (何・なに), cuántos (何人・なんにん), qué hora (何時・なんじ)",
+        "pronunciation": ["なに", "なん", "カ"],
+        "url_imagen": null
+      }
+    ]
+  ,
+    "grammars": []
+  },
+  {
+    "number" : 5,
+    "entries": [
+      {
+        "type": "Kanji",
+        "word": "明",
+        "translation": ["Brillante", "Claro", "Luminoso"],
+        "meaning": "Brillante (明るい・あかるい), mañana (明日・あした), explicación (説明・せつめい)",
+        "pronunciation": ["あか", "メイ", "ミョウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "休",
+        "translation": ["Descanso", "Reposar"],
+        "meaning": "Descanso (休み・やすみ), descansar (休む・やすむ), día libre (休日・きゅうじつ)",
+        "pronunciation": ["やす", "キュウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "体",
+        "translation": ["Cuerpo"],
+        "meaning": "Cuerpo (体・からだ), salud (体力・たいりょく), forma física (体育・たいいく)",
+        "pronunciation": ["からだ", "タイ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "好",
+        "translation": ["Gustar", "Agradar"],
+        "meaning": "Gustar (好き・すき), preferir (好む・このむ), afición (好意・こうい)",
+        "pronunciation": ["す", "コウ", "コ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "男",
+        "translation": ["Hombre", "Masculino"],
+        "meaning": "Hombre (男・おとこ), niño (男の子・おとこのこ), masculino (男性・だんせい)",
+        "pronunciation": ["おとこ", "ダン", "ナン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "林",
+        "translation": ["Arboleda", "Bosque pequeño"],
+        "meaning": "Arboleda (林・はやし), bosque pequeño (林道・りんどう), apellido (林・はやし)",
+        "pronunciation": ["はやし", "リン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "森",
+        "translation": ["Jungla", "Bosque"],
+        "meaning": "Jungla (森・もり), bosque (森林・しんりん), naturaleza (森閑・しんかん)",
+        "pronunciation": ["もり", "シン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "間",
+        "translation": ["Entre", "Espacio", "Intervalo"],
+        "meaning": "Entre (間・あいだ), tiempo (時間・じかん), habitación (部屋・へや)",
+        "pronunciation": ["あいだ", "カン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "畑",
+        "translation": ["Campo cultivado", "Huerto"],
+        "meaning": "Campo cultivado (畑・はたけ), huerto (畑仕事・はたけしごと), campo de verduras (野菜畑・やさいばたけ)",
+        "pronunciation": ["はたけ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "岩",
+        "translation": ["Roca", "Peñasco"],
+        "meaning": "Roca (岩・いわ), peñasco (岩山・いわやま), cueva (岩穴・いわあな)",
+        "pronunciation": ["いわ", "ガン"],
+        "url_imagen": null
+      }
+    ]
+  ,
+    "grammars": []
+  },
+  {
+    "number" : 6,
+    "entries": [
+      {
+        "type": "Kanji",
+        "word": "目",
+        "translation": ["Ojo"],
+        "meaning": "Ojo (目・め), objetivo (目的・もくてき), tabla de contenidos (目次・もくじ)",
+        "pronunciation": ["め", "モク"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "耳",
+        "translation": ["Oreja", "Oído"],
+        "meaning": "Oreja (耳・みみ), otorrinolaringología (耳鼻科・じびか), escuchar (耳を傾ける・みみをかたむける)",
+        "pronunciation": ["みみ", "ジ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "手",
+        "translation": ["Mano"],
+        "meaning": "Mano (手・て), carta (手紙・てがみ), hábil (上手・じょうず)",
+        "pronunciation": ["て", "シュ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "足",
+        "translation": ["Pierna", "Pie"],
+        "meaning": "Pierna (足・あし), suficiente (足りる・たりる), par (一足・いっそく)",
+        "pronunciation": ["あし", "ソク"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "雨",
+        "translation": ["Lluvia"],
+        "meaning": "Lluvia (雨・あめ), temporada de lluvias (梅雨・つゆ), lluvia intensa (大雨・おおあめ)",
+        "pronunciation": ["あめ", "ウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "竹",
+        "translation": ["Bambú"],
+        "meaning": "Bambú (竹・たけ), brotes de bambú (竹の子・たけのこ), bosque de bambú (竹林・ちくりん)",
+        "pronunciation": ["たけ", "チク"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "米",
+        "translation": ["Arroz"],
+        "meaning": "Arroz (米・こめ), arroz cocido (ご飯・ごはん), América (米国・べいこく)",
+        "pronunciation": ["こめ", "ベイ", "マイ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "貝",
+        "translation": ["Marisco", "Concha"],
+        "meaning": "Concha (貝・かい), marisco (貝類・かいるい), concha marina (貝殻・かいがら)",
+        "pronunciation": ["かい", "バイ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "石",
+        "translation": ["Piedra", "Roca"],
+        "meaning": "Piedra (石・いし), roca (石山・いしやま), piedra preciosa (宝石・ほうせき)",
+        "pronunciation": ["いし", "セキ", "シャク", "コク"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "糸",
+        "translation": ["Hilo"],
+        "meaning": "Hilo (糸・いと), hilo de seda (絹糸・けんし), hilo de algodón (綿糸・めんし)",
+        "pronunciation": ["いと", "シ"],
+        "url_imagen": null
+      }
+    ]
+  ,
+    "grammars": []
+  },
+  {
+    "number" :7,
+    "entries": [
+      {
+        "type": "Kanji",
+        "word": "花",
+        "translation": ["Flor"],
+        "meaning": "Flor (花・はな), ramo de flores (花束・はなたば), floristería (花屋・はなや)",
+        "pronunciation": ["はな", "カ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "茶",
+        "translation": ["Té"],
+        "meaning": "Té (お茶・おちゃ), té verde (緑茶・りょくちゃ), ceremonia del té (茶道・さどう)",
+        "pronunciation": ["チャ", "サ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "肉",
+        "translation": ["Carne"],
+        "meaning": "Carne (肉・にく), carne de res (牛肉・ぎゅうにく), carne de cerdo (豚肉・ぶたにく)",
+        "pronunciation": ["にく"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "字",
+        "translation": ["Letra", "Carácter", "Patrón"],
+        "meaning": "Letra (字・じ), carácter (漢字・かんじ), caligrafía (字を書く・じをかく)",
+        "pronunciation": ["ジ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "物",
+        "translation": ["Cosa", "Objeto"],
+        "meaning": "Cosa (物・もの), comida (食べ物・たべもの), animal (動物・どうぶつ)",
+        "pronunciation": ["もの", "ブツ", "モツ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "牛",
+        "translation": ["Vaca", "Buey"],
+        "meaning": "Vaca (牛・うし), carne de res (牛肉・ぎゅうにく), ternero (子牛・こうし)",
+        "pronunciation": ["うし", "ギュウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "馬",
+        "translation": ["Caballo"],
+        "meaning": "Caballo (馬・うま), montar a caballo (乗馬・じょうば), potro (子馬・こうま)",
+        "pronunciation": ["うま", "バ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "鳥",
+        "translation": ["Pájaro", "Ave"],
+        "meaning": "Pájaro (鳥・とり), pollo (焼き鳥・やきとり), ave silvestre (野鳥・やちょう)",
+        "pronunciation": ["とり", "チョウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "魚",
+        "translation": ["Pescado", "Pez"],
+        "meaning": "Pescado (魚・さかな), pez dorado (金魚・きんぎょ), pescado asado (焼き魚・やきざかな)",
+        "pronunciation": ["さかな", "うお", "ギョ"],
+        "url_imagen": null
+      }
+    ]
+  ,
+    "grammars": []
+  },
+  {
+    "number" : 8,
+    "entries": [
+      {
+        "type": "Kanji",
+        "word": "新",
+        "translation": ["Nuevo"],
+        "meaning": "Nuevo (新しい・あたらしい), periódico (新聞・しんぶん), año nuevo (新年・しんねん)",
+        "pronunciation": ["あたら", "シン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "古",
+        "translation": ["Viejo", "Antiguo"],
+        "meaning": "Viejo (古い・ふるい), antigüedad (古代・こだい), libro usado (古本・ふるほん)",
+        "pronunciation": ["ふる", "コ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "長",
+        "translation": ["Largo", "Jefe"],
+        "meaning": "Largo (長い・ながい), presidente (社長・しゃちょう), director (校長・こうちょう)",
+        "pronunciation": ["なが", "チョウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "短",
+        "translation": ["Corto"],
+        "meaning": "Corto (短い・みじかい), poema tanka (短歌・たんか), cortometraje (短編・たんぺん)",
+        "pronunciation": ["みじか", "タン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "高",
+        "translation": ["Alto", "Caro"],
+        "meaning": "Alto (高い・たかい), escuela secundaria (高校・こうこう), precio alto (高価・こうか)",
+        "pronunciation": ["たか", "コウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "低",
+        "translation": ["Bajo"],
+        "meaning": "Bajo (低い・ひくい), presión baja (低気圧・ていきあつ), bajo nivel (低下・ていか)",
+        "pronunciation": ["ひく", "テイ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "安",
+        "translation": ["Barato", "Tranquilo"],
+        "meaning": "Barato (安い・やすい), tranquilidad (安心・あんしん), seguro (安全・あんぜん)",
+        "pronunciation": ["やす", "アン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "暗",
+        "translation": ["Oscuro"],
+        "meaning": "Oscuro (暗い・くらい), memoria (暗記・あんき), lugar oscuro (暗室・あんしつ)",
+        "pronunciation": ["くら", "アン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "多",
+        "translation": ["Mucho", "Numeroso"],
+        "meaning": "Mucho (多い・おおい), mayoría (多分・たぶん), cantidad grande (多数・たすう)",
+        "pronunciation": ["おお", "タ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "少",
+        "translation": ["Poco", "Unos pocos"],
+        "meaning": "Poco (少ない・すくない), un poco (少し・すこし), minoría (少数・しょうすう)",
+        "pronunciation": ["すく", "すこ", "ショウ"],
+        "url_imagen": null
+      }
+    ]
+  ,
+    "grammars": []
+  },
+  {
+    "number" : 9,
+    "entries": [
+      {
+        "type": "Kanji",
+        "word": "行",
+        "translation": ["Ir", "Llevar a cabo"],
+        "meaning": "Ir (行く・いく), viajar (旅行・りょこう), realizar (行う・おこなう)",
+        "pronunciation": ["い", "コウ", "ギョウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "来",
+        "translation": ["Venir", "Llegar"],
+        "meaning": "Venir (来る・くる), próximo (来週・らいしゅう), futuro (将来・しょうらい)",
+        "pronunciation": ["く", "ライ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "帰",
+        "translation": ["Volver", "Regresar"],
+        "meaning": "Volver (帰る・かえる), regresar a casa (帰宅・きたく), repatriación (帰国・きこく)",
+        "pronunciation": ["かえ", "キ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "食",
+        "translation": ["Comer", "Alimento"],
+        "meaning": "Comer (食べる・たべる), comida (食事・しょくじ), comedor (食堂・しょくどう)",
+        "pronunciation": ["た", "ショク"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "飲",
+        "translation": ["Beber", "Tomar"],
+        "meaning": "Beber (飲む・のむ), bebida (飲み物・のみもの), bar (飲食店・いんしょくてん)",
+        "pronunciation": ["の", "イン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "見",
+        "translation": ["Ver", "Mirar"],
+        "meaning": "Ver (見る・みる), visita (見学・けんがく), opinión (意見・いけん)",
+        "pronunciation": ["み", "ケン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "聞",
+        "translation": ["Escuchar", "Oír", "Preguntar"],
+        "meaning": "Escuchar (聞く・きく), periódico (新聞・しんぶん), preguntar (聞き取り・ききとり)",
+        "pronunciation": ["き", "ブン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "読",
+        "translation": ["Leer"],
+        "meaning": "Leer (読む・よむ), lectura (読書・どくしょ), lector (読者・どくしゃ)",
+        "pronunciation": ["よ", "ドク"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "話",
+        "translation": ["Hablar", "Conversar"],
+        "meaning": "Hablar (話す・はなす), conversación (会話・かいわ), historia (話・はなし)",
+        "pronunciation": ["はな", "ワ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "買",
+        "translation": ["Comprar"],
+        "meaning": "Comprar (買う・かう), compras (買い物・かいもの), comprador (買主・かいぬし)",
+        "pronunciation": ["か", "バイ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "教",
+        "translation": ["Enseñar", "Instruir"],
+        "meaning": "Enseñar (教える・おしえる), educación (教育・きょういく), religión (教会・きょうかい)",
+        "pronunciation": ["おし", "キョウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "書",
+        "translation": ["Escribir"],
+        "meaning": "Escribir (書く・かく), libro (図書館・としょかん), escritura (作文・さくぶん)",
+        "pronunciation": ["か", "ショ"],
+        "url_imagen": null
+      }
+    ]
+  ,
+    "grammars": []
+  },
+  {
+    "number" : 10,
+    "entries": [
+      {
+        "type": "Kanji",
+        "word": "朝",
+        "translation": ["Mañana", "Alba"],
+        "meaning": "Mañana (朝・あさ), desayuno (朝ご飯・あさごはん), reunión matutina (朝礼・ちょうれい)",
+        "pronunciation": ["あさ", "チョウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "昼",
+        "translation": ["Día", "Mediodía"],
+        "meaning": "Día (昼・ひる), mediodía (昼ご飯・ひるごはん), descanso del mediodía (昼休み・ひるやすみ)",
+        "pronunciation": ["ひる", "チュウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "夜",
+        "translation": ["Noche"],
+        "meaning": "Noche (夜・よる), cena (夜ご飯・よるごはん), toda la noche (徹夜・てつや)",
+        "pronunciation": ["よる", "ヤ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "晩",
+        "translation": ["Noche", "Tarde"],
+        "meaning": "Noche (晩・ばん), cena (晩ご飯・ばんごはん), tarde-noche (今晩・こんばん)",
+        "pronunciation": ["バン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "夕",
+        "translation": ["Tarde", "Atardecer", "Evening"],
+        "meaning": "Tarde (夕方・ゆうがた), anochecer (夕日・ゆうひ), cena (夕食・ゆうしょく)",
+        "pronunciation": ["ゆう", "セキ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "方",
+        "translation": ["Dirección", "Persona (formal)"],
+        "meaning": "Dirección (方・ほう), persona (あの方・あのかた), método (方法・ほうほう)",
+        "pronunciation": ["かた", "ホウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "午",
+        "translation": ["Noon", "Mediodía"],
+        "meaning": "Mediodía (午前・ごぜん), tarde (午後・ごご), año del caballo (午年・うまどし)",
+        "pronunciation": ["ゴ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "前",
+        "translation": ["Antes", "Delante"],
+        "meaning": "Antes (午前・ごぜん), delante (前・まえ), anterior (前回・ぜんかい)",
+        "pronunciation": ["まえ", "ゼン"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "後",
+        "translation": ["Después", "Detrás"],
+        "meaning": "Después (午後・ごご), detrás (後ろ・うしろ), más tarde (後で・あとで)",
+        "pronunciation": ["うし", "あと", "ゴ", "コウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "毎",
+        "translation": ["Cada"],
+        "meaning": "Cada (毎日・まいにち), cada semana (毎週・まいしゅう), cada mañana (毎朝・まいあさ)",
+        "pronunciation": ["マイ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "週",
+        "translation": ["Semana"],
+        "meaning": "Semana (週・しゅう), cada semana (毎週・まいしゅう), una semana (一週間・いっしゅうかん)",
+        "pronunciation": ["シュウ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Kanji",
+        "word": "曜",
+        "translation": ["Luminario", "Día de la semana"],
+        "meaning": "Día de la semana (曜日・ようび), lunes (月曜日・げつようび), domingo (日曜日・にちようび)",
+        "pronunciation": ["ヨウ"],
+        "url_imagen": null
+      }
+    ]
+  ,
+    "grammars": []
   }
   ]
