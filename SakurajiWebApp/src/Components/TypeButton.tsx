@@ -14,7 +14,7 @@ function TypeButton({ setClaseFondo, setType, filter,isSelected}: TypeButtonProp
     <button
       onClick={() => {
         setClaseFondo(filter.toLowerCase());
-        setType(filter);
+        setType(filter);console.log("Click")
       }}
       className={`${className} tipos`}
     >

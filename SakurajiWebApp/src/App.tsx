@@ -6,6 +6,8 @@ import Entry from './Entities/Entry'
 import EntryCard from './Components/EntryCard'
 import UnitButton from './Components/UnitButton'
 import TypeButton from './Components/TypeButton'
+import ResponsiveMenu from './Components/ResponsiveMenu'
+import MenuTipos from './Components/MenuTipos'
 
 function App() {
  
@@ -49,42 +51,22 @@ function App() {
     <header>
     <div className='logo-container'>
         <div>
-        <a href="./assets/logo.png" target="_blank">
+        <a className='logo' href="./assets/logo.png" target="_blank">
           <img src="https://sdmntprwestus.oaiusercontent.com/files/00000000-a82c-5230-a97e-dc8453c33848/raw?se=2025-04-22T08%3A54%3A25Z&sp=r&sv=2024-08-04&sr=b&scid=0f906d01-2370-5e99-950c-b2c5de4d1535&skoid=06d77cea-897f-49c6-9d78-20f6510f72af&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-22T06%3A07%3A11Z&ske=2025-04-23T06%3A07%3A11Z&sks=b&skv=2024-08-04&sig=f6vpTeOWkyElquhswp5hnwhnziW2cPAzXBYU8KZqh3c%3D" 
-          className="logo sakura"
+          className=" sakura"
            alt="Vite logo" />
+        
+        <div className='title '><h1>Sakuraji Web App</h1></div>
         </a>
-        <div className='title'><h1>Sakuraji Web App</h1></div>
         </div>
       </div>
-      <div className='menu-tipos'>
-      <TypeButton setClaseFondo={setClaseFondo} isSelected={type==='Todo'} setType={setType} filter='Todo' />
-      <TypeButton setClaseFondo={setClaseFondo} isSelected={type==='Kanji'}setType={setType} filter='Kanji' />
-      <TypeButton setClaseFondo={setClaseFondo} isSelected={type==='Vocabulario'}setType={setType} filter='Vocabulario' />
-      <TypeButton setClaseFondo={setClaseFondo} isSelected={type==='Verbos'}setType={setType} filter='Verbos' />
-      <TypeButton setClaseFondo={setClaseFondo} isSelected={type==='Adjetivos'}setType={setType} filter='Adjetivos' />
-      
-       
-      </div>
+      <div className='container-menu-tipos'><MenuTipos  type={type} setClaseFondo={setClaseFondo} setType={setType}/></div>
+
     </header>
       
-      
+
       <div className='central-container'>
-        <div className='columna-menus'>
-          <div className='menu-unidades'> 
-            <h3>Unidades</h3>
-            {unitsButtons}
-            
-            </div>
-          <div className='menu-modos'>
-          <button>
-               Estudio
-            </button>
-            <button>
-               Practica
-            </button>
-          </div>
-        </div>
+       <ResponsiveMenu type={type} setType={setType} setClaseFondo={setClaseFondo} totalUnits={totalUnits} unitNumber={unitNumber} setUnitNumber={setUnitNumber}/>
         <div className={`card  main ${claseFondo}`}>
         {entries.map((entry, index) => (
         <EntryCard key={index} entry={entry} claseFondo={claseFondo} />
