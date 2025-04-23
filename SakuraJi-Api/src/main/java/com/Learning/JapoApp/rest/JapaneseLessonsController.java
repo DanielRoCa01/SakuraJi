@@ -46,17 +46,18 @@ public class JapaneseLessonsController {
         return ResponseEntity.ok(lessons);
     }
 
-    @GetMapping("/{lessonNumber}/entries")
-    public ResponseEntity<List<Entry>> getEntriesByLesson(
-            @PathVariable int lessonNumber,
+    @GetMapping("/entries")
+    public ResponseEntity<List<Entry>> getEntriesByLessons(
+            @RequestParam List<Integer> lessonNumbers,
             @RequestParam(required = false) String type) {
 
+        // Filtra las lecciones cuyo número esté en lessonNumbers
         List<Entry> entries = lessons.stream()
-                .filter(l -> l.getNumber() == lessonNumber)
-                .findFirst()
-                .map(l -> l.getEntries())
-                .orElse(Collections.emptyList());
+                .filter(l -> lessonNumbers.contains(l.getNumber()))
+                .flatMap(l -> l.getEntries().stream()) // aplanar todas las entradas
+                .collect(Collectors.toList());
 
+        // Filtra por tipo si se solicita
         List<Entry> filteredEntries = entries.stream()
                 .filter(e -> type == null || e.getType().equals(type))
                 .collect(Collectors.toList());
