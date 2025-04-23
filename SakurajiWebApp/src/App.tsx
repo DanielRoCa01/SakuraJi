@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { lazy, useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -8,27 +8,79 @@ import UnitButton from './Components/UnitButton'
 import TypeButton from './Components/TypeButton'
 import ResponsiveMenu from './Components/ResponsiveMenu'
 import MenuTipos from './Components/MenuTipos'
+import { Kana } from './Entities/Kana'
 
 function App() {
- 
+ // const EntryCard = lazy(() => import("./Components/EntryCard"));
+  type Unit = {
+    numero: number;
+    entries: Entry[];
+  };
+  
+  const [units, setUnits] = useState<Unit[]>([]);
+  const addUnit = (numero: number, entries:Entry[]) => {
+    if(entries.length===0)return
+    
+    const tempUnit={numero:numero,entries:entries}
+    const tempUnits=units
+    tempUnits.push(tempUnit)
+    setUnits(tempUnits);
+    
+    
+  };
+  const removeUnit = (numero: number) => {
+    console.log("borrando")
+    setUnits(prevUnits => prevUnits.filter(t => t.numero !== numero));
+    
+  };
   const [claseFondo,setClaseFondo]=useState("todo")
   const [entries, setEntries] = useState<Entry[]>([]);
   const[unitNumber,setUnitNumber]=useState(0)
   const[totalUnits,setTotalUnits]=useState(0)
   const[type,setType]=useState("Todo")
-  const ENTRIES_ENDPOINT=`http://localhost:8080/api/japones/${unitNumber}/entries`
+  function filtrarPorTipo() {
+    const tempEntries: Entry[] = [];
+    console.log("Filtrando")
+    if(type==="Todo"){
+      
+      for (const unit of units) {
+        
+        tempEntries.push(...unit.entries);
+        
+      }
+      setEntries(tempEntries)
+    }
+    else{
+      for (const unit of units) {
+        tempEntries.push(...unit.entries.filter(entry => entry.type === type));
+        
+      }
+      setEntries(tempEntries)
+    }
+    
+  }
   const UNIT_COUNT_ENDPOINT=`http://localhost:8080/api/japones/count`
+ let kanaList:Kana[]=[]
+  const ENTRIES_ENDPOINT=`http://localhost:8080/api/japones/${unitNumber}/entries`
+  
+  useEffect(()=>{
+    filtrarPorTipo()
+  },[type,units])
   useEffect(() => {
-    console.log("type",type)
-    const endpoint=type!=="Todo"?ENTRIES_ENDPOINT+`?type=${type}`:ENTRIES_ENDPOINT
-    console.log("endpoint",endpoint)
-    fetch(endpoint) 
+    if(unitNumber===0){return}
+    console.log("Iniciando api",type)
+    
+    console.log("endpoint",ENTRIES_ENDPOINT)
+    fetch(ENTRIES_ENDPOINT) 
       .then(response => response.json())
       .then(data => {
-        setEntries(Array.isArray(data) ? data : []); 
+        
+        addUnit(unitNumber,Array.isArray(data) ? data : []); 
+        filtrarPorTipo()
       })
       .catch(error => console.error('Error al cargar los datos:', error));
-  }, [unitNumber,type]);
+      
+  }, [unitNumber]);
   useEffect(() => {
     fetch(UNIT_COUNT_ENDPOINT) 
       .then(response => response.json())
@@ -36,16 +88,9 @@ function App() {
         setTotalUnits(data); 
       })
       .catch(error => console.error('Error al cargar los datos:', error));
+      
   }, [unitNumber]);
-  const unitsButtons = [];
-  for (let i = 1; i <= totalUnits; i++) {
-    unitsButtons.push(<UnitButton key={i} isSelected={unitNumber===i} number={i} setUnitNumber={setUnitNumber } />);
-  }
-
   
-
-
-
   return (
     <>
     <header>
@@ -66,10 +111,11 @@ function App() {
       
 
       <div className='central-container'>
-       <ResponsiveMenu type={type} setType={setType} setClaseFondo={setClaseFondo} totalUnits={totalUnits} unitNumber={unitNumber} setUnitNumber={setUnitNumber}/>
+       <ResponsiveMenu  type={type} setType={setType} removeUnit={removeUnit}setClaseFondo={setClaseFondo} totalUnits={totalUnits} unitNumber={unitNumber} setUnitNumber={setUnitNumber}/>
         <div className={`card  main ${claseFondo}`}>
-        {entries.map((entry, index) => (
-        <EntryCard key={index} entry={entry} claseFondo={claseFondo} />
+        {entries.map((entry, index) =>  (
+          <EntryCard key={index} entry={entry} claseFondo={claseFondo} />
+        
       ))}
       {entries.length===0&&
         <div className='empty-content'>

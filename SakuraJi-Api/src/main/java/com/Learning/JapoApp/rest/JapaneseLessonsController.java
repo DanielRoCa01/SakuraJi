@@ -4,6 +4,7 @@ import com.Learning.JapoApp.entities.Entry;
 import com.Learning.JapoApp.entities.Grammar;
 import com.Learning.JapoApp.entities.Lesson;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.ResponseEntity;
@@ -11,6 +12,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -46,18 +49,17 @@ public class JapaneseLessonsController {
         return ResponseEntity.ok(lessons);
     }
 
-    @GetMapping("/entries")
-    public ResponseEntity<List<Entry>> getEntriesByLessons(
-            @RequestParam List<Integer> lessonNumbers,
+    @GetMapping("/{lessonNumber}/entries")
+    public ResponseEntity<List<Entry>> getEntriesByLesson(
+            @PathVariable int lessonNumber,
             @RequestParam(required = false) String type) {
 
-        // Filtra las lecciones cuyo número esté en lessonNumbers
         List<Entry> entries = lessons.stream()
-                .filter(l -> lessonNumbers.contains(l.getNumber()))
-                .flatMap(l -> l.getEntries().stream()) // aplanar todas las entradas
-                .collect(Collectors.toList());
+                .filter(l -> l.getNumber() == lessonNumber)
+                .findFirst()
+                .map(l -> l.getEntries())
+                .orElse(Collections.emptyList());
 
-        // Filtra por tipo si se solicita
         List<Entry> filteredEntries = entries.stream()
                 .filter(e -> type == null || e.getType().equals(type))
                 .collect(Collectors.toList());
@@ -92,5 +94,14 @@ public class JapaneseLessonsController {
     @GetMapping("/count")
     public ResponseEntity<Integer> getNumberOfLessons() {
         return ResponseEntity.ok(lessons.size());
+    }
+    @GetMapping("/kana")
+    public JsonNode getKana() throws Exception {
+        // Carga el archivo JSON desde el classpath
+        ClassPathResource resource = new ClassPathResource("silabario.json");
+        String content = new String(Files.readAllBytes(Paths.get(resource.getURI())));
+        // Usa ObjectMapper para convertir el contenido a JsonNode
+        ObjectMapper mapper = new ObjectMapper();
+        return mapper.readTree(content);
     }
 }

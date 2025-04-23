@@ -51,9 +51,10 @@ a {
 
 .card {
   padding: 1em;
-  border-radius: 4%;
+  border-radius: 25px;
   margin: 2em;
   background-color: #302e2e;
+  min-width: 61.49em;
 }
 .card.main {
   
@@ -105,7 +106,7 @@ a {
 }
 .menu-tipos button {
   width: 8em;
-  border-radius: 10%;
+  border-radius: 5px;
 }
 .todo {
   border: 0.4rem solid rgba(224,105,131,254);
@@ -247,6 +248,35 @@ a {
 .menu-tipos-responsive{
   display: none;
 }
+.modal{
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(249, 190, 200, 0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.kana-container{
+  background:#302e2e;
+  border-radius: 12px;
+  color: white;
+  padding: 2rem 2.5rem;
+  width: 25em;
+  max-height: 80vh;
+  overflow-y: auto;
+  
+  max-width: 650px;
+}
+.kana-button{
+  width: 6em;
+  border:0.125em solid rgb(249, 190, 200)
+}
+.kana-button:hover{
+  background-color:rgb(249, 190, 200) ;
+  color:#302e2e
+}
 
 
 /* -------------------- */
@@ -271,12 +301,13 @@ a {
   }
   .menu-unidades,
   .menu-modos,
-  .menu-tipos-responsive {
+  .menu-tipos-responsive,
+  .kana-button {
     display: none;
   }
   .columna-menus.menu-open .menu-unidades,
   .columna-menus.menu-open .menu-modos,
-  .columna-menus.menu-open  {
+  .columna-menus.menu-open  .kana-button{
     display: block;
     
   }
@@ -372,7 +403,15 @@ a {
     display: none;
   }
   .logo img{
-    width: 0.5em;
+    width: 0.05em;
+   transform: scale(0.5,1);
+   transform: translate(1);
+  z-index: 1000;
+  }
+  .logo {
+    position: absolute;
+   
+  z-index: 1000;
   }
   .title h1{
     display: none;
@@ -418,12 +457,14 @@ a {
   }
   .menu-unidades,
   .menu-modos,
-  .menu-tipos-responsive {
+  .menu-tipos-responsive,
+  .kana-button {
     display: none;
   }
   .columna-menus.menu-open .menu-unidades,
   .columna-menus.menu-open .menu-modos,
-  .columna-menus.menu-open .menu-tipos-responsive {
+  .columna-menus.menu-open .menu-tipos-responsive ,
+  .columna-menus.menu-open .kana-button {
     display: block;
     
   }
@@ -526,5 +567,10 @@ a {
     justify-content: center;
     align-items: center;
   }
- 
+ .kana-button{
+  margin: 2em;
+ }
+ .logo img{
+  
+ }
 }

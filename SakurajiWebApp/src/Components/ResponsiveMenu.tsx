@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import MenuTipos from './MenuTipos';
+import ModalKanaRow from './ModalKanaRow';
+import { Kana } from '../Entities/Kana';
 interface UnitButtonProps {
-    
+    removeUnit:(value: number) => void;
     setUnitNumber: (value: number) => void;
     number: number;
     isSelected:boolean
     
 }
 interface ResponsiveMenuProps {
-    
+    removeUnit:(value: number) => void;
     setUnitNumber: (value: number) => void;
     unitNumber: number;
     totalUnits:number;
@@ -16,20 +18,31 @@ interface ResponsiveMenuProps {
     setType: (value: string) => void;
     type: string;
     
+    
 }
 // Suponiendo que tienes este componente
-function UnitButton({ isSelected, number, setUnitNumber }: UnitButtonProps) {
-  return (
+function UnitButton({ removeUnit,isSelected, number, setUnitNumber }: UnitButtonProps) {
+    const [selected,setSelected]=useState(false)
+    const handdleClick=(number:number)=>{
+        console.log("boton clickado")
+        if(selected){removeUnit(number)
+            setUnitNumber(0)
+        }
+        else{setUnitNumber(number)}
+        setSelected(!selected)
+        
+    }
+      return (
     <button
-      className={isSelected ? 'is-selected' : ''}
-      onClick={() => setUnitNumber(number)}
+      className={selected ? 'is-selected' : ''}
+      onClick={() =>handdleClick(number) }
     >
       {number}
     </button>
   );
 }
 
-function ResponsiveMenu({ totalUnits, unitNumber, setUnitNumber,setClaseFondo, type, setType }:ResponsiveMenuProps) {
+function ResponsiveMenu({ removeUnit,totalUnits, unitNumber, setUnitNumber,setClaseFondo, type, setType }:ResponsiveMenuProps) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Genera los botones de unidades
@@ -38,13 +51,14 @@ function ResponsiveMenu({ totalUnits, unitNumber, setUnitNumber,setClaseFondo, t
     unitsButtons.push(
       <UnitButton
         key={i}
-        isSelected={unitNumber === i}
+        isSelected={unitNumber===i}
         number={i}
         setUnitNumber={setUnitNumber}
+        removeUnit={removeUnit}
       />
     );
   }
-
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className={`columna-menus${menuOpen ? ' menu-open' : ''}`}>
       <button
@@ -54,6 +68,12 @@ function ResponsiveMenu({ totalUnits, unitNumber, setUnitNumber,setClaseFondo, t
       >
         &#9776;
       </button>
+      
+      <div>
+     
+      
+      
+    </div>
       <div className='menu-tipos-responsive menu'>
       <div className='logo-container'>
         <div>
@@ -67,6 +87,10 @@ function ResponsiveMenu({ totalUnits, unitNumber, setUnitNumber,setClaseFondo, t
       </div>
         <MenuTipos  type={type} setClaseFondo={setClaseFondo} setType={setType}/>
         </div>
+        <button className='kana-button' onClick={() =>{setShowModal(true)} }>Kana</button>
+      {showModal && (
+        <ModalKanaRow  onClose={() => setShowModal(false)} />
+      )}
         <div className='columna-secundaria'>
         <div className="menu-unidades">
         <h3>Unidades</h3>
