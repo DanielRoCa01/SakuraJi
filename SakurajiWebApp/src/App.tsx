@@ -9,69 +9,70 @@ import TypeButton from './Components/TypeButton'
 import ResponsiveMenu from './Components/ResponsiveMenu'
 import MenuTipos from './Components/MenuTipos'
 import { Kana } from './Entities/Kana'
+import { ENTRIES_ENDPOINT, LANGUAGE_ENDPOINT, LOGO_IMG } from './Constants'
+import { Unit } from './Entities/Unit'
+import LogoContainer from './Components/LogoContainer'
+import Language from './Entities/Language'
 
 function App() {
- // const EntryCard = lazy(() => import("./Components/EntryCard"));
-  type Unit = {
-    numero: number;
-    entries: Entry[];
-  };
   
+  const [claseFondo,setClaseFondo]=useState("todo")
+  const [entries, setEntries] = useState<Entry[]>([]);
+  const[unitNumber,setUnitNumber]=useState(0)
+  const[languages,setLanguages]=useState<Language[]>([])
+  const[language,setLanguage]=useState<Language>()
+  const [totalUnits, setTotalUnits]=useState(0)
+  const[type,setType]=useState("Todo")
   const [units, setUnits] = useState<Unit[]>([]);
-  const addUnit = (numero: number, entries:Entry[]) => {
+  const addUnit = (numero: number, entries:Entry[]) => 
+    {
     if(entries.length===0)return
-    
     const tempUnit={numero:numero,entries:entries}
     const tempUnits=units
     tempUnits.push(tempUnit)
     setUnits(tempUnits);
-    
-    
+
   };
-  const removeUnit = (numero: number) => {
+  const removeUnit = (numero: number) => 
+  {
     console.log("borrando")
     setUnits(prevUnits => prevUnits.filter(t => t.numero !== numero));
-    
   };
-  const [claseFondo,setClaseFondo]=useState("todo")
-  const [entries, setEntries] = useState<Entry[]>([]);
-  const[unitNumber,setUnitNumber]=useState(0)
-  const[totalUnits,setTotalUnits]=useState(0)
-  const[type,setType]=useState("Todo")
-  function filtrarPorTipo() {
+  
+  function filtrarPorTipo() 
+  {
     const tempEntries: Entry[] = [];
     console.log("Filtrando")
-    if(type==="Todo"){
-      
-      for (const unit of units) {
-        
+    if(type==="Todo")
+    {
+      for (const unit of units) 
+      {
         tempEntries.push(...unit.entries);
-        
       }
       setEntries(tempEntries)
     }
     else{
-      for (const unit of units) {
+      for (const unit of units) 
+      {
         tempEntries.push(...unit.entries.filter(entry => entry.type === type));
-        
       }
       setEntries(tempEntries)
     }
-    
   }
-  const UNIT_COUNT_ENDPOINT=`http://localhost:8080/api/japones/count`
- let kanaList:Kana[]=[]
-  const ENTRIES_ENDPOINT=`http://localhost:8080/api/japones/${unitNumber}/entries`
+ 
   
-  useEffect(()=>{
+  useEffect(()=> //Upload the data filtered
+  {
     filtrarPorTipo()
   },[type,units])
-  useEffect(() => {
+
+  useEffect(() => //Return entries from the API
+  {
     if(unitNumber===0){return}
     console.log("Iniciando api",type)
     
     console.log("endpoint",ENTRIES_ENDPOINT)
-    fetch(ENTRIES_ENDPOINT) 
+    fetch(ENTRIES_ENDPOINT+`/${unitNumber}/entries`) 
       .then(response => response.json())
       .then(data => {
         
@@ -80,38 +81,40 @@ function App() {
       })
       .catch(error => console.error('Error al cargar los datos:', error));
       
-  }, [unitNumber]);
-  useEffect(() => {
-    fetch(UNIT_COUNT_ENDPOINT) 
+  }, [unitNumber,language]);
+
+  useEffect(() => //Return total languages from the API
+  {
+    let s:Language[]=[]
+    fetch(LANGUAGE_ENDPOINT) 
       .then(response => response.json())
       .then(data => {
-        setTotalUnits(data); 
+        console.log(data)
+        s=data
+        setLanguages(s); 
+        setLanguage(data[0])
+        console.log(s)
       })
       .catch(error => console.error('Error al cargar los datos:', error));
       
-  }, [unitNumber]);
+  }, []);
+  useEffect(()=>{
+
+    console.log(language?.units)
+    setTotalUnits(language?.units!)
+  },[language])
   
   return (
     <>
     <header>
-    <div className='logo-container'>
-        <div>
-        <a className='logo' href="./assets/logo.png" target="_blank">
-          <img src="https://sdmntprwestus.oaiusercontent.com/files/00000000-a82c-5230-a97e-dc8453c33848/raw?se=2025-04-22T08%3A54%3A25Z&sp=r&sv=2024-08-04&sr=b&scid=0f906d01-2370-5e99-950c-b2c5de4d1535&skoid=06d77cea-897f-49c6-9d78-20f6510f72af&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-22T06%3A07%3A11Z&ske=2025-04-23T06%3A07%3A11Z&sks=b&skv=2024-08-04&sig=f6vpTeOWkyElquhswp5hnwhnziW2cPAzXBYU8KZqh3c%3D" 
-          className=" sakura"
-           alt="Vite logo" />
-        
-        <div className='title '><h1>Sakuraji Web App</h1></div>
-        </a>
-        </div>
-      </div>
+      <LogoContainer/>
       <div className='container-menu-tipos'><MenuTipos  type={type} setClaseFondo={setClaseFondo} setType={setType}/></div>
 
     </header>
       
-
+      
       <div className='central-container'>
-       <ResponsiveMenu  type={type} setType={setType} removeUnit={removeUnit}setClaseFondo={setClaseFondo} totalUnits={totalUnits} unitNumber={unitNumber} setUnitNumber={setUnitNumber}/>
+       <ResponsiveMenu  type={type} setType={setType} appendix={language?.appendixes} removeUnit={removeUnit}setClaseFondo={setClaseFondo} totalUnits={totalUnits} unitNumber={unitNumber} setUnitNumber={setUnitNumber}/>
         <div className={`card  main ${claseFondo}`}>
         {entries.map((entry, index) =>  (
           <EntryCard key={index} entry={entry} claseFondo={claseFondo} />

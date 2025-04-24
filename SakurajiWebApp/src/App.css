@@ -54,7 +54,8 @@ a {
   border-radius: 25px;
   margin: 2em;
   background-color: #302e2e;
-  min-width: 61.49em;
+  
+  
 }
 .card.main {
   
@@ -106,7 +107,7 @@ a {
 }
 .menu-tipos button {
   width: 8em;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .todo {
   border: 0.4rem solid rgba(224,105,131,254);
@@ -270,7 +271,7 @@ a {
   max-width: 650px;
 }
 .kana-button{
-  width: 6em;
+  min-width: 6em;
   border:0.125em solid rgb(249, 190, 200)
 }
 .kana-button:hover{
@@ -278,6 +279,16 @@ a {
   color:#302e2e
 }
 
+.counter-component-table{
+  border: 1px solid rgb(249, 190, 200) ;
+  border-radius:10px ;
+  margin: 10px;
+  padding: 10px ;
+}
+.counter-component h4,
+.counter-component h3{
+  color:rgb(190, 217, 249);
+}
 
 /* -------------------- */
 /*   RESPONSIVE ZONE    */
@@ -351,7 +362,7 @@ a {
   z-index: 1000;
   background-color: none;
     height: 2em;
-    
+    margin-left:1em;
    
   }
   .columna-secundaria{
@@ -369,13 +380,45 @@ a {
   }
   .menu-toggle {
     display: block;
-    background-color: #302e2e;
-    width: 1em;
+    
+    width: fit-content;
+    height: fit-content;
     padding: 0;
-    margin-left:1em;
+    margin-left:0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    background-color: rgba(224,105,131,0);
+  }
+  .menu-toggle img{
+    width:  2em;
+    height:  2em;
+    margin: 0;
+    filter: grayscale(100%) brightness(0.3);
+  }
+  .columna-menus.menu-open .menu-toggle {
+    margin-top: 0.15em;
+    margin-bottom: 0.15em;
+    
+  }
+  .columna-menus.menu-open .menu-toggle img {
+    filter: none;
+    
   }
   .menu-tipos-responsive{
     display: none;
+  }
+  .card {
+    margin: 1em 0.2em;
+    padding: 0.5em;
+    min-width: 1em;
+  }
+  .menu-button-container{
+    display: flex;
+    align-items: center;
+  }
+  .sakura:hover{
+    filter: drop-shadow(0 0 0 rgb(236, 227, 227));
+    animation: logo-spin 4s linear  infinite;
   }
   
 }
@@ -388,6 +431,7 @@ a {
   .card {
     margin: 1em 0.2em;
     padding: 0.5em;
+    min-width: 1em;
   }
   .card.main {
     
@@ -415,7 +459,7 @@ a {
   }
   .title h1{
     display: none;
-  }
+  }     
   .logo-container h1 {
     font-size: large;
     width: 100%;
@@ -450,10 +494,37 @@ a {
   }
   .menu-toggle {
     display: block;
-    background-color: #302e2e;
-    width: 1em;
+    
+    width: fit-content;
+    height: fit-content;
     padding: 0;
-    margin-left:1em;
+    margin-left:0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    background-color: rgba(224,105,131,0);
+  }
+  .menu-toggle img{
+    width:  2em;
+    height:  2em;
+    margin: 0;
+    filter: grayscale(100%) brightness(0.3);
+  }
+  .columna-menus.menu-open .menu-toggle {
+    margin-top: 0.15em;
+    margin-bottom: 0.15em;
+    
+  }
+  .columna-menus.menu-open .menu-toggle img {
+    filter: none;
+    
+  }
+  
+   
+ 
+ 
+  .sakura:hover{
+    filter: drop-shadow(0 0 0 rgb(236, 227, 227));
+    animation: logo-spin 4s linear  infinite;
   }
   .menu-unidades,
   .menu-modos,
@@ -477,7 +548,7 @@ a {
   .columna-menus{
     position: fixed;  
   z-index: 1000;
-  background-color: none;
+  background-color: rgba(224,105,131,0);
     height: 2em;
     
    
@@ -570,7 +641,5 @@ a {
  .kana-button{
   margin: 2em;
  }
- .logo img{
-  
- }
+ 
 }

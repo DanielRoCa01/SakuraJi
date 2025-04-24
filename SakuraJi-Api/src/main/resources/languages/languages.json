@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Japanese",
+    "units": 10,
+    "appendixes": ["counters","kana"],
+    "types": ["Kanji","Vocabulario","Verbos","Adjetivos"],
+    "greeting": "こんにちは"
+  }
+]

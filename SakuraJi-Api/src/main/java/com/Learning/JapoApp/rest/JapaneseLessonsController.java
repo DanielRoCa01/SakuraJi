@@ -2,6 +2,7 @@ package com.Learning.JapoApp.rest;
 
 import com.Learning.JapoApp.entities.Entry;
 import com.Learning.JapoApp.entities.Grammar;
+import com.Learning.JapoApp.entities.Language;
 import com.Learning.JapoApp.entities.Lesson;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -10,7 +11,6 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -21,39 +21,51 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/api/japones")
+@RequestMapping("/api")
 @CrossOrigin(origins = "http://localhost:5173")
 public class JapaneseLessonsController {
 
 
-    private List<Lesson> lessons = new ArrayList<>();
+    private List<Lesson> lessons ;
+    private List<Language> languages = new ArrayList<>();
 
     public JapaneseLessonsController() {
-        cargarLecciones();
+
+        cargarLenguajes();
     }
 
-    private void cargarLecciones() {
+    private void cargarLecciones( String language) {
         ObjectMapper mapper = new ObjectMapper();
+         lessons = new ArrayList<>();
         try {
             // Cargar desde resources usando ClassPathResource
-            ClassPathResource resource = new ClassPathResource("diccionario.json");
+            ClassPathResource resource = new ClassPathResource("languages/"+language+"/diccionario.json");
             lessons = mapper.readValue(resource.getInputStream(), new TypeReference<List<Lesson>>() {});
         } catch (IOException e) {
             e.printStackTrace();
             lessons = Collections.emptyList();
         }
     }
-
-    @GetMapping
-    public ResponseEntity<List<Lesson>> getAllLessons() {
-        return ResponseEntity.ok(lessons);
+    private void cargarLenguajes() {
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            // Cargar desde resources usando ClassPathResource
+            ClassPathResource resource = new ClassPathResource("languages/languages.json");
+            languages = mapper.readValue(resource.getInputStream(), new TypeReference<List<Language>>() {});
+        } catch (IOException e) {
+            e.printStackTrace();
+            languages = Collections.emptyList();
+        }
     }
 
-    @GetMapping("/{lessonNumber}/entries")
+
+
+    @GetMapping("/{language}/{lessonNumber}/entries")
     public ResponseEntity<List<Entry>> getEntriesByLesson(
+            @PathVariable String language,
             @PathVariable int lessonNumber,
             @RequestParam(required = false) String type) {
-
+        cargarLecciones(language);
         List<Entry> entries = lessons.stream()
                 .filter(l -> l.getNumber() == lessonNumber)
                 .findFirst()
@@ -67,8 +79,9 @@ public class JapaneseLessonsController {
         return ResponseEntity.ok(filteredEntries);
     }
 
-    @GetMapping("/{lessonNumber}/grammars")
-    public ResponseEntity<List<Grammar>> getGrammarsByLesson(@PathVariable int lessonNumber) {
+    @GetMapping("/{language}/{lessonNumber}/grammars")
+    public ResponseEntity<List<Grammar>> getGrammarsByLesson(@PathVariable String language,@PathVariable int lessonNumber) {
+        cargarLecciones(language);
         return lessons.stream()
                 .filter(l -> l.getNumber() == lessonNumber)
                 .findFirst()
@@ -76,8 +89,9 @@ public class JapaneseLessonsController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    @GetMapping("/search")
-    public ResponseEntity<List<Entry>> searchEntries(@RequestParam String term) {
+    @GetMapping("/{language}/search")
+    public ResponseEntity<List<Entry>> searchEntries(@PathVariable String language,@RequestParam String term) {
+        cargarLecciones(language);
         List<Entry> resultados = lessons.stream()
                 .flatMap(l -> l.getEntries().stream())
                 .filter(e -> e.getWord().equals(term) ||
@@ -87,18 +101,23 @@ public class JapaneseLessonsController {
 
         return ResponseEntity.ok(resultados);
     }
-    @GetMapping("/lessons")
-    public ResponseEntity<List<Lesson>> getLessons() {
+    @GetMapping("/{language}/lessons")
+    public ResponseEntity<List<Lesson>> getLessons(@PathVariable String language) {
+        cargarLecciones(language);
         return ResponseEntity.ok(lessons);
+    }
+    @GetMapping("/languages")
+    public ResponseEntity<List<Language>> getLanguages() {
+        return ResponseEntity.ok(languages);
     }
     @GetMapping("/count")
     public ResponseEntity<Integer> getNumberOfLessons() {
         return ResponseEntity.ok(lessons.size());
     }
-    @GetMapping("/kana")
-    public JsonNode getKana() throws Exception {
+    @GetMapping("/{language}/appendix/{name}")
+    public JsonNode getAppendix(@PathVariable String language,@PathVariable String name) throws Exception {
         // Carga el archivo JSON desde el classpath
-        ClassPathResource resource = new ClassPathResource("silabario.json");
+        ClassPathResource resource = new ClassPathResource("languages/"+language+"/appendix/"+name+".json");
         String content = new String(Files.readAllBytes(Paths.get(resource.getURI())));
         // Usa ObjectMapper para convertir el contenido a JsonNode
         ObjectMapper mapper = new ObjectMapper();

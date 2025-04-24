@@ -1,0 +1,403 @@
+[
+  {
+    "contador": "つ (tsu)",
+    "uso": "objetos",
+    "numeros": [
+      "ひとつ (hitotsu)",
+      "ふたつ (futatsu)",
+      "みっつ (mittsu)",
+      "よっつ (yottsu)",
+      "いつつ (itsutsu)",
+      "むっつ (muttsu)",
+      "ななつ (nanatsu)",
+      "やっつ (yattsu)",
+      "ここのつ (kokonotsu)",
+      "とお (too)"
+    ],
+    "interrogacion": "いくつ (ikutsu)"
+  },
+  {
+    "contador": "人 (にん - nin)",
+    "uso": "personas",
+    "numeros": [
+      "ひとり (hitori)",
+      "ふたり (futari)",
+      "さんにん (sannin)",
+      "よにん (yonin)",
+      "ごにん (gonin)",
+      "ろくにん (rokunin)",
+      "ななにん、しちにん (nananin, shichinin)",
+      "はちにん (hachinin)",
+      "きゅうにん (kyuunin)",
+      "じゅうにん (juunin)"
+    ],
+    "interrogacion": "なんにん (nannin)"
+  },
+  {
+    "contador": "番 (ばん - ban)",
+    "uso": "orden",
+    "numeros": [
+      "いちばん (ichiban)",
+      "にばん (niban)",
+      "さんばん (sanban)",
+      "よんばん (yonban)",
+      "ごばん (goban)",
+      "ろくばん (rokuban)",
+      "ななばん (nanaban)",
+      "はちばん (hachiban)",
+      "きゅうばん (kyuuban)",
+      "じゅうばん (juuban)"
+    ],
+    "interrogacion": "なんばん (nanban)"
+  },
+  {
+    "contador": "枚 (まい - mai)",
+    "uso": "cosas planas y delgadas",
+    "numeros": [
+      "いちまい (ichimai)",
+      "にまい (nimai)",
+      "さんまい (sanmai)",
+      "よんまい (yonmai)",
+      "ごまい (gomai)",
+      "ろくまい (rokumai)",
+      "ななまい (nanamai)",
+      "はちまい (hachimai)",
+      "きゅうまい (kyuumai)",
+      "じゅうまい (juumai)"
+    ],
+    "interrogacion": "なんまい (nanmai)"
+  },
+  {
+    "contador": "台 (だい - dai)",
+    "uso": "máquinas y vehículos",
+    "numeros": [
+      "いちだい (ichidai)",
+      "にだい (nidai)",
+      "さんだい (sandai)",
+      "よんだい (yondai)",
+      "ごだい (godai)",
+      "ろくだい (rokudai)",
+      "ななだい (nanadai)",
+      "はちだい (hachidai)",
+      "きゅうだい (kyuudai)",
+      "じゅうだい (juudai)"
+    ],
+    "interrogacion": "なんだい (nandai)"
+  },
+  {
+    "contador": "歳 (さい - sai)",
+    "uso": "edad",
+    "numeros": [
+      "いっさい (issai)",
+      "にさい (nisai)",
+      "さんさい (sansai)",
+      "よんさい (yonsai)",
+      "ごさい (gosai)",
+      "ろくさい (rokusai)",
+      "ななさい (nanasai)",
+      "はっさい (hassai)",
+      "きゅうさい (kyuusai)",
+      "じゅっさい (jussai)"
+    ],
+    "interrogacion": "なんさい (nansai)"
+  },
+  {
+    "contador": "冊 (さつ - satsu)",
+    "uso": "libros y cuadernos",
+    "numeros": [
+      "いっさつ (issatsu)",
+      "にさつ (nisatsu)",
+      "さんさつ (sansatsu)",
+      "よんさつ (yonsatsu)",
+      "ごさつ (gosatsu)",
+      "ろくさつ (rokusatsu)",
+      "ななさつ (nanasatsu)",
+      "はっさつ (hassatsu)",
+      "きゅうさつ (kyuusatsu)",
+      "じゅっさつ (jussatsu)"
+    ],
+    "interrogacion": "なんさつ (nansatsu)"
+  },
+  {
+    "contador": "着 (ちゃく - chaku)",
+    "uso": "ropa",
+    "numeros": [
+      "いっちゃく (itchaku)",
+      "にちゃく (nichaku)",
+      "さんちゃく (sanchaku)",
+      "よんちゃく (yonchaku)",
+      "ごちゃく (gochaku)",
+      "ろくちゃく (rokuchaku)",
+      "ななちゃく (nanachaku)",
+      "はっちゃく (hachchaku)",
+      "きゅうちゃく (kyuuchaku)",
+      "じゅっちゃく (jutchaku)"
+    ],
+    "interrogacion": "なんちゃく (nanchaku)"
+  },
+  {
+    "contador": "階 (かい - kai)",
+    "uso": "pisos/plantas de edificios",
+    "numeros": [
+      "いっかい (ikkai)",
+      "にかい (nikai)",
+      "さんがい (sangai)",
+      "よんかい (yonkai)",
+      "ごかい (gokai)",
+      "ろっかい (rokkai)",
+      "ななかい (nanakai)",
+      "はっかい (hakkai)",
+      "きゅうかい (kyuukai)",
+      "じゅっかい、じっかい (jukkai, jikkai)"
+    ],
+    "interrogacion": "なんがい (nangai)"
+  },
+  {
+    "contador": "本 (ほん - hon)",
+    "uso": "objetos delgados y largos",
+    "numeros": [
+      "いっぽん (ippon)",
+      "にほん (nihon)",
+      "さんぼん (sanbon)",
+      "よんほん (yonhon)",
+      "ごほん (gohon)",
+      "ろっぽん (roppon)",
+      "ななほん (nanahon)",
+      "はっぽん (happon)",
+      "きゅうほん (kyuuhon)",
+      "じゅっぽん、じっぽん (juppon, jippon)"
+    ],
+    "interrogacion": "なんぼん (nanbon)"
+  },
+  {
+    "contador": "杯 (はい - hai)",
+    "uso": "bebidas y otras cosas en vasos, copas y tazas",
+    "numeros": [
+      "いっぱい (ippai)",
+      "にはい (nihai)",
+      "さんばい (sanbai)",
+      "よんばい (yonbai)",
+      "ごはい (gohai)",
+      "ろっぱい (roppai)",
+      "ななはい (nanahai)",
+      "はっぱい (happai)",
+      "きゅうはい (kyuuhai)",
+      "じゅっぱい、じっぱい (juppai, jippai)"
+    ],
+    "interrogacion": "なんばい (nanbai)"
+  },
+  {
+    "contador": "匹 (ひき - hiki)",
+    "uso": "animales pequeños, peces e insectos",
+    "numeros": [
+      "いっぴき (ippiki)",
+      "にひき (nihiki)",
+      "さんびき (sanbiki)",
+      "よんひき (yonhiki)",
+      "ごひき (gohiki)",
+      "ろっぴき (roppiki)",
+      "ななひき (nanahiki)",
+      "はっぴき (happiki)",
+      "きゅうひき (kyuuhiki)",
+      "じゅっぴき、じっぴき (juppiki, jippiki)"
+    ],
+    "interrogacion": "なんびき (nanbiki)"
+  },
+  {
+    "contador": "回 (かい - kai)",
+    "uso": "frecuencia",
+    "numeros": [
+      "いっかい (ikkai)",
+      "にかい (nikai)",
+      "さんかい (sankai)",
+      "よんかい (yonkai)",
+      "ごかい (gokai)",
+      "ろっかい (rokkai)",
+      "ななかい (nanakai)",
+      "はっかい (hakkai)",
+      "きゅうかい (kyuukai)",
+      "じゅっかい、じっかい (jukkai, jikkai)"
+    ],
+    "interrogacion": "なんかい (nankai)"
+  },
+  {
+    "contador": "個 (こ - ko)",
+    "uso": "objetos pequeños",
+    "numeros": [
+      "いっこ (ikko)",
+      "にこ (niko)",
+      "さんこ (sanko)",
+      "よんこ (yonko)",
+      "ごこ (goko)",
+      "ろっこ (rokko)",
+      "ななこ (nanako)",
+      "はっこ (hakko)",
+      "きゅうこ (kyuuko)",
+      "じゅっこ、じっこ (jukko, jikko)"
+    ],
+    "interrogacion": "なんこ (nanko)"
+  },
+  {
+    "contador": "足 (そく - soku)",
+    "uso": "calzados y calcetines",
+    "numeros": [
+      "いっそく (issoku)",
+      "にそく (nisoku)",
+      "さんぞく (sanzoku)",
+      "よんそく (yonsoku)",
+      "ごそく (gosoku)",
+      "ろくそく (rokusoku)",
+      "ななそく (nanasoku)",
+      "はっそく (hassoku)",
+      "きゅうそく (kyuusoku)",
+      "じゅっそく、じっそく (jussoku, jissoku)"
+    ],
+    "interrogacion": "なんぞく (nanzoku)"
+  },
+  {
+    "contador": "軒 (けん - ken)",
+    "uso": "viviendas",
+    "numeros": [
+      "いっけん (ikken)",
+      "にけん (niken)",
+      "さんげん (sangen)",
+      "よんけん (yonken)",
+      "ごけん (goken)",
+      "ろっけん (rokken)",
+      "ななけん (nanaken)",
+      "はっけん (hakken)",
+      "きゅうけん (kyuuken)",
+      "じゅっけん、じっけん (jukken, jikken)"
+    ],
+    "interrogacion": "なんげん (nangen)"
+  },
+  {
+    "contador": "時 (じ - ji)",
+    "uso": "hora(s)",
+    "numeros": [
+      "いちじ (ichiji)",
+      "にじ (niji)",
+      "さんじ (sanji)",
+      "よじ (yoji)",
+      "ごじ (goji)",
+      "ろくじ (rokuji)",
+      "しちじ (shichiji)",
+      "はちじ (hachiji)",
+      "くじ (kuji)",
+      "じゅうじ (juuji)",
+      "じゅういちじ (juuichiji)",
+      "じゅうにじ (juuniji)"
+    ],
+    "interrogacion": "なんじ (nanji)"
+  },
+  {
+    "contador": "分 (ふん - fun)",
+    "uso": "minuto(s)",
+    "numeros": [
+      "いっぷん (ippun)",
+      "にふん (nifun)",
+      "さんぷん (sanpun)",
+      "よんぷん (yonpun)",
+      "ごふん (gofun)",
+      "ろっぷん (roppun)",
+      "ななふん (nanafun)",
+      "はっぷん (happun)",
+      "きゅうふん (kyuufun)",
+      "じゅっぷん (juppun)",
+      "じゅうごふん (juugofun)",
+      "さんじゅっぷん、さんじっぷん、はん (sanjuppun, sanjippun, han)"
+    ],
+    "interrogacion": "なんぷん (nanpun)"
+  },
+  {
+    "contador": "日 (にち - nichi)",
+    "uso": "día del mes",
+    "numeros": [
+      "ついたち (tsuitachi)",
+      "ふつか (futsuka)",
+      "みっか (mikka)",
+      "よっか (yokka)",
+      "いつか (itsuka)",
+      "むいか (muika)",
+      "なのか (nanoka)",
+      "ようか (youka)",
+      "ここのか (kokonoka)",
+      "とおか (tooka)",
+      "じゅういちにち (juuichinichi)",
+      "じゅうににち (juuninichi)",
+      "じゅうさんにち (juusannichi)",
+      "じゅうよっか (juuyokka)",
+      "じゅうごにち (juugonichi)",
+      "じゅうろくにち (juurokunichi)",
+      "じゅうしちにち (juushichinichi)",
+      "じゅうはちにち (juuhachinichi)",
+      "じゅうくにち (juukunichi)",
+      "はつか (hatsuka)",
+      "にじゅういちにち (nijuuichinichi)",
+      "にじゅうににち (nijuuninichi)",
+      "にじゅうさんにち (nijuusannichi)",
+      "にじゅうよっか (nijuuyokka)",
+      "にじゅうごにち (nijuugonichi)",
+      "にじゅうろくにち (nijuurokunichi)",
+      "にじゅうしちにち (nijuushichinichi)",
+      "にじゅうはちにち (nijuuhachinichi)",
+      "にじゅうくにち (nijuukunichi)",
+      "さんじゅうにち (sanjuunichi)",
+      "さんじゅういちにち (sanjuuichinichi)"
+    ],
+    "interrogacion": "なんにち (nannichi)"
+  },
+  {
+    "contador": "週間 (しゅうかん - shuukan)",
+    "uso": "semanas",
+    "numeros": [
+      "いっしゅうかん (isshuukan)",
+      "にしゅうかん (nishuukan)",
+      "さんしゅうかん (sanshuukan)",
+      "よんしゅうかん (yonshuukan)",
+      "ごしゅうかん (goshuukan)",
+      "ろくしゅうかん (rokushuukan)",
+      "ななしゅうかん (nanashuukan)",
+      "はっしゅうかん (hasshuukan)",
+      "きゅうしゅうかん (kyuushuukan)",
+      "じゅっしゅうかん (jusshuukan)"
+    ],
+    "interrogacion": "なんしゅうかん (nanshuukan)"
+  },
+  {
+    "contador": "か月 (かげつ - kagetsu)",
+    "uso": "meses",
+    "numeros": [
+      "いっかげつ (ikkagetsu)",
+      "にかげつ (nikagetsu)",
+      "さんかげつ (sankagetsu)",
+      "よんかげつ (yonkagetsu)",
+      "ごかげつ (gokagetsu)",
+      "ろっかげつ (rokkagetsu)",
+      "ななかげつ (nanakagetsu)",
+      "はちかげつ (hachikagetsu)",
+      "きゅうかげつ (kyuukagetsu)",
+      "じゅっかげつ (jukkagetsu)",
+      "じゅういちがつ (juuichigatsu)",
+      "じゅうにがつ (juunigatsu)"
+    ],
+    "interrogacion": "なんかげつ (nankagetsu)"
+  },
+  {
+    "contador": "年 (ねん - nen)",
+    "uso": "años",
+    "numeros": [
+      "いちねん (ichinen)",
+      "にねん (ninen)",
+      "さんねん (sannen)",
+      "よねん (yonen)",
+      "ごねん (gonen)",
+      "ろくねん (rokunen)",
+      "ななねん (nananen)",
+      "はちねん (hachinen)",
+      "きゅうねん (kyuunen)",
+      "じゅうねん (juunen)"
+    ],
+    "interrogacion": "なんねん (nannen)"
+  }
+]
