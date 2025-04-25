@@ -8,7 +8,7 @@ interface UnitButtonProps {
     return (
         <div className='logo-container'>
         <div>
-          <a className='logo' href="./assets/logo.png" target="_blank">
+          <a className='logo' href="." >
             <img src={LOGO_IMG} 
             className=" sakura"
             alt="Vite logo" />

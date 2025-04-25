@@ -1,16 +1,11 @@
 import React, { useState } from 'react';
-import MenuTipos from './MenuTipos';
+import MenuTipos from './CategoryMenu';
 import ModalKanaRow from './ModalKanaRow';
 import { Kana } from '../Entities/Kana';
 import { LOGO_IMG } from '../Constants';
 import LogoContainer from './LogoContainer';
-interface UnitButtonProps {
-    removeUnit:(value: number) => void;
-    setUnitNumber: (value: number) => void;
-    number: number;
-    
-    
-}
+import UnitButton from './UnitButton';
+
 interface ResponsiveMenuProps {
     removeUnit:(value: number) => void;
     setUnitNumber: (value: number) => void;
@@ -23,26 +18,6 @@ interface ResponsiveMenuProps {
     
 }
 // Suponiendo que tienes este componente
-function UnitButton({ removeUnit, number, setUnitNumber }: Readonly<UnitButtonProps>) {
-    const [selected,setSelected]=useState(false)
-    const handdleClick=(number:number)=>{
-        console.log("boton clickado")
-        if(selected){removeUnit(number)
-            setUnitNumber(0)
-        }
-        else{setUnitNumber(number)}
-        setSelected(!selected)
-        
-    }
-      return (
-    <button
-      className={selected ? 'is-selected' : ''}
-      onClick={() =>handdleClick(number) }
-    >
-      {number}
-    </button>
-  );
-}
 
 function ResponsiveMenu({ removeUnit,totalUnits, appendix, setUnitNumber,setClaseFondo, type, setType }:Readonly<ResponsiveMenuProps>) {
   const [menuOpen, setMenuOpen] = useState(false);

@@ -9,6 +9,7 @@ interface TypeButtonProps {
 }
 
 function TypeButton({ setClaseFondo, setType, filter,isSelected}: TypeButtonProps) {
+  
     const className = `${filter.toLowerCase()} ${isSelected ? 'is-selected' : ''}`;
   return (
     <button

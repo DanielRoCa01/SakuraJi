@@ -12,7 +12,7 @@ const EntryCard: React.FC<EntryCardProps> = ({ entry}) => {
   return (
    
       
-       <div className={`card card-item ${entry.type.toLowerCase()}`}>
+       <div className={`card card-item entry`}>
           <div className='entry-content'>
               <div className='entry-content-picture'>
               {entry.url_imagen && (
@@ -24,6 +24,9 @@ const EntryCard: React.FC<EntryCardProps> = ({ entry}) => {
                   <h1>{entry.word}</h1>
                   <div className='entry-content-translation'>
                     <h2>{entry.translation.join(', ')}</h2>
+                  </div>
+                  <div className={`entry-type ${entry.type.toLowerCase()}`}>
+                    {entry.type.toUpperCase()}
                   </div>
                 </div>
                 <div className='entry-content-data-pronunciation'>

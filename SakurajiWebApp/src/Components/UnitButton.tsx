@@ -1,16 +1,32 @@
+import { useState } from "react";
+
 interface UnitButtonProps {
-    setUnitNumber: (number: number) => void;
-    number:number
-    isSelected:boolean
-  }
+  removeUnit:(value: number) => void;
+  setUnitNumber: (value: number) => void;
+  number: number;
   
-  function UnitButton({ setUnitNumber,number , isSelected}: UnitButtonProps) {
-    const className = `${isSelected ? 'is-selected' : ''}`;
-    return (
-      <button onClick={() => setUnitNumber(number) } className={className}>
-        {number}
-      </button>
-    );
-  }
+  
+}
+function UnitButton({ removeUnit, number, setUnitNumber }: Readonly<UnitButtonProps>) {
+    const [selected,setSelected]=useState(false)
+    const handdleClick=(number:number)=>{
+        console.log("boton clickado")
+        if(selected){removeUnit(number)
+            setUnitNumber(0)
+        }
+        else{setUnitNumber(number)}
+        setSelected(!selected)
+        
+    }
+      return (
+    <button
+      className={selected ? 'is-selected' : ''}
+      onClick={() =>handdleClick(number) }
+    >
+      {number}
+    </button>
+  );
+}
+
   
   export default UnitButton;
