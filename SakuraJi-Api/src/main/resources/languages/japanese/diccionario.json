@@ -3227,12 +3227,12 @@
         "example": [
           {
             "sentence": "はしでごはんを食べます。",
-            "hiragana": "はしでごはんをたべます。",
+            "spelling": "はしでごはんをたべます。",
             "translation": "Como arroz con palillos."
           },
           {
             "sentence": "日本語で話します。",
-            "hiragana": "にほんごではなします。",
+            "spelling": "にほんごではなします。",
             "translation": "Hablo en japonés."
           }
         ]
@@ -3246,12 +3246,12 @@
         "example": [
           {
             "sentence": "友達に本をあげます。",
-            "hiragana": "ともだちにほんをあげます。",
+            "spelling": "ともだちにほんをあげます。",
             "translation": "Le doy un libro a un amigo."
           },
           {
             "sentence": "先生からプレゼントをもらいました。",
-            "hiragana": "せんせいからぷれぜんとをもらいました。",
+            "spelling": "せんせいからぷれぜんとをもらいました。",
             "translation": "Recibí un regalo del profesor."
           }
         ]
@@ -3265,7 +3265,7 @@
         "example": [
           {
             "sentence": "「ありがとう」は英語で何と言いますか。",
-            "hiragana": "「ありがとう」はえいごでなんといいますか。",
+            "spelling": "「ありがとう」はえいごでなんといいますか。",
             "translation": "¿Cómo se dice 'gracias' en inglés?"
           }
         ]
@@ -3279,7 +3279,7 @@
         "example": [
           {
             "sentence": "もう宿題をしましたか。",
-            "hiragana": "もうしゅくだいをしましたか.",
+            "spelling": "もうしゅくだいをしましたか.",
             "translation": "¿Ya hiciste la tarea?"
           },
           {
@@ -3302,12 +3302,12 @@
         "example": [
           {
             "sentence": "（を）見ます。",
-            "hiragana": "（を）みます。",
+            "spelling": "（を）みます。",
             "translation": "(Lo) veo."
           },
           {
             "sentence": "（は）大丈夫です。",
-            "hiragana": "（は）だいじょうぶです。",
+            "spelling": "（は）だいじょうぶです。",
             "translation": "(Eso) está bien."
           }
         ]
@@ -3699,12 +3699,12 @@
         "example": [
           {
             "sentence": "この本はおもしろいです。",
-            "hiragana": "このほんはおもしろいです。",
+            "spelling": "このほんはおもしろいです。",
             "translation": "Este libro es interesante."
           },
           {
             "sentence": "部屋はきれいです。",
-            "hiragana": "へやはきれいです。",
+            "spelling": "へやはきれいです。",
             "translation": "La habitación es limpia/bonita."
           }
         ]
@@ -3720,17 +3720,17 @@
         "example": [
           {
             "sentence": "この本はおもしろくないです。",
-            "hiragana": "このほんはおもしろくないです。",
+            "spelling": "このほんはおもしろくないです。",
             "translation": "Este libro no es interesante."
           },
           {
             "sentence": "昨日の映画はおもしろかったです。",
-            "hiragana": "きのうのえいがはおもしろかったです。",
+            "spelling": "きのうのえいがはおもしろかったです。",
             "translation": "La película de ayer fue interesante."
           },
           {
             "sentence": "その映画はおもしろくなかったです。",
-            "hiragana": "そのえいがはおもしろくなかったです。",
+            "spelling": "そのえいがはおもしろくなかったです。",
             "translation": "Esa película no fue interesante."
           }
         ]
@@ -3746,17 +3746,17 @@
         "example": [
           {
             "sentence": "この部屋は静かじゃないです。",
-            "hiragana": "このへやはしずかじゃないです。",
+            "spelling": "このへやはしずかじゃないです。",
             "translation": "Esta habitación no es tranquila."
           },
           {
             "sentence": "昨日の部屋は静かでした。",
-            "hiragana": "きのうのへやはしずかでした。",
+            "spelling": "きのうのへやはしずかでした。",
             "translation": "La habitación de ayer fue tranquila."
           },
           {
             "sentence": "その部屋は静かじゃなかったです。",
-            "hiragana": "そのへやはしずかじゃなかったです。",
+            "spelling": "そのへやはしずかじゃなかったです。",
             "translation": "Esa habitación no fue tranquila."
           }
         ]
@@ -3771,12 +3771,12 @@
         "example": [
           {
             "sentence": "大きい部屋",
-            "hiragana": "おおきいへや",
+            "spelling": "おおきいへや",
             "translation": "Habitación grande"
           },
           {
             "sentence": "静かな町",
-            "hiragana": "しずかなまち",
+            "spelling": "しずかなまち",
             "translation": "Ciudad tranquila"
           }
         ]
@@ -3790,12 +3790,12 @@
         "example": [
           {
             "sentence": "この映画はとてもおもしろいです。",
-            "hiragana": "このえいがはとてもおもしろいです。",
+            "spelling": "このえいがはとてもおもしろいです。",
             "translation": "Esta película es muy interesante."
           },
           {
             "sentence": "この本はあまりおもしろくないです。",
-            "hiragana": "このほんはあまりおもしろくないです.",
+            "spelling": "このほんはあまりおもしろくないです.",
             "translation": "Este libro no es muy interesante."
           }
         ]
@@ -3809,7 +3809,7 @@
         "example": [
           {
             "sentence": "日本の生活はどうですか。",
-            "hiragana": "にほんのせいかつはどうですか。",
+            "spelling": "にほんのせいかつはどうですか。",
             "translation": "¿Cómo es la vida en Japón?"
           }
         ]
@@ -3823,7 +3823,7 @@
         "example": [
           {
             "sentence": "どんな本が好きですか。",
-            "hiragana": "どんなほんがすきですか。",
+            "spelling": "どんなほんがすきですか。",
             "translation": "¿Qué tipo de libros te gustan?"
           }
         ]
@@ -3837,7 +3837,7 @@
         "example": [
           {
             "sentence": "この部屋は広いですが、あまり静かじゃありません。",
-            "hiragana": "このへやはひろいですが、あまりしずかじゃありません。",
+            "spelling": "このへやはひろいですが、あまりしずかじゃありません。",
             "translation": "Esta habitación es grande, pero no es muy tranquila."
           }
         ]
@@ -3851,7 +3851,7 @@
         "example": [
           {
             "sentence": "カリナさんの傘はどれですか。",
-            "hiragana": "かりなさんのかさはどれですか。",
+            "spelling": "かりなさんのかさはどれですか。",
             "translation": "¿Cuál es el paraguas de Karina?"
           }
         ]
@@ -4033,7 +4033,7 @@
       {
         "type": "Vocabulario",
         "word": "ひらがな",
-        "translation": ["Hiragana"],
+        "translation": ["spelling"],
         "meaning": "Silabario japonés.",
         "pronunciation": ["ひらがな"],
         "url_imagen": null
@@ -4338,12 +4338,12 @@
         "example": [
           {
             "sentence": "日本語がわかります。",
-            "hiragana": "にほんごがわかります。",
+            "spelling": "にほんごがわかります。",
             "translation": "Entiendo japonés."
           },
           {
             "sentence": "さしみがきらいです。",
-            "hiragana": "さしみがきらいです。",
+            "spelling": "さしみがきらいです。",
             "translation": "No me gusta el sashimi."
           }
         ]
@@ -4356,7 +4356,7 @@
         "example": [
           {
             "sentence": "どんなスポーツがすきですか。",
-            "hiragana": "どんなすぽーつがすきですか。",
+            "spelling": "どんなすぽーつがすきですか。",
             "translation": "¿Qué tipo de deportes te gustan?"
           }
         ]
@@ -4370,12 +4370,12 @@
         "example": [
           {
             "sentence": "英語がよくわかります。",
-            "hiragana": "えいごがよくわかります。",
+            "spelling": "えいごがよくわかります。",
             "translation": "Entiendo bien el inglés."
           },
           {
             "sentence": "お酒はあまり飲みません。",
-            "hiragana": "おさけはあまりのみません。",
+            "spelling": "おさけはあまりのみません。",
             "translation": "No bebo mucho alcohol."
           }
         ]
@@ -4389,7 +4389,7 @@
         "example": [
           {
             "sentence": "今日は忙しいですから、行きません。",
-            "hiragana": "きょうはいそがしいですから、いきません。",
+            "spelling": "きょうはいそがしいですから、いきません。",
             "translation": "Hoy estoy ocupado, así que no voy."
           }
         ]
@@ -4403,7 +4403,7 @@
         "example": [
           {
             "sentence": "日本語は好きですが、あまり話せません。",
-            "hiragana": "にほんごはすきですが、あまりはなせません。",
+            "spelling": "にほんごはすきですが、あまりはなせません。",
             "translation": "Me gusta el japonés, pero no lo hablo mucho."
           }
         ]
@@ -4419,17 +4419,17 @@
         "example": [
           {
             "sentence": "どうして日本語を勉強しますか。",
-            "hiragana": "どうしてにほんごをべんきょうしますか。",
+            "spelling": "どうしてにほんごをべんきょうしますか。",
             "translation": "¿Por qué estudias japonés?"
           },
           {
             "sentence": "なぜ遅れましたか。",
-            "hiragana": "なぜおくれましたか。",
+            "spelling": "なぜおくれましたか。",
             "translation": "¿Por qué llegaste tarde?"
           },
           {
             "sentence": "仕事が忙しいからです。",
-            "hiragana": "しごとがいそがしいからです。",
+            "spelling": "しごとがいそがしいからです。",
             "translation": "Porque el trabajo está ocupado."
           }
         ]
@@ -4924,7 +4924,7 @@
         "example": [
           {
             "sentence": "つくえの上に本があります。",
-            "hiragana": "つくえのうえにほんがあります。",
+            "spelling": "つくえのうえにほんがあります。",
             "translation": "Hay un libro sobre la mesa."
           }
         ]
@@ -4942,32 +4942,32 @@
         "example": [
           {
             "sentence": "へやにねこがいます。",
-            "hiragana": "へやにねこがいます。",
+            "spelling": "へやにねこがいます。",
             "translation": "Hay un gato en la habitación."
           },
           {
             "sentence": "いぬはにわにいます。",
-            "hiragana": "いぬはにわにいます。",
+            "spelling": "いぬはにわにいます。",
             "translation": "El perro está en el jardín."
           },
           {
             "sentence": "へやにだれがいますか。",
-            "hiragana": "へやにだれがいますか。",
+            "spelling": "へやにだれがいますか。",
             "translation": "¿Quién está en la habitación?"
           },
           {
             "sentence": "かぎはどこにありますか。",
-            "hiragana": "かぎはどこにありますか。",
+            "spelling": "かぎはどこにありますか。",
             "translation": "¿Dónde están las llaves?"
           },
           {
             "sentence": "こうえんにこどもがさんにんいます。",
-            "hiragana": "こうえんにこどもがさんにんいます。",
+            "spelling": "こうえんにこどもがさんにんいます。",
             "translation": "Hay tres niños en el parque."
           },
           {
             "sentence": "こうえんにこどもはいません。",
-            "hiragana": "こうえんにこどもはいません。",
+            "spelling": "こうえんにこどもはいません。",
             "translation": "No hay niños en el parque."
           }
         ]
@@ -4981,7 +4981,7 @@
         "example": [
           {
             "sentence": "いすはテーブルの下にあります。",
-            "hiragana": "いすはてーぶるのしたにあります。",
+            "spelling": "いすはてーぶるのしたにあります。",
             "translation": "La silla está debajo de la mesa."
           }
         ]
@@ -4995,7 +4995,7 @@
         "example": [
           {
             "sentence": "冷蔵庫にジュースや水があります。",
-            "hiragana": "れいぞうこにじゅーすやみずがあります。",
+            "spelling": "れいぞうこにじゅーすやみずがあります。",
             "translation": "En la nevera hay zumo, agua, etc."
           }
         ]
@@ -5009,7 +5009,7 @@
         "example": [
           {
             "sentence": "部屋に椅子がたくさんあります。",
-            "hiragana": "へやにいすがたくさんあります。",
+            "spelling": "へやにいすがたくさんあります。",
             "translation": "Hay muchas sillas en la habitación."
           }
         ]
@@ -5023,7 +5023,7 @@
         "example": [
           {
             "sentence": "トイレはどこにありますか。",
-            "hiragana": "といれはどこにありますか。",
+            "spelling": "といれはどこにありますか。",
             "translation": "¿Dónde está el baño?"
           }
         ]

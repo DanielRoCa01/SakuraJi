@@ -19,7 +19,7 @@ public class Grammar {
 
 
         private String sentence;
-        private String hiragana;
+        private String spelling;
         private String translation;
 
         public Example(String translation, String sentence) {

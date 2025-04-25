@@ -26,30 +26,28 @@ public class JapaneseLessonsController {
 
     // En JapaneseLessonsController.java
 
-    @GetMapping("/{language}/{lessonNumber}/entries")
-    public ResponseEntity<List<Entry>> getEntriesByLesson(
+    @GetMapping("/vocabulary/{language}/{lessonNumber}")
+    public ResponseEntity<Lesson> getEntriesByLesson(
             @PathVariable String language,
             @PathVariable int lessonNumber,
             @RequestParam(required = false) String type) {
 
-        List<Entry> filteredEntries = service.getEntriesByLesson(language, lessonNumber, type);
+        Lesson filteredEntries = service.getEntriesByLesson(language, lessonNumber);
         return ResponseEntity.ok(filteredEntries);
     }
 
-    @GetMapping("/{language}/{lessonNumber}/grammars")
-    public ResponseEntity<List<Grammar>> getGrammarsByLesson(
+    @GetMapping("/grammar/{language}/{lessonNumber}")
+    public ResponseEntity<Lesson> getGrammarsByLesson(
             @PathVariable String language,
             @PathVariable int lessonNumber) {
 
-        List<Grammar> grammars = service.getGrammarsByLesson(language, lessonNumber);
-        return grammars.isEmpty()
-                ? ResponseEntity.notFound().build()
-                : ResponseEntity.ok(grammars);
+        Lesson grammars = service.getGrammarsByLesson(language, lessonNumber);
+        return  ResponseEntity.ok(grammars);
     }
 
 
 
-    @GetMapping("/{language}/search")
+    @GetMapping("/search/{language}")
     public ResponseEntity<List<Entry>> searchEntries(
             @PathVariable String language,
             @RequestParam String term) {
@@ -57,7 +55,7 @@ public class JapaneseLessonsController {
         return ResponseEntity.ok(resultados);
     }
 
-    @GetMapping("/{language}/lessons")
+    @GetMapping("/lessons/{language}")
     public ResponseEntity<List<Lesson>> getLessons(@PathVariable String language) {
         return ResponseEntity.ok(service.cargarLecciones(language));
     }

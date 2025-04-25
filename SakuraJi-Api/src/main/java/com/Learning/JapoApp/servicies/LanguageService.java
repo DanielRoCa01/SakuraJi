@@ -3,18 +3,11 @@ package com.Learning.JapoApp.servicies;
 
 import com.Learning.JapoApp.dao.LanguageRepository;
 import com.Learning.JapoApp.entities.Entry;
-import com.Learning.JapoApp.entities.Grammar;
 import com.Learning.JapoApp.entities.Language;
 import com.Learning.JapoApp.entities.Lesson;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -47,25 +40,23 @@ public class LanguageService {
     }
     // En JapaneseLessonsService.java
 
-    public List<Entry> getEntriesByLesson(String language, int lessonNumber, String type) {
+    public Lesson getEntriesByLesson(String language, int lessonNumber) {
         List<Lesson> lessons = cargarLecciones(language);
-        return lessons.stream()
+        Lesson lesson=lessons.stream()
                 .filter(l -> l.getNumber() == lessonNumber)
-                .findFirst()
-                .map(Lesson::getEntries)
-                .orElse(Collections.emptyList())
-                .stream()
-                .filter(e -> type == null || e.getType().equals(type))
-                .collect(Collectors.toList());
+                .findFirst().get();
+        lesson.setGrammars(new ArrayList<>());
+        return lesson;
     }
 
-    public List<Grammar> getGrammarsByLesson(String language, int lessonNumber) {
+    public Lesson getGrammarsByLesson(String language, int lessonNumber) {
         List<Lesson> lessons = cargarLecciones(language);
-        return lessons.stream()
+
+        Lesson lesson=lessons.stream()
                 .filter(l -> l.getNumber() == lessonNumber)
-                .findFirst()
-                .map(Lesson::getGrammars)
-                .orElse(Collections.emptyList());
+                .findFirst().get();
+        lesson.setEntries(new ArrayList<Entry>());
+        return lesson;
     }
     // En JapaneseLessonsService.java
 
