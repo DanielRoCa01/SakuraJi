@@ -326,17 +326,106 @@
     ]
   ,
     "grammars": [
-      {
-        "structure": "~は~です",
-        "explanation": "Se usa para describir algo o alguien.",
-        "example": "私は学生です (Yo soy estudiante)"
-      },
-      {
-        "structure": "~が好きです",
-        "explanation": "Se usa para expresar gustos.",
-        "example": "犬が好きです (Me gustan los perros)"
-      }
-    ]
+
+        {
+          "structure": "S₁ は S₂ です",
+          "explanation": [
+            "La partícula は indica el sujeto (S₁) que precede.",
+            "Los sustantivos usados con です funcionan como predicados. です indica el juicio o afirmación y también transmite cortesía por parte del hablante con relación al oyente."
+          ],
+          "example": [
+            {
+              "sentence": "わたしはマイク・ミラーです。",
+              "translation": "Yo soy Mike Miller."
+            },
+            {
+              "sentence": "わたしは会社員です。",
+              "translation": "Yo soy empleado de una compañía."
+            }
+          ]
+        },
+        {
+          "structure": "S₁ は S₂じゃ(では)ありません",
+          "explanation": [
+            "じゃ(では)ありません es la forma negativa de です. じゃありません se emplea en la conversación cotidiana. En discursos o en escritos formales se dice では ありません。"
+          ],
+          "example": [
+            {
+              "sentence": "サントスさんは学生じゃありません。",
+              "translation": "Santos no es estudiante."
+            }
+          ]
+        },
+        {
+          "structure": "S₁ は S₂ですか (Oración interrogativa)",
+          "explanation": [
+            "La partícula か es usada para expresar duda, inseguridad, etc. por parte del hablante.",
+            "Agregándose か al final de una oración se puede formar una oración interrogativa.",
+            "Oración interrogativa que exige una respuesta afirmativa o negativa: Se obtiene la forma interrogativa agregándose la partícula か al final de una oración sin marcar el orden de las palabras."
+          ],
+          "example": [
+            {
+              "sentence": "ミラーさんはアメリカ人ですか。",
+              "translation": "¿Es el Sr. Miller estadounidense?"
+            },
+            {
+              "sentence": "はい、アメリカ人です。",
+              "translation": "Sí, es estadounidense."
+            },
+            {
+              "sentence": "ミラーさんは先生ですか。",
+              "translation": "¿Es el Sr. Miller profesor?"
+            },
+            {
+              "sentence": "いいえ、先生じゃありません。",
+              "translation": "No, no es profesor."
+            }
+          ]
+        },
+        {
+          "structure": "S も",
+          "explanation": [
+            "Cuando se hace una afirmación con la idea de que un hecho similar ya ha ocurrido, se usa も."
+          ],
+          "example": [
+            {
+              "sentence": "ミラーさんは会社員です。グプタさんも会社員です。",
+              "translation": "El Sr. Miller es empleado de una empresa. El Sr. Gupta también es empleado de una empresa."
+            }
+          ]
+        },
+        {
+          "structure": "S₁ の S₂",
+          "explanation": [
+            "Cuando S₁ modifica a S₂, se conectan S₁ y S₂ con la partícula の. En la lección 1, S₁ representa un organismo o algún grupo al que pertenece S₂."
+          ],
+          "example": [
+            {
+              "sentence": "ミラーさんはIMCの社員です。",
+              "translation": "El Sr. Miller es empleado de IMC."
+            }
+          ]
+        },
+        {
+          "structure": "～さん",
+          "explanation": [
+            "En japonés se agrega さん al apellido o al nombre del oyente o de una tercera persona.",
+            "Normalmente al referirse directamente al interlocutor, cuyo nombre no se conoce, no se usa あなた (tú). En general, se le dirige la palabra agregándose さん a su nombre."
+          ],
+          "example": [
+            {
+              "sentence": "あの方はミラーさんです。",
+              "translation": "Aquella persona es el Sr. Miller."
+            },
+            {
+              "sentence": "鈴木：ミラーさんは学生ですか。\nミラー：いいえ、会社員です。",
+              "translation": "Suzuki: ¿Es Ud. estudiante?\nMiller: No, soy empleado de una empresa."
+            }
+          ]
+        }
+      ]
+
+
   },
   {
     "number": 2,
@@ -761,16 +850,135 @@
   ,
     "grammars": [
       {
-        "structure": "~をください",
-        "explanation": null,
-        "example": null
+        "structure": "これ/それ/あれ は Sustantivo です",
+        "explanation": [
+          "これ, それ y あれ son pronombres demostrativos y funcionan gramaticalmente como sustantivos.",
+          "これ se refiere a objetos próximos al hablante.",
+          "それ se refiere a objetos próximos al oyente.",
+          "あれ se refiere a objetos que están lejos tanto del hablante como del oyente."
+        ],
+        "example": [
+          {
+            "sentence": "これは 辞書ですか。",
+            "translation": "¿Es esto un diccionario?"
+          },
+          {
+            "sentence": "それは 誰の傘ですか。",
+            "translation": "¿De quién es este paraguas?"
+          }
+        ]
       },
       {
-        "structure": "~があります",
-        "explanation": null,
-        "example": null
+        "structure": "この/その/あの Sustantivo",
+        "explanation": [
+          "この, その y あの modifican a los sustantivos."
+        ],
+        "example": [
+          {
+            "sentence": "この本は わたしのです。",
+            "translation": "Este libro es mío."
+          },
+          {
+            "sentence": "あの方は どなたですか。",
+            "translation": "¿Quién es aquella persona?"
+          }
+        ]
+      },
+      {
+        "structure": "そうです",
+        "explanation": [
+          "En caso de una oración nominal, normalmente el término そうです es usado para contestar afirmativamente a una pregunta que requiere una respuesta afirmativa o negativa. La respuesta afirmativa en este caso es はい、そうです。"
+        ],
+        "example": [
+          {
+            "sentence": "それは 辞書ですか。\nはい、そうです。",
+            "translation": "¿Es eso un diccionario?\nSí, lo es."
+          },
+          {
+            "sentence": "それはミラーさんですか。\nいいえ、違います。",
+            "translation": "¿Es ese el Sr. Miller?\nNo, no lo es."
+          },
+          {
+            "sentence": "それは シャープペンシルですか。\nいいえ、ボールペンです。",
+            "translation": "¿Es eso un portaminas?\nNo, es un bolígrafo."
+          }
+        ]
+      },
+      {
+        "structure": "～か、～か",
+        "explanation": [
+          "～か、～か es una oración interrogativa que requiere que el oyente seleccione la respuesta correcta de entre dos o más oraciones interrogativas. Al contestar a este tipo de pregunta, se selecciona la alternativa sin usar はい o いいえ."
+        ],
+        "example": [
+          {
+            "sentence": "これは「９」ですか。「７」ですか。",
+            "translation": "¿Es esto \"9\" o \"7\"?"
+          },
+          {
+            "sentence": "「９」です。",
+            "translation": "Es \"9\"."
+          }
+        ]
+      },
+      {
+        "structure": "S₁ の S₂",
+        "explanation": [
+          "En la lección 1, hemos visto que se conectan S₁ y S₂ con の cuando S₁ califica a S₂. En esta lección 2, se aprenden las formas de usar の abajo indicadas.",
+          "S₁ aclara qué es S₂.",
+          "S₁ aclara a quién pertenece S₂."
+        ],
+        "example": [
+          {
+            "sentence": "これはコンピューターの 本です。",
+            "translation": "Este es un libro sobre computadoras."
+          },
+          {
+            "sentence": "これは わたしの 本です。",
+            "translation": "Este es mi libro."
+          }
+        ]
+      },
+      {
+        "structure": "の como sustituto del sustantivo",
+        "explanation": [
+          "La partícula の se usa en el lugar del sustantivo que apareció anteriormente."
+        ],
+        "example": [
+          {
+            "sentence": "これはだれの傘ですか。\n佐藤さんのです。",
+            "translation": "¿De quién es aquella maleta?\nEs de la Srta. Sato."
+          },
+          {
+            "sentence": "このかばんはあなたのですか。\nいいえ、わたしのではありません。",
+            "translation": "¿Es esta maleta suya?\nNo, no es mía."
+          },
+          {
+            "sentence": "ミラーさんはIMCの社員ですか。\nはい、IMCの社員です。",
+            "translation": "¿Es el Sr. Miller empleado de IMC?\nSí, es empleado de IMC."
+          }
+        ]
+      },
+      {
+        "structure": "お～",
+        "explanation": [
+          "Cuando se agrega el prefijo お a un sustantivo, se expresa cortesía (por ejemplo, おみやげ, おさけ)."
+        ]
+      },
+      {
+        "structure": "そうですか",
+        "explanation": [
+          "Se emplea esta expresión para manifestar que una persona ha entendido la información recibida.",
+          "Se pronuncia con la entonación descendente."
+        ],
+        "example": [
+          {
+            "sentence": "この傘はあなたのですか。\nいいえ、違います。シュミットさんのです。\nそうですか。",
+            "translation": "¿Es este paraguas suyo?\nNo, no lo es. Es del Sr. Schmidt.\nAh, sí."
+          }
+        ]
       }
     ]
+
   },
   {
     "number" : 3,
@@ -1178,7 +1386,103 @@
       }
     ]
   ,
-    "grammars": []
+    "grammars": [
+      {
+        "structure": "Aquí/Allí/Allá こ/そ/あ + Indicadores de lugar (こ, そ, あ)",
+        "explanation": [
+          "Los adverbios ここ, そこ, あそこ indican lugares.",
+          "Aquí (ここ) se refiere al lugar donde está el hablante.",
+          "Allí (そこ) al lugar donde está el oyente.",
+          "Allá (あそこ) a un lugar distante tanto del hablante como del oyente.",
+          "Cuando el hablante considera que el oyente se encuentra dentro de su territorio, el lugar donde ambos están se indica con la palabra Aquí (ここ).",
+          "Allí (そこ) designa un punto un poco distante tanto del hablante como del oyente, y Allá (あそこ) designa un lugar todavía más distante."
+        ]
+      },
+      {
+        "structure": "Direcciones こ/そ/あ - こちら/そちら/あちら",
+        "explanation": [
+          "Por otro lado, こちら, そちら y あちら son adverbios que se refieren a direcciones, pero también se emplean para indicar lugares cercanos y, en este caso, son formas más corteses que ここ, そこ あそこ."
+        ]
+      },
+      {
+        "structure": "S は lugar です",
+        "explanation": [
+          "Esta frase modelo sirve para indicar el lugar donde se encuentran objetos, lugares, personas, etc."
+        ],
+        "example": [
+          {
+            "sentence": "お手洗いは あそこです。",
+            "translation": "El servicio está allí."
+          },
+          {
+            "sentence": "電話は２階です。",
+            "translation": "El teléfono está en el piso 2."
+          },
+          {
+            "sentence": "山田さんは事務所です。",
+            "translation": "El Sr. Yamada está en la oficina."
+          }
+        ]
+      },
+      {
+        "structure": "¿Dónde/En qué dirección? どこ/どちら",
+        "explanation": [
+          "どこ se usa para preguntar por el lugar y どちら por la dirección. A veces se usa どちら para preguntar por el lugar, en ese caso, es una forma más cortés que どこ.",
+          "Al preguntar por el nombre del país, compañía, escuela, organización, etc. al que pertenece, se emplean どこ o どちら en vez de なん. どちら es una forma más cortés que どこ."
+        ],
+        "example": [
+          {
+            "sentence": "お手洗いはどこですか。",
+            "translation": "¿Dónde está el servicio?"
+          },
+          {
+            "sentence": "エレベーターはどちらですか。",
+            "translation": "¿Dónde está el ascensor?"
+          },
+          {
+            "sentence": "学校はどこですか。",
+            "translation": "¿Cuál es tu escuela?"
+          },
+          {
+            "sentence": "会社はどちらですか。",
+            "translation": "¿En qué empresa trabaja Ud.?"
+          }
+        ]
+      },
+      {
+        "structure": "S₁ の S₂ (Lugar de procedencia)",
+        "explanation": [
+          "Cuando S₁ representa el nombre de un país, y S₂ un producto, S₁ の indica el lugar o país donde se fabricó S₂. Cuando S₁ representa el nombre de una empresa y S₂, el producto, S₁ の significa que S₂ está hecho por esa empresa. En ambos casos la pregunta correspondiente emplea el término interrogativo どこ."
+        ],
+        "example": [
+          {
+            "sentence": "これはどこのコンピューターですか。",
+            "translation": "¿De dónde es esta computadora?/¿Cuál es el fabricante de esta computadora?"
+          },
+          {
+            "sentence": "日本のコンピューターです。",
+            "translation": "Es una computadora de Japón./Ha sido fabricada en Japón."
+          },
+          {
+            "sentence": "パワー電気のコンピューターです。",
+            "translation": "Es una computadora de Power Electric./Ha sido fabricada por Power Electric."
+          }
+        ]
+      },
+      {
+        "structure": "お～ (Prefijo)",
+        "explanation": [
+          "El prefijo お se agrega a una palabra que se refiere al oyente o a una tercera persona a fin de expresar el respeto del hablante."
+        ],
+        "example": [
+          {
+            "sentence": "[お国]はどちらですか。",
+            "translation": "¿De qué país es Ud.?"
+          }
+        ]
+      }
+    ]
+
   },
   {
     "number" : 4,
@@ -1618,7 +1922,128 @@
       }
     ]
   ,
-    "grammars": []
+    "grammars": [
+      {
+        "structure": "[Número] 時 [Número] 分 です",
+        "explanation": [
+          "Se usan los sufijos 時 (horas) y 分 (minutos).",
+          "分 se pronuncia ぷん o ふん según el número.",
+          "Para preguntar la hora se usa 何時ですか."
+        ],
+        "example": [
+          {
+            "sentence": "今 何時ですか。",
+            "translation": "¿Qué hora es?"
+          },
+          {
+            "sentence": "7時10分です。",
+            "translation": "Son las 7 y 10."
+          }
+        ]
+      },
+      {
+        "structure": "Vます / Vません / Vました / Vませんでした",
+        "explanation": [
+          "Formas verbales para expresar acciones en presente, futuro y pasado, afirmativas y negativas.",
+          "Vます indica cortesía."
+        ],
+        "example": [
+          {
+            "sentence": "わたしは毎日勉強します。",
+            "translation": "Yo estudio todos los días."
+          },
+          {
+            "sentence": "昨日勉強しましたか。",
+            "translation": "¿Estudiaste ayer?"
+          }
+        ]
+      },
+      {
+        "structure": "Verbo(ます)か",
+        "explanation": [
+          "Se añade か para formar preguntas.",
+          "Para responder se repite el verbo."
+        ],
+        "example": [
+          {
+            "sentence": "昨日勉強しましたか。",
+            "translation": "¿Estudiaste ayer?"
+          },
+          {
+            "sentence": "はい、勉強しました。",
+            "translation": "Sí, estudié."
+          }
+        ]
+      },
+      {
+        "structure": "S (tiempo) に V",
+        "explanation": [
+          "に indica el momento en que ocurre la acción.",
+          "Se puede omitir con expresiones de tiempo comunes."
+        ],
+        "example": [
+          {
+            "sentence": "6時半に起きます。",
+            "translation": "Me levanto a las seis y media."
+          }
+        ]
+      },
+      {
+        "structure": "Días de la semana (曜日)",
+        "explanation": [
+          "Se usan para indicar días.",
+          "Ejemplo: 月曜日 (lunes), 火曜日 (martes), etc."
+        ],
+        "example": [
+          {
+            "sentence": "今日は何曜日ですか。",
+            "translation": "¿Qué día es hoy?"
+          },
+          {
+            "sentence": "月曜日です。",
+            "translation": "Es lunes."
+          }
+        ]
+      },
+      {
+        "structure": "から / まで",
+        "explanation": [
+          "から indica el inicio y まで el fin de un periodo."
+        ],
+        "example": [
+          {
+            "sentence": "9時から5時まで働きます。",
+            "translation": "Trabajo de 9 a 5."
+          }
+        ]
+      },
+      {
+        "structure": "と",
+        "explanation": [
+          "Se usa para enumerar elementos."
+        ],
+        "example": [
+          {
+            "sentence": "山田さんと田中さんが来ます。",
+            "translation": "Vendrán Yamada y Tanaka."
+          }
+        ]
+      },
+      {
+        "structure": "ね",
+        "explanation": [
+          "Se usa al final para pedir confirmación o acuerdo.",
+          "Equivale a '¿verdad?' o '¿no?'."
+        ],
+        "example": [
+          {
+            "sentence": "いい天気ですね。",
+            "translation": "Hace buen tiempo, ¿verdad?"
+          }
+        ]
+      }
+    ]
+
   },
   {
     "number" : 5,
@@ -1842,7 +2267,127 @@
       }
     ]
   ,
-    "grammars": []
+    "grammars": [
+      {
+        "structure": "Lugar へ Verbo de movimiento",
+        "explanation": [
+          "La partícula へ (e) indica dirección y se usa con verbos de movimiento como ir (行きます), venir (来ます) y volver (帰ります).",
+          "Se pronuncia 'e' aunque se escribe 'he'."
+        ],
+        "example": [
+          {
+            "sentence": "学校へ行きます。",
+            "translation": "Voy a la escuela."
+          }
+        ]
+      },
+      {
+        "structure": "Medio de transporte/Idioma で Verbo",
+        "explanation": [
+          "La partícula で indica el medio o método por el cual se realiza una acción.",
+          "Se usa para medios de transporte, herramientas e idiomas."
+        ],
+        "example": [
+          {
+            "sentence": "電車で行きます。",
+            "translation": "Voy en tren."
+          },
+          {
+            "sentence": "日本語で話します。",
+            "translation": "Hablo en japonés."
+          }
+        ]
+      },
+      {
+        "structure": "Persona と Verbo",
+        "explanation": [
+          "La partícula と se usa para indicar compañía, es decir, con quién se realiza la acción."
+        ],
+        "example": [
+          {
+            "sentence": "友達と行きます。",
+            "translation": "Voy con un amigo."
+          }
+        ]
+      },
+      {
+        "structure": "どこも／なにも／だれも + Verbo negativo",
+        "explanation": [
+          "どこも con verbo negativo significa 'a ningún lugar'.",
+          "なにも con verbo negativo significa 'nada'.",
+          "だれも con verbo negativo significa 'nadie'.",
+          "Se usan para negar la existencia de destino, cosas o personas respectivamente."
+        ],
+        "example": [
+          {
+            "sentence": "どこも行きません。",
+            "translation": "No voy a ningún lugar."
+          },
+          {
+            "sentence": "なにも食べません。",
+            "translation": "No como nada."
+          },
+          {
+            "sentence": "だれも来ませんでした。",
+            "translation": "No vino nadie."
+          }
+        ]
+      },
+      {
+        "structure": "どこへ Verbo",
+        "explanation": [
+          "どこへ pregunta por el destino o lugar a donde se va."
+        ],
+        "example": [
+          {
+            "sentence": "どこへ行きますか。",
+            "translation": "¿A dónde vas?"
+          }
+        ]
+      },
+      {
+        "structure": "なにで Verbo",
+        "explanation": [
+          "なにで pregunta por el medio o método con el que se realiza una acción."
+        ],
+        "example": [
+          {
+            "sentence": "何で行きますか。",
+            "translation": "¿En qué vas?"
+          }
+        ]
+      },
+      {
+        "structure": "だれと Verbo",
+        "explanation": [
+          "だれと pregunta con quién se realiza la acción."
+        ],
+        "example": [
+          {
+            "sentence": "だれと行きますか。",
+            "translation": "¿Con quién vas?"
+          }
+        ]
+      },
+      {
+        "structure": "いつ",
+        "explanation": [
+          "いつ significa 'cuándo' y se usa para preguntar por el momento en que ocurre una acción.",
+          "No lleva partícula después."
+        ],
+        "example": [
+          {
+            "sentence": "いつ行きますか。",
+            "translation": "¿Cuándo vas?"
+          },
+          {
+            "sentence": "来週行きます。",
+            "translation": "Voy la próxima semana."
+          }
+        ]
+      }
+    ]
+
   },
   {
     "number" : 6,
@@ -2226,7 +2771,126 @@
       }
     ]
   ,
-    "grammars": []
+    "grammars": [
+      {
+        "structure": "Sustantivo を します",
+        "explanation": [
+          "します es la forma cortés del verbo する (hacer).",
+          "Se usa para expresar 'hacer' actividades, deportes, eventos, tareas, trabajos, etc.",
+          "Al combinarse con sustantivos, crea frases como 'jugar a', 'hacer', 'practicar', 'celebrar', etc."
+        ],
+        "example": [
+          {
+            "sentence": "サッカーをします。",
+            "translation": "Juego al fútbol."
+          },
+          {
+            "sentence": "しゅくだいをします。",
+            "translation": "Hago los deberes."
+          },
+          {
+            "sentence": "パーティーをします。",
+            "translation": "Hago una fiesta."
+          }
+        ]
+      },
+      {
+        "structure": "なに vs なん (何)",
+        "explanation": [
+          "Ambos significan 'qué', pero su uso depende de la partícula o palabra que sigue.",
+          "なに (nani) se usa antes de las partículas を, が, も y cuando 'qué' aparece solo.",
+          "なん (nan) se usa antes de las partículas の, で, です, だ, y antes de palabras que empiezan con d, n o t, o con contadores.",
+          "Ejemplos: 何を (nani o), 何が (nani ga), 何も (nani mo), 何の (nan no), 何で (nande), 何ですか (nan desu ka), 何人 (nan-nin, cuántas personas), 何時 (nan-ji, qué hora)."
+        ],
+        "example": [
+          {
+            "sentence": "何を食べますか。",
+            "translation": "¿Qué comes?"
+          },
+          {
+            "sentence": "これは何ですか。",
+            "translation": "¿Qué es esto?"
+          },
+          {
+            "sentence": "何人ですか。",
+            "translation": "¿Cuántas personas son?"
+          },
+          {
+            "sentence": "何時ですか。",
+            "translation": "¿Qué hora es?"
+          }
+        ]
+      },
+      {
+        "structure": "Sustantivo を Verbo",
+        "explanation": [
+          "La partícula を indica el objeto directo de la acción.",
+          "Se usa con verbos transitivos como comer, beber, leer, escuchar, ver, escribir, hacer, etc."
+        ],
+        "example": [
+          {
+            "sentence": "パンをたべます。",
+            "translation": "Como pan."
+          },
+          {
+            "sentence": "本をよみます。",
+            "translation": "Leo un libro."
+          }
+        ]
+      },
+      {
+        "structure": "Lugar で Verbo",
+        "explanation": [
+          "La partícula で indica el lugar donde se realiza la acción."
+        ],
+        "example": [
+          {
+            "sentence": "図書館で本を読みます。",
+            "translation": "Leo libros en la biblioteca."
+          }
+        ]
+      },
+      {
+        "structure": "いっしょに Vませんか",
+        "explanation": [
+          "Se usa para invitar a alguien a hacer algo juntos de forma cortés.",
+          "Equivale a '¿Te gustaría...?' o '¿Hacemos ... juntos?'."
+        ],
+        "example": [
+          {
+            "sentence": "いっしょにごはんを食べませんか。",
+            "translation": "¿Comemos juntos?"
+          }
+        ]
+      },
+      {
+        "structure": "Vましょう",
+        "explanation": [
+          "Se usa para proponer o sugerir hacer algo juntos.",
+          "Equivale a '¡Hagamos ...!'"
+        ],
+        "example": [
+          {
+            "sentence": "行きましょう。",
+            "translation": "¡Vamos!"
+          }
+        ]
+      },
+      {
+        "structure": "なにを Vますか",
+        "explanation": [
+          "Se usa para preguntar por el objeto directo de la acción.",
+          "なに (qué) + を + verbo."
+        ],
+        "example": [
+          {
+            "sentence": "何を飲みますか。",
+            "translation": "¿Qué bebes?"
+          }
+        ]
+      }
+    ]
+
   },
   {
     "number" :7,
@@ -2553,7 +3217,103 @@
       }
     ]
   ,
-    "grammars": []
+    "grammars": [
+      {
+        "structure": "Herramienta/Idioma で Verbo",
+        "explanation": [
+          "La partícula で (de) indica el medio, herramienta, utensilio o idioma con el que se realiza una acción.",
+          "Se usa para decir con qué se hace algo (por ejemplo, escribir con bolígrafo, hablar en japonés)."
+        ],
+        "example": [
+          {
+            "sentence": "はしでごはんを食べます。",
+            "hiragana": "はしでごはんをたべます。",
+            "translation": "Como arroz con palillos."
+          },
+          {
+            "sentence": "日本語で話します。",
+            "hiragana": "にほんごではなします。",
+            "translation": "Hablo en japonés."
+          }
+        ]
+      },
+      {
+        "structure": "Persona に/から Verbo",
+        "explanation": [
+          "La partícula に (ni) se usa para indicar la persona a quien se da o de quien se recibe algo.",
+          "から (kara) enfatiza el origen de la acción (de quién se recibe)."
+        ],
+        "example": [
+          {
+            "sentence": "友達に本をあげます。",
+            "hiragana": "ともだちにほんをあげます。",
+            "translation": "Le doy un libro a un amigo."
+          },
+          {
+            "sentence": "先生からプレゼントをもらいました。",
+            "hiragana": "せんせいからぷれぜんとをもらいました。",
+            "translation": "Recibí un regalo del profesor."
+          }
+        ]
+      },
+      {
+        "structure": "～は～で何と言いますか",
+        "explanation": [
+          "Estructura para preguntar cómo se dice una palabra o frase en otro idioma.",
+          "Se usa: 'Palabra' は 'idioma' で 何と言いますか。"
+        ],
+        "example": [
+          {
+            "sentence": "「ありがとう」は英語で何と言いますか。",
+            "hiragana": "「ありがとう」はえいごでなんといいますか。",
+            "translation": "¿Cómo se dice 'gracias' en inglés?"
+          }
+        ]
+      },
+      {
+        "structure": "もう / まだ",
+        "explanation": [
+          "もう (mou) significa 'ya', se usa para preguntar o afirmar si una acción ha sido realizada.",
+          "まだ (mada) significa 'todavía/no', se usa para preguntar o afirmar que una acción no ha ocurrido aún."
+        ],
+        "example": [
+          {
+            "sentence": "もう宿題をしましたか。",
+            "hiragana": "もうしゅくだいをしましたか.",
+            "translation": "¿Ya hiciste la tarea?"
+          },
+          {
+            "sentence": "はい、もうしました。",
+            "translation": "Sí, ya la hice."
+          },
+          {
+            "sentence": "いいえ、まだです。",
+            "translation": "No, todavía no."
+          }
+        ]
+      },
+      {
+        "structure": "Omisión de partículas",
+        "explanation": [
+          "En japonés coloquial, es común omitir partículas como を, は, が, など cuando el significado es claro por el contexto.",
+          "Esto ocurre especialmente en conversaciones informales, respuestas cortas y frases elípticas.",
+          "Sin embargo, en japonés formal y en la escritura, se recomienda no omitir partículas."
+        ],
+        "example": [
+          {
+            "sentence": "（を）見ます。",
+            "hiragana": "（を）みます。",
+            "translation": "(Lo) veo."
+          },
+          {
+            "sentence": "（は）大丈夫です。",
+            "hiragana": "（は）だいじょうぶです。",
+            "translation": "(Eso) está bien."
+          }
+        ]
+      }
+    ]
+
   },
   {
     "number" : 8,
@@ -2929,7 +3689,175 @@
       }
     ]
   ,
-    "grammars": []
+    "grammars": [
+      {
+        "structure": "Adjetivo です",
+        "explanation": [
+          "Los adjetivos -い y -な funcionan como predicado de la oración, igual que los sustantivos.",
+          "Estructura: Sujeto は adjetivo です."
+        ],
+        "example": [
+          {
+            "sentence": "この本はおもしろいです。",
+            "hiragana": "このほんはおもしろいです。",
+            "translation": "Este libro es interesante."
+          },
+          {
+            "sentence": "部屋はきれいです。",
+            "hiragana": "へやはきれいです。",
+            "translation": "La habitación es limpia/bonita."
+          }
+        ]
+      },
+      {
+        "structure": "Conjugación de adjetivos -い",
+        "explanation": [
+          "Presente afirmativo: ～いです",
+          "Presente negativo: ～くないです／～くありません",
+          "Pasado afirmativo: ～かったです",
+          "Pasado negativo: ～くなかったです／～くありませんでした"
+        ],
+        "example": [
+          {
+            "sentence": "この本はおもしろくないです。",
+            "hiragana": "このほんはおもしろくないです。",
+            "translation": "Este libro no es interesante."
+          },
+          {
+            "sentence": "昨日の映画はおもしろかったです。",
+            "hiragana": "きのうのえいがはおもしろかったです。",
+            "translation": "La película de ayer fue interesante."
+          },
+          {
+            "sentence": "その映画はおもしろくなかったです。",
+            "hiragana": "そのえいがはおもしろくなかったです。",
+            "translation": "Esa película no fue interesante."
+          }
+        ]
+      },
+      {
+        "structure": "Conjugación de adjetivos -な",
+        "explanation": [
+          "Presente afirmativo: ～です",
+          "Presente negativo: ～じゃないです／～じゃありません",
+          "Pasado afirmativo: ～でした",
+          "Pasado negativo: ～じゃなかったです／～じゃありませんでした"
+        ],
+        "example": [
+          {
+            "sentence": "この部屋は静かじゃないです。",
+            "hiragana": "このへやはしずかじゃないです。",
+            "translation": "Esta habitación no es tranquila."
+          },
+          {
+            "sentence": "昨日の部屋は静かでした。",
+            "hiragana": "きのうのへやはしずかでした。",
+            "translation": "La habitación de ayer fue tranquila."
+          },
+          {
+            "sentence": "その部屋は静かじゃなかったです。",
+            "hiragana": "そのへやはしずかじゃなかったです。",
+            "translation": "Esa habitación no fue tranquila."
+          }
+        ]
+      },
+      {
+        "structure": "Adjetivo + Sustantivo",
+        "explanation": [
+          "Los adjetivos pueden modificar directamente a un sustantivo.",
+          "Adjetivo -い: adjetivo + sustantivo. Ejemplo: 大きい部屋 (habitación grande).",
+          "Adjetivo -な: adjetivo + な + sustantivo. Ejemplo: 静かな町 (ciudad tranquila)."
+        ],
+        "example": [
+          {
+            "sentence": "大きい部屋",
+            "hiragana": "おおきいへや",
+            "translation": "Habitación grande"
+          },
+          {
+            "sentence": "静かな町",
+            "hiragana": "しずかなまち",
+            "translation": "Ciudad tranquila"
+          }
+        ]
+      },
+      {
+        "structure": "とても / あまり",
+        "explanation": [
+          "とても (totemo) significa 'muy' y se usa con adjetivos afirmativos.",
+          "あまり (amari) significa 'no muy' y se usa con adjetivos en negativo."
+        ],
+        "example": [
+          {
+            "sentence": "この映画はとてもおもしろいです。",
+            "hiragana": "このえいがはとてもおもしろいです。",
+            "translation": "Esta película es muy interesante."
+          },
+          {
+            "sentence": "この本はあまりおもしろくないです。",
+            "hiragana": "このほんはあまりおもしろくないです.",
+            "translation": "Este libro no es muy interesante."
+          }
+        ]
+      },
+      {
+        "structure": "～はどうですか",
+        "explanation": [
+          "Se usa para preguntar la opinión o impresión sobre algo.",
+          "Equivale a '¿Cómo es ~?' o '¿Qué te parece ~?'."
+        ],
+        "example": [
+          {
+            "sentence": "日本の生活はどうですか。",
+            "hiragana": "にほんのせいかつはどうですか。",
+            "translation": "¿Cómo es la vida en Japón?"
+          }
+        ]
+      },
+      {
+        "structure": "どんな + Sustantivo",
+        "explanation": [
+          "どんな se usa para preguntar por el tipo o clase de algo.",
+          "Equivale a '¿Qué tipo de ~?'."
+        ],
+        "example": [
+          {
+            "sentence": "どんな本が好きですか。",
+            "hiragana": "どんなほんがすきですか。",
+            "translation": "¿Qué tipo de libros te gustan?"
+          }
+        ]
+      },
+      {
+        "structure": "が (pero)",
+        "explanation": [
+          "La partícula が puede usarse como conjunción para unir dos frases y significa 'pero'.",
+          "Se usa para contrastar dos ideas."
+        ],
+        "example": [
+          {
+            "sentence": "この部屋は広いですが、あまり静かじゃありません。",
+            "hiragana": "このへやはひろいですが、あまりしずかじゃありません。",
+            "translation": "Esta habitación es grande, pero no es muy tranquila."
+          }
+        ]
+      },
+      {
+        "structure": "どれ",
+        "explanation": [
+          "どれ se usa para preguntar '¿cuál?' entre tres o más opciones.",
+          "Estructura: S1 の S2 は どれですか。"
+        ],
+        "example": [
+          {
+            "sentence": "カリナさんの傘はどれですか。",
+            "hiragana": "かりなさんのかさはどれですか。",
+            "translation": "¿Cuál es el paraguas de Karina?"
+          }
+        ]
+      }
+    ]
+
   },
   {
     "number" : 9,
@@ -3400,7 +4328,114 @@
       }
     ]
   ,
-    "grammars": []
+    "grammars": [
+      {
+        "structure": "Sustantivo/Verbo/Adjetivo が わかります／すきです／きらいです／じょうずです／へたです",
+        "explanation": [
+          "La partícula が se usa para marcar el objeto de verbos y adjetivos como わかります (entender), すきです (gustar), きらいです (odiar), じょうずです (ser hábil), へたです (ser torpe).",
+          "No se usa を en estas estructuras, sino が."
+        ],
+        "example": [
+          {
+            "sentence": "日本語がわかります。",
+            "hiragana": "にほんごがわかります。",
+            "translation": "Entiendo japonés."
+          },
+          {
+            "sentence": "さしみがきらいです。",
+            "hiragana": "さしみがきらいです。",
+            "translation": "No me gusta el sashimi."
+          }
+        ]
+      },
+      {
+        "structure": "どんな + Sustantivo",
+        "explanation": [
+          "どんな se usa para preguntar por el tipo o clase de algo, especialmente con gustos y preferencias."
+        ],
+        "example": [
+          {
+            "sentence": "どんなスポーツがすきですか。",
+            "hiragana": "どんなすぽーつがすきですか。",
+            "translation": "¿Qué tipo de deportes te gustan?"
+          }
+        ]
+      },
+      {
+        "structure": "Adverbios de grado: よく／だいたい／たくさん／すこし／あまり／ぜんぜん",
+        "explanation": [
+          "Se usan para indicar la frecuencia o cantidad en frases con わかります, できます, すきです, etc.",
+          "よく (a menudo/bien), だいたい (más o menos), たくさん (mucho), すこし (un poco), あまり (no mucho, con negativo), ぜんぜん (nada, con negativo)."
+        ],
+        "example": [
+          {
+            "sentence": "英語がよくわかります。",
+            "hiragana": "えいごがよくわかります。",
+            "translation": "Entiendo bien el inglés."
+          },
+          {
+            "sentence": "お酒はあまり飲みません。",
+            "hiragana": "おさけはあまりのみません。",
+            "translation": "No bebo mucho alcohol."
+          }
+        ]
+      },
+      {
+        "structure": "から (porque)",
+        "explanation": [
+          "から se usa para dar una razón o causa, equivalente a 'porque'.",
+          "Se coloca al final de la frase que expresa la causa."
+        ],
+        "example": [
+          {
+            "sentence": "今日は忙しいですから、行きません。",
+            "hiragana": "きょうはいそがしいですから、いきません。",
+            "translation": "Hoy estoy ocupado, así que no voy."
+          }
+        ]
+      },
+      {
+        "structure": "が (pero)",
+        "explanation": [
+          "が se usa como conjunción para unir dos frases y significa 'pero'.",
+          "Se usa para contrastar dos ideas."
+        ],
+        "example": [
+          {
+            "sentence": "日本語は好きですが、あまり話せません。",
+            "hiragana": "にほんごはすきですが、あまりはなせません。",
+            "translation": "Me gusta el japonés, pero no lo hablo mucho."
+          }
+        ]
+      },
+      {
+        "structure": "どうして / なぜ (por qué)",
+        "explanation": [
+          "どうして y なぜ significan 'por qué' y se usan para preguntar la razón o causa de algo.",
+          "Ambas son intercambiables, aunque どうして es más común en el habla cotidiana y なぜ en contextos formales o escritos.",
+          "La estructura típica es: Pregunta + どうして/なぜ + oración.",
+          "También se puede usar la partícula から (porque) para responder la causa."
+        ],
+        "example": [
+          {
+            "sentence": "どうして日本語を勉強しますか。",
+            "hiragana": "どうしてにほんごをべんきょうしますか。",
+            "translation": "¿Por qué estudias japonés?"
+          },
+          {
+            "sentence": "なぜ遅れましたか。",
+            "hiragana": "なぜおくれましたか。",
+            "translation": "¿Por qué llegaste tarde?"
+          },
+          {
+            "sentence": "仕事が忙しいからです。",
+            "hiragana": "しごとがいそがしいからです。",
+            "translation": "Porque el trabajo está ocupado."
+          }
+        ]
+      }
+    ]
+
   },
   {
     "number" : 10,
@@ -3879,6 +4914,121 @@
       }
     ]
   ,
-    "grammars": []
+    "grammars": [
+      {
+        "structure": "Verbos あります／います",
+        "explanation": [
+          "あります se usa para indicar la existencia de cosas inanimadas (objetos, plantas, etc.).",
+          "います se usa para indicar la existencia de seres animados (personas, animales)."
+        ],
+        "example": [
+          {
+            "sentence": "つくえの上に本があります。",
+            "hiragana": "つくえのうえにほんがあります。",
+            "translation": "Hay un libro sobre la mesa."
+          }
+        ]
+      },
+      {
+        "structure": "Estructuras con に + います／あります",
+        "explanation": [
+          "1. Lugar に + Sujeto が + います／あります: Indica que algo/alguien existe en un lugar.",
+          "2. [Objeto/Persona] は [Lugar] に います／あります: Enfatiza el objeto/persona y su ubicación.",
+          "3. [Lugar] に [何／だれ] が います／ありますか: Pregunta qué o quién hay en un lugar.",
+          "4. [Objeto/Persona] は どこに います／ありますか: Pregunta por la ubicación de algo o alguien.",
+          "5. [Lugar] に [Cantidad] [が] います／あります: Indica cuántos objetos/personas hay en un lugar.",
+          "En oraciones negativas, es común usar は en vez de が tras el sujeto."
+        ],
+        "example": [
+          {
+            "sentence": "へやにねこがいます。",
+            "hiragana": "へやにねこがいます。",
+            "translation": "Hay un gato en la habitación."
+          },
+          {
+            "sentence": "いぬはにわにいます。",
+            "hiragana": "いぬはにわにいます。",
+            "translation": "El perro está en el jardín."
+          },
+          {
+            "sentence": "へやにだれがいますか。",
+            "hiragana": "へやにだれがいますか。",
+            "translation": "¿Quién está en la habitación?"
+          },
+          {
+            "sentence": "かぎはどこにありますか。",
+            "hiragana": "かぎはどこにありますか。",
+            "translation": "¿Dónde están las llaves?"
+          },
+          {
+            "sentence": "こうえんにこどもがさんにんいます。",
+            "hiragana": "こうえんにこどもがさんにんいます。",
+            "translation": "Hay tres niños en el parque."
+          },
+          {
+            "sentence": "こうえんにこどもはいません。",
+            "hiragana": "こうえんにこどもはいません。",
+            "translation": "No hay niños en el parque."
+          }
+        ]
+      },
+      {
+        "structure": "Expresar ubicación",
+        "explanation": [
+          "Se usan palabras de posición como 上 (うえ, arriba), 下 (した, abajo), 中 (なか, dentro), 前 (まえ, delante), 後ろ (うしろ, detrás), そば (al lado), となり (al lado, vecino), 右 (みぎ, derecha), 左 (ひだり, izquierda).",
+          "Estructura: [Objeto] は [Lugar] の [posición] に あります／います。"
+        ],
+        "example": [
+          {
+            "sentence": "いすはテーブルの下にあります。",
+            "hiragana": "いすはてーぶるのしたにあります。",
+            "translation": "La silla está debajo de la mesa."
+          }
+        ]
+      },
+      {
+        "structure": "Partícula や para enumerar",
+        "explanation": [
+          "や se usa para enumerar varios objetos o lugares de forma no exhaustiva ('y', 'entre otros').",
+          "Estructura: A や B など"
+        ],
+        "example": [
+          {
+            "sentence": "冷蔵庫にジュースや水があります。",
+            "hiragana": "れいぞうこにじゅーすやみずがあります。",
+            "translation": "En la nevera hay zumo, agua, etc."
+          }
+        ]
+      },
+      {
+        "structure": "Adverbios de cantidad",
+        "explanation": [
+          "Se usan palabras como たくさん (muchos), すこし (pocos), ぜんぜん (nada, con negativo) para indicar cantidad.",
+          "Se colocan antes del verbo."
+        ],
+        "example": [
+          {
+            "sentence": "部屋に椅子がたくさんあります。",
+            "hiragana": "へやにいすがたくさんあります。",
+            "translation": "Hay muchas sillas en la habitación."
+          }
+        ]
+      },
+      {
+        "structure": "Preguntar por existencia y ubicación",
+        "explanation": [
+          "Para preguntar por la existencia: [Lugar] に [objeto/persona] が ありますか／いますか。",
+          "Para preguntar ubicación: [Objeto/persona] は どこに ありますか／いますか。"
+        ],
+        "example": [
+          {
+            "sentence": "トイレはどこにありますか。",
+            "hiragana": "といれはどこにありますか。",
+            "translation": "¿Dónde está el baño?"
+          }
+        ]
+      }
+    ]
+
   }
   ]
