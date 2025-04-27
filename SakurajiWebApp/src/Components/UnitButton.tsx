@@ -2,19 +2,19 @@ import { useState } from "react";
 
 interface UnitButtonProps {
   removeUnit:(value: number) => void;
-  setUnitNumber: (value: number) => void;
+  addUnitNumber: (value: number) => void;
   number: number;
   
   
 }
-function UnitButton({ removeUnit, number, setUnitNumber }: Readonly<UnitButtonProps>) {
+function UnitButton({ removeUnit, number, addUnitNumber }: Readonly<UnitButtonProps>) {
     const [selected,setSelected]=useState(false)
     const handdleClick=(number:number)=>{
         console.log("boton clickado")
         if(selected){removeUnit(number)
-            setUnitNumber(0)
+            
         }
-        else{setUnitNumber(number)}
+        else{addUnitNumber(number)}
         setSelected(!selected)
         
     }

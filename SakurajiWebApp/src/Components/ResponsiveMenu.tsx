@@ -5,21 +5,22 @@ import { Kana } from '../Entities/Kana';
 import { LOGO_IMG } from '../Constants';
 import LogoContainer from './LogoContainer';
 import UnitButton from './UnitButton';
+import CategoryMenu from './CategoryMenu';
 
 interface ResponsiveMenuProps {
     removeUnit:(value: number) => void;
-    setUnitNumber: (value: number) => void;
-    unitNumber: number;
+    addUnitNumber: (value: number) => void;
+    
     totalUnits:number;
     setClaseFondo: (value: string) => void;
-    setType: (value: string) => void;
-    type: string;
+    setCategory: (value: string) => void;
+    category: string;
     appendix:string[];
     
 }
 // Suponiendo que tienes este componente
 
-function ResponsiveMenu({ removeUnit,totalUnits, appendix, setUnitNumber,setClaseFondo, type, setType }:Readonly<ResponsiveMenuProps>) {
+function ResponsiveMenu({ removeUnit,totalUnits, appendix, addUnitNumber,setClaseFondo, category, setCategory }:Readonly<ResponsiveMenuProps>) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Genera los botones de unidades
@@ -29,7 +30,7 @@ function ResponsiveMenu({ removeUnit,totalUnits, appendix, setUnitNumber,setClas
       <UnitButton
         key={i}
         number={i}
-        setUnitNumber={setUnitNumber}
+        addUnitNumber={addUnitNumber}
         removeUnit={removeUnit}
       />
     );
@@ -50,7 +51,7 @@ function ResponsiveMenu({ removeUnit,totalUnits, appendix, setUnitNumber,setClas
       </div>
       <div className='menu-tipos-responsive menu'>
         <LogoContainer/>
-        <MenuTipos  type={type} setClaseFondo={setClaseFondo} setType={setType}/>
+        <CategoryMenu  category={category} setClaseFondo={setClaseFondo} setCategory={setCategory}/>
         </div>
         {appendix && appendix.length > 0 && (
           <button className='kana-button' onClick={() => setShowModal(true)}>

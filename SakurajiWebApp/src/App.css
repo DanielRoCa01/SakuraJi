@@ -366,13 +366,21 @@ a {
 .counter-component h3{
   color:rgb(190, 217, 249);
 }
-
+.page-menu{
+  display: flex;
+  justify-content: center;
+}
+.total-elements{
+  padding: 0.5rem;
+  background-color: #302e2e;
+  border-radius:10px ;
+}
 /* -------------------- */
 /*   RESPONSIVE ZONE    */
 /* -------------------- */
 
 /* Tablets (<= 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 1324px) {
   
  #root{
   padding-top: 0%;
@@ -380,6 +388,9 @@ a {
   .card.main, .entry-content-data {
     width: 95vw;
     max-width: 88%;
+  }
+  .home-content{
+    width:50em
   }
   .card{
 
@@ -512,14 +523,23 @@ a {
     padding: 0.5em;
     min-width: 1em;
   }
+  .menu-types{
+    margin-left: 2rem;
+    z-index: 90;
+  }
+  
   .card.main {
     
     border-radius: 0%;
     min-width: 80vw;
     max-width: 90vw;
+    min-height: 35em;
     max-height: none;
     margin-left: 0;
     padding: 0.5em;
+  }
+  .main-content{
+    min-height: 35em;
   }
   header{
     height: 4em;

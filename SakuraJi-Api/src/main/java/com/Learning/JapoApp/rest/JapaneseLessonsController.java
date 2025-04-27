@@ -1,9 +1,6 @@
 package com.Learning.JapoApp.rest;
 
-import com.Learning.JapoApp.entities.Entry;
-import com.Learning.JapoApp.entities.Grammar;
-import com.Learning.JapoApp.entities.Language;
-import com.Learning.JapoApp.entities.Lesson;
+import com.Learning.JapoApp.entities.*;
 
 import com.Learning.JapoApp.servicies.LanguageService;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -26,24 +23,30 @@ public class JapaneseLessonsController {
 
     // En JapaneseLessonsController.java
 
-    @GetMapping("/vocabulary/{language}/{lessonNumber}")
-    public ResponseEntity<Lesson> getEntriesByLesson(
+    @GetMapping("/vocabulary/{language}")
+    public ResponseEntity<PageResponse<Entry>> getEntriesByLesson(
             @PathVariable String language,
-            @PathVariable int lessonNumber,
-            @RequestParam(required = false) String type) {
+            @RequestParam List<Integer> lessonNumber,
+            @RequestParam(required = false) String type,
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "5") int size) {
 
-        Lesson filteredEntries = service.getEntriesByLesson(language, lessonNumber);
-        return ResponseEntity.ok(filteredEntries);
+        PageResponse<Entry> response = service.getEntriesByLessons(language, lessonNumber, type, page, size);
+        return ResponseEntity.ok(response);
     }
 
-    @GetMapping("/grammar/{language}/{lessonNumber}")
-    public ResponseEntity<Lesson> getGrammarsByLesson(
+    @GetMapping("/grammar/{language}")
+    public ResponseEntity<PageResponse<Grammar>> getGrammarsByLesson(
             @PathVariable String language,
-            @PathVariable int lessonNumber) {
+            @RequestParam List<Integer> lessonNumber,
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "5") int size) {
 
-        Lesson grammars = service.getGrammarsByLesson(language, lessonNumber);
-        return  ResponseEntity.ok(grammars);
+        PageResponse<Grammar> response = service.getGrammarsByLesson(language, lessonNumber, page, size);
+        return ResponseEntity.ok(response);
     }
+
+
 
 
 
