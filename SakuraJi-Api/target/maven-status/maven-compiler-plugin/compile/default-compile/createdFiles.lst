@@ -1,0 +1,13 @@
+com\Learning\JapoApp\dao\LanguageRepository.class
+com\Learning\JapoApp\entities\Entry.class
+com\Learning\JapoApp\rest\JapaneseLessonsController.class
+com\Learning\JapoApp\dao\LanguageRepository$2.class
+com\Learning\JapoApp\JapoAppApplication.class
+com\Learning\JapoApp\servicies\LanguageService.class
+com\Learning\JapoApp\config\CorsConfig.class
+com\Learning\JapoApp\entities\PageResponse.class
+com\Learning\JapoApp\dao\LanguageRepository$1.class
+com\Learning\JapoApp\entities\Language.class
+com\Learning\JapoApp\entities\Grammar$Example.class
+com\Learning\JapoApp\entities\Lesson.class
+com\Learning\JapoApp\entities\Grammar.class

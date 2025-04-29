@@ -1,0 +1,103 @@
+[
+  {
+    "title": "A行",
+    "kana": [
+      { "silaba": "a", "hiragana": "あ", "katakana": "ア" },
+      { "silaba": "i", "hiragana": "い", "katakana": "イ" },
+      { "silaba": "u", "hiragana": "う", "katakana": "ウ" },
+      { "silaba": "e", "hiragana": "え", "katakana": "エ" },
+      { "silaba": "o", "hiragana": "お", "katakana": "オ" }
+    ]
+  },
+  {
+    "title": "K行",
+    "kana": [
+      { "silaba": "ka", "hiragana": "か", "katakana": "カ" },
+      { "silaba": "ki", "hiragana": "き", "katakana": "キ" },
+      { "silaba": "ku", "hiragana": "く", "katakana": "ク" },
+      { "silaba": "ke", "hiragana": "け", "katakana": "ケ" },
+      { "silaba": "ko", "hiragana": "こ", "katakana": "コ" }
+    ]
+  },
+  {
+    "title": "S行",
+    "kana": [
+      { "silaba": "sa", "hiragana": "さ", "katakana": "サ" },
+      { "silaba": "shi", "hiragana": "し", "katakana": "シ" },
+      { "silaba": "su", "hiragana": "す", "katakana": "ス" },
+      { "silaba": "se", "hiragana": "せ", "katakana": "セ" },
+      { "silaba": "so", "hiragana": "そ", "katakana": "ソ" }
+    ]
+  },
+  {
+    "title": "T行",
+    "kana": [
+      { "silaba": "ta", "hiragana": "た", "katakana": "タ" },
+      { "silaba": "chi", "hiragana": "ち", "katakana": "チ" },
+      { "silaba": "tsu", "hiragana": "つ", "katakana": "ツ" },
+      { "silaba": "te", "hiragana": "て", "katakana": "テ" },
+      { "silaba": "to", "hiragana": "と", "katakana": "ト" }
+    ]
+  },
+  {
+    "title": "N行",
+    "kana": [
+      { "silaba": "na", "hiragana": "な", "katakana": "ナ" },
+      { "silaba": "ni", "hiragana": "に", "katakana": "ニ" },
+      { "silaba": "nu", "hiragana": "ぬ", "katakana": "ヌ" },
+      { "silaba": "ne", "hiragana": "ね", "katakana": "ネ" },
+      { "silaba": "no", "hiragana": "の", "katakana": "ノ" }
+    ]
+  },
+  {
+    "title": "H行",
+    "kana": [
+      { "silaba": "ha", "hiragana": "は", "katakana": "ハ" },
+      { "silaba": "hi", "hiragana": "ひ", "katakana": "ヒ" },
+      { "silaba": "fu", "hiragana": "ふ", "katakana": "フ" },
+      { "silaba": "he", "hiragana": "へ", "katakana": "ヘ" },
+      { "silaba": "ho", "hiragana": "ほ", "katakana": "ホ" }
+    ]
+  },
+  {
+    "title": "M行",
+    "kana": [
+      { "silaba": "ma", "hiragana": "ま", "katakana": "マ" },
+      { "silaba": "mi", "hiragana": "み", "katakana": "ミ" },
+      { "silaba": "mu", "hiragana": "む", "katakana": "ム" },
+      { "silaba": "me", "hiragana": "め", "katakana": "メ" },
+      { "silaba": "mo", "hiragana": "も", "katakana": "モ" }
+    ]
+  },
+  {
+    "title": "Y行",
+    "kana": [
+      { "silaba": "ya", "hiragana": "や", "katakana": "ヤ" },
+      { "silaba": "yu", "hiragana": "ゆ", "katakana": "ユ" },
+      { "silaba": "yo", "hiragana": "よ", "katakana": "ヨ" }
+    ]
+  },
+  {
+    "title": "R行",
+    "kana": [
+      { "silaba": "ra", "hiragana": "ら", "katakana": "ラ" },
+      { "silaba": "ri", "hiragana": "り", "katakana": "リ" },
+      { "silaba": "ru", "hiragana": "る", "katakana": "ル" },
+      { "silaba": "re", "hiragana": "れ", "katakana": "レ" },
+      { "silaba": "ro", "hiragana": "ろ", "katakana": "ロ" }
+    ]
+  },
+  {
+    "title": "W行",
+    "kana": [
+      { "silaba": "wa", "hiragana": "わ", "katakana": "ワ" },
+      { "silaba": "wo", "hiragana": "を", "katakana": "ヲ" }
+    ]
+  },
+  {
+    "title": "N",
+    "kana": [
+      { "silaba": "n", "hiragana": "ん", "katakana": "ン" }
+    ]
+  }
+]

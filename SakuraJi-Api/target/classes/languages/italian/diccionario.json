@@ -1,0 +1,174 @@
+[
+  {
+    "number": 1,
+    "entries": [
+      {
+        "type": "Vocabulario",
+        "word": "io",
+        "translation": ["Yo"],
+        "meaning": "Pronombre personal para referirse a uno mismo",
+        "pronunciation": ["io"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "tu",
+        "translation": ["Tú"],
+        "meaning": "Pronombre personal para referirse a la persona con la que se habla",
+        "pronunciation": ["tu"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "lui",
+        "translation": ["Él"],
+        "meaning": "Pronombre personal masculino para referirse a una tercera persona",
+        "pronunciation": ["lui"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "lei",
+        "translation": ["Ella", "Usted (formal)"],
+        "meaning": "Pronombre personal femenino o formal para referirse a una tercera persona o a usted",
+        "pronunciation": ["lei"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "noi",
+        "translation": ["Nosotros"],
+        "meaning": "Pronombre personal para referirse a un grupo que incluye al hablante",
+        "pronunciation": ["noi"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "voi",
+        "translation": ["Vosotros", "Ustedes"],
+        "meaning": "Pronombre personal para referirse a un grupo de personas",
+        "pronunciation": ["voi"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "loro",
+        "translation": ["Ellos", "Ellas"],
+        "meaning": "Pronombre personal para referirse a un grupo de terceros",
+        "pronunciation": ["loro"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "signore",
+        "translation": ["Señor"],
+        "meaning": "Forma de cortesía para dirigirse a un hombre",
+        "pronunciation": ["siɲˈɲore"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "signora",
+        "translation": ["Señora"],
+        "meaning": "Forma de cortesía para dirigirse a una mujer",
+        "pronunciation": ["siɲˈɲora"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ciao",
+        "translation": ["Hola", "Adiós"],
+        "meaning": "Saludo informal usado para decir hola o adiós",
+        "pronunciation": ["ˈtʃao"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "buongiorno",
+        "translation": ["Buenos días"],
+        "meaning": "Saludo formal usado por la mañana y hasta primeras horas de la tarde",
+        "pronunciation": ["bwonˈdʒorno"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "buonasera",
+        "translation": ["Buenas tardes", "Buenas noches"],
+        "meaning": "Saludo formal usado por la tarde y noche",
+        "pronunciation": ["bwonaˈsera"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "come ti chiami?",
+        "translation": ["¿Cómo te llamas?"],
+        "meaning": "Pregunta para pedir el nombre a alguien de manera informal",
+        "pronunciation": ["ˈkome ti ˈkjami"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "mi chiamo...",
+        "translation": ["Me llamo..."],
+        "meaning": "Frase para decir el propio nombre",
+        "pronunciation": ["mi ˈkjamo"],
+        "url_imagen": null
+      }
+    ],
+    "grammars": [
+      {
+        "structure": "Essere (verbo ser/estar) - Presente",
+        "explanation": [
+          "El verbo 'essere' se usa para identificar, describir y expresar estados.",
+          "Conjugación en presente: io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono."
+        ],
+        "example": [
+          {
+            "sentence": "Io sono Marco.",
+            "translation": "Yo soy Marco."
+          },
+          {
+            "sentence": "Lei è Maria.",
+            "translation": "Ella es María."
+          }
+        ]
+      },
+      {
+        "structure": "Chiedere il nome",
+        "explanation": [
+          "Para preguntar el nombre de alguien se usa 'Come ti chiami?' (informal) o 'Come si chiama?' (formal).",
+          "Para responder, se usa 'Mi chiamo...'."
+        ],
+        "example": [
+          {
+            "sentence": "Come ti chiami?",
+            "translation": "¿Cómo te llamas?"
+          },
+          {
+            "sentence": "Mi chiamo Luca.",
+            "translation": "Me llamo Luca."
+          }
+        ]
+      },
+      {
+        "structure": "Saludar y despedirse",
+        "explanation": [
+          "Para saludar informalmente se usa 'Ciao'.",
+          "Para saludar formalmente se usa 'Buongiorno' o 'Buonasera'.",
+          "Para despedirse informalmente se usa 'Ciao' y formalmente 'Arrivederci'."
+        ],
+        "example": [
+          {
+            "sentence": "Ciao, come stai?",
+            "translation": "Hola, ¿cómo estás?"
+          },
+          {
+            "sentence": "Arrivederci!",
+            "translation": "¡Adiós!"
+          }
+        ]
+      }
+    ]
+  }
+
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Japanese",
+    "units": 10,
+    "appendixes": ["counters","kana"],
+    "types": ["Kanji","Vocabulario","Verbos","Adjetivos"],
+    "greeting": "こんにちは"
+  },
+  {
+    "name": "Italian",
+    "units": 1,
+    "appendixes": [],
+    "types": ["Vocabulario","Verbos","Adjetivos"],
+    "greeting": "Bon Giorno"
+  },
+  {
+    "name": "French",
+    "units": 1,
+    "appendixes": [],
+    "types": ["Vocabulario","Verbos","Adjetivos"],
+    "greeting": "Bonjour"
+  }
+]
