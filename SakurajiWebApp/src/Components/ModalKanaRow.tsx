@@ -1,14 +1,13 @@
 import React, { useRef, useEffect, useState, ComponentType } from "react";
 import { appendixComponentsList } from "../Constants";
-import { Count } from "./appendix/Count";
+
 
 interface ModalKanaRowProps {
   appendix: string[];
   onClose: () => void;
 }
 
-// Si tus componentes necesitan props, define el tipo aquí
-type AppendixComponentProps = {}; // Cambia esto si necesitas pasar props
+
 
 const ModalKanaRow: React.FC<ModalKanaRowProps> = ({ onClose, appendix }) => {
   const modalRef = useRef<HTMLDivElement>(null);

@@ -1,10 +1,8 @@
 import { LOGO_IMG } from "../Constants";
 
-interface UnitButtonProps {
-    
-  }
-  
-  function LogoContainer({}: UnitButtonProps) {
+
+
+  function LogoContainer({}) {
     return (
         <div className='logo-container'>
         <div>
@@ -16,6 +14,7 @@ interface UnitButtonProps {
             <div className='title '><h1>Sakuraji Web App</h1></div>
           </a>
         </div>
+        
       </div>
     );
   }

@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 interface CategoryButtonProps {
   setClaseFondo: (value: string) => void;
@@ -11,7 +11,7 @@ interface CategoryButtonProps {
     
 }
 
-function CategoryButton({ setClaseFondo, setCategory, filter,isSelected}: CategoryButtonProps) {
+function CategoryButton({ setClaseFondo, setCategory, filter,isSelected}: Readonly<CategoryButtonProps>) {
     const className = `${filter.toLowerCase()} ${isSelected ? 'is-selected' : ''}`;
   return (
     <button

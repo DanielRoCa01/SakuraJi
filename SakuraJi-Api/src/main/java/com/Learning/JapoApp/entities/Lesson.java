@@ -23,4 +23,27 @@ public class Lesson {
         this.grammars = grammars;
     }
 
+    public List<Entry> getEntries() {
+        return entries;
+    }
+
+    public void setEntries(List<Entry> entries) {
+        this.entries = entries;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public List<Grammar> getGrammars() {
+        return grammars;
+    }
+
+    public void setGrammars(List<Grammar> grammars) {
+        this.grammars = grammars;
+    }
 }

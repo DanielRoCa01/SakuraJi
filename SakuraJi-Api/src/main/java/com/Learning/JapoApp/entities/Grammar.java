@@ -30,6 +30,29 @@ public class Grammar {
 
         }
 
+        public String getSentence() {
+            return sentence;
+        }
+
+        public void setSentence(String sentence) {
+            this.sentence = sentence;
+        }
+
+        public String getSpelling() {
+            return spelling;
+        }
+
+        public void setSpelling(String spelling) {
+            this.spelling = spelling;
+        }
+
+        public String getTranslation() {
+            return translation;
+        }
+
+        public void setTranslation(String translation) {
+            this.translation = translation;
+        }
     }
     public Grammar() {
     }
@@ -40,4 +63,27 @@ public class Grammar {
         this.example = example;
     }
 
+    public String getStructure() {
+        return structure;
+    }
+
+    public void setStructure(String structure) {
+        this.structure = structure;
+    }
+
+    public String[] getExplanation() {
+        return explanation;
+    }
+
+    public void setExplanation(String[] explanation) {
+        this.explanation = explanation;
+    }
+
+    public Example[] getExample() {
+        return example;
+    }
+
+    public void setExample(Example[] example) {
+        this.example = example;
+    }
 }

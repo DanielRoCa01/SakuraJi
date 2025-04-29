@@ -27,4 +27,51 @@ public class Entry {
         this.pronunciation = pronunciation;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getWord() {
+        return word;
+    }
+
+    public void setWord(String word) {
+        this.word = word;
+    }
+
+    public String[] getTranslation() {
+        return translation;
+    }
+
+    public void setTranslation(String[] translation) {
+        this.translation = translation;
+    }
+
+    public String getMeaning() {
+        return meaning;
+    }
+
+    public void setMeaning(String meaning) {
+        this.meaning = meaning;
+    }
+
+    public String[] getPronunciation() {
+        return pronunciation;
+    }
+
+    public void setPronunciation(String[] pronunciation) {
+        this.pronunciation = pronunciation;
+    }
+
+    public String getUrl_imagen() {
+        return url_imagen;
+    }
+
+    public void setUrl_imagen(String url_imagen) {
+        this.url_imagen = url_imagen;
+    }
 }

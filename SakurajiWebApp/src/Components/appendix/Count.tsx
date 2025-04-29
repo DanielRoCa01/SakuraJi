@@ -1,6 +1,5 @@
-import { Component, useEffect, useState } from "react";
-import { KanaGroup } from "../../Entities/KanaGroup";
-import { APPEND_ENDPOINT, AppendixProps } from "../../Constants";
+import {  useEffect, useState } from "react";
+import { APPEND_ENDPOINT } from "../../Constants";
 
 import React from "react";
 

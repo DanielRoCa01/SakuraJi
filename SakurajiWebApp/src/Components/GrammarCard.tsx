@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import grammar from '../Entities/grammar';
+
+
 import Grammar from '../Entities/Grammar';
  // Adjust the path if necessary
 
@@ -32,7 +32,7 @@ const GrammarCard: React.FC<GrammarCardProps> = ({ grammar}) => {
                     <div className='grammar-example'>
                       <div className='example-content'>
                         <p className='example-sentence'>{example.sentence}</p> 
-                        <p className='example-hiragana'>{example.hiragana}</p>
+                        <p className='example-hiragana'>{example.spelling}</p>
                       </div>
                       <div className='example-translation'>
                         <p>{example.translation}</p>

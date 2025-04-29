@@ -1,0 +1,158 @@
+[
+  {
+    "number": 1,
+    "entries": [
+      {
+        "type": "Vocabulario",
+        "word": "je",
+        "translation": ["Yo"],
+        "meaning": "Pronombre personal para referirse a uno mismo",
+        "pronunciation": ["ʒə"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "tu",
+        "translation": ["Tú"],
+        "meaning": "Pronombre personal para referirse a la persona con la que se habla",
+        "pronunciation": ["ty"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "il",
+        "translation": ["Él"],
+        "meaning": "Pronombre personal masculino para referirse a una tercera persona",
+        "pronunciation": ["il"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "elle",
+        "translation": ["Ella"],
+        "meaning": "Pronombre personal femenino para referirse a una tercera persona",
+        "pronunciation": ["ɛl"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "nous",
+        "translation": ["Nosotros"],
+        "meaning": "Pronombre personal para referirse a un grupo que incluye al hablante",
+        "pronunciation": ["nu"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "vous",
+        "translation": ["Vosotros", "Ustedes"],
+        "meaning": "Pronombre personal para referirse a un grupo de personas o formal",
+        "pronunciation": ["vu"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "ils",
+        "translation": ["Ellos"],
+        "meaning": "Pronombre personal masculino para referirse a un grupo de terceros",
+        "pronunciation": ["il"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "bonjour",
+        "translation": ["Buenos días", "Hola"],
+        "meaning": "Saludo formal usado durante el día",
+        "pronunciation": ["bɔ̃ʒuʁ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "salut",
+        "translation": ["Hola", "Adiós"],
+        "meaning": "Saludo informal usado para decir hola o adiós",
+        "pronunciation": ["saly"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "au revoir",
+        "translation": ["Adiós"],
+        "meaning": "Despedida formal",
+        "pronunciation": ["o ʁəvwaʁ"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "comment tu t'appelles?",
+        "translation": ["¿Cómo te llamas?"],
+        "meaning": "Pregunta informal para pedir el nombre",
+        "pronunciation": ["kɔmɑ̃ ty tapɛl"],
+        "url_imagen": null
+      },
+      {
+        "type": "Vocabulario",
+        "word": "je m'appelle...",
+        "translation": ["Me llamo..."],
+        "meaning": "Frase para decir el propio nombre",
+        "pronunciation": ["ʒə mapɛl"],
+        "url_imagen": null
+      }
+    ],
+    "grammars": [
+      {
+        "structure": "Verbo Être (ser/estar) - Presente",
+        "explanation": [
+          "El verbo 'être' se usa para describir estados y características.",
+          "Conjugación en presente: je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont."
+        ],
+        "example": [
+          {
+            "sentence": "Je suis étudiant.",
+            "translation": "Yo soy estudiante."
+          },
+          {
+            "sentence": "Elle est professeur.",
+            "translation": "Ella es profesora."
+          }
+        ]
+      },
+      {
+        "structure": "Preguntar el nombre",
+        "explanation": [
+          "Para preguntar el nombre se usa 'Comment tu t'appelles?' (informal) o 'Comment vous appelez-vous?' (formal).",
+          "Para responder, se usa 'Je m'appelle...'."
+        ],
+        "example": [
+          {
+            "sentence": "Comment tu t'appelles?",
+            "translation": "¿Cómo te llamas?"
+          },
+          {
+            "sentence": "Je m'appelle Marie.",
+            "translation": "Me llamo Marie."
+          }
+        ]
+      },
+      {
+        "structure": "Saludar y despedirse",
+        "explanation": [
+          "Para saludar formalmente se usa 'Bonjour'.",
+          "Para saludar informalmente se usa 'Salut'.",
+          "Para despedirse se usa 'Au revoir'."
+        ],
+        "example": [
+          {
+            "sentence": "Bonjour, comment ça va?",
+            "translation": "Buenos días, ¿cómo estás?"
+          },
+          {
+            "sentence": "Au revoir!",
+            "translation": "¡Adiós!"
+          }
+        ]
+      }
+    ]
+  }
+
+]

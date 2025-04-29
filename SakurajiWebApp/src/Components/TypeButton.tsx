@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 interface TypeButtonProps {
     setClaseFondo: (value: string) => void;
@@ -8,7 +8,7 @@ interface TypeButtonProps {
     
 }
 
-function TypeButton({ setClaseFondo, setType, filter,isSelected}: TypeButtonProps) {
+function TypeButton({ setClaseFondo, setType, filter,isSelected}: Readonly<TypeButtonProps>) {
   
     const className = `${filter.toLowerCase()} ${isSelected ? 'is-selected' : ''}`;
   return (

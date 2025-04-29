@@ -1,0 +1,19 @@
+services:
+  backend:
+    build: ./Sakuraji-Api
+    container_name: Sakuraji-Api
+    ports:
+      - "8080:8080"
+    environment:
+      - CORS_ALLOWED_ORIGINS=http://localhost
+
+  frontend:
+    build:
+      context: ./SakurajiWebApp
+      args:
+        REACT_APP_API_URL: http://localhost:8080/api
+    container_name: SakurajiWebApp
+    ports:
+      - "80:80"
+    depends_on:
+      - backend

@@ -1,4 +1,4 @@
-import React from "react";
+
 import Select from 'react-select';
 
 interface TypeMenuProps {
@@ -7,7 +7,7 @@ interface TypeMenuProps {
   value: string;
 }
 
-function TypeMenu({ types, value, setType }: TypeMenuProps) {
+function TypeMenu({ types, value, setType }: Readonly<TypeMenuProps>) {
     const newTypes=["Todo"];
     
   const options = types.concat(newTypes).map(type => ({
@@ -23,7 +23,7 @@ function TypeMenu({ types, value, setType }: TypeMenuProps) {
     if (option) setType(option.value);
   };
   const customStyles = {
-    control: (provided, state) => ({
+    control: (provided: any, state: { isFocused: any; }) => ({
       ...provided,
       width: 180, // ancho fijo en píxeles
       minWidth: 180,
@@ -35,7 +35,7 @@ function TypeMenu({ types, value, setType }: TypeMenuProps) {
         borderColor: '#302e2e',
       },
     }),
-    option: (provided, state) => ({
+    option: (provided: any, state: { isSelected: any; isFocused: any; }) => ({
       ...provided,
       color: state.isSelected ? '#302e2e' : '#f9bec8',
       backgroundColor: state.isSelected
@@ -43,7 +43,10 @@ function TypeMenu({ types, value, setType }: TypeMenuProps) {
       : state.isFocused
       ? '#e6f0ff' // color suave al pasar el ratón sobre la opción
       : '#302e2e',
-      cursor:"pointer"
+      cursor:"pointer",
+      '&:hover': {
+        color: '#302e2e',
+      },
     }),
   };
   

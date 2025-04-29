@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+
 import Entry from '../Entities/Entry';
  // Adjust the path if necessary
 
@@ -23,14 +23,14 @@ const EntryCard: React.FC<EntryCardProps> = ({ entry}) => {
                 <div className='entry-content-data-main'>
                   <h1>{entry.word}</h1>
                   <div className='entry-content-translation'>
-                    <h2>{entry.translation.join(', ')}</h2>
+                    {entry.translation&&<h2>{entry.translation.join(', ')}</h2>}
                   </div>
                   <div className={`entry-type ${entry.type.toLowerCase()}`}>
                     {entry.type.toUpperCase()}
                   </div>
                 </div>
                 <div className='entry-content-data-pronunciation'>
-                  <p>{entry.pronunciation.join(', ')}</p>
+                {entry.pronunciation&&<p>{entry.pronunciation.join(', ')}</p>}
                 </div>
                 <div className='entry-content-data-meaning'>
                   <p>{entry.meaning}</p>

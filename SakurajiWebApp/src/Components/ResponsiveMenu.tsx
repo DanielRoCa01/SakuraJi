@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
-import MenuTipos from './CategoryMenu';
+import  { useState } from 'react';
+
 import ModalKanaRow from './ModalKanaRow';
-import { Kana } from '../Entities/Kana';
+
 import { LOGO_IMG } from '../Constants';
 import LogoContainer from './LogoContainer';
 import UnitButton from './UnitButton';
 import CategoryMenu from './CategoryMenu';
+import LanguageMenu from './LanguageMenu';
+import Language from '../Entities/Language';
 
 interface ResponsiveMenuProps {
     removeUnit:(value: number) => void;
@@ -16,11 +18,13 @@ interface ResponsiveMenuProps {
     setCategory: (value: string) => void;
     category: string;
     appendix:string[];
-    
-}
+    setLanguage:(value:Language)=>void;
+    language:Language| undefined;
+    languages:Language[]
+}     
 // Suponiendo que tienes este componente
 
-function ResponsiveMenu({ removeUnit,totalUnits, appendix, addUnitNumber,setClaseFondo, category, setCategory }:Readonly<ResponsiveMenuProps>) {
+function ResponsiveMenu({ removeUnit,totalUnits, appendix, addUnitNumber,setClaseFondo, category, setCategory, setLanguage,language, languages }:Readonly<ResponsiveMenuProps>) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Genera los botones de unidades
@@ -38,6 +42,7 @@ function ResponsiveMenu({ removeUnit,totalUnits, appendix, addUnitNumber,setClas
   const [showModal, setShowModal] = useState(false);
   return (
     <div className={`columna-menus${menuOpen ? ' menu-open' : ''}`}>
+      <div className='menu-tipos-movil'>{language&&<LanguageMenu languages={languages} setLanguage={setLanguage} value={language}/>} </div>
      <div className='menu-button-container'>
        <button
           className="menu-toggle"
@@ -67,8 +72,7 @@ function ResponsiveMenu({ removeUnit,totalUnits, appendix, addUnitNumber,setClas
         {unitsButtons}
       </div>
       <div className="menu-modos">
-        <button>Estudio</button>
-        <button>Practica</button>
+       
       </div>
         </div>
       

@@ -1,5 +1,4 @@
-import React from "react";
-import TypeButton from "./TypeButton";
+
 import { CATEGORY_GRAMMAR, CATEGORY_VOCABULARY } from "../Constants";
 import CategoryButton from "./CategoryButton";
 
@@ -15,11 +14,11 @@ interface CategoryMenuProps {
     
 }
 // El menú de tipos
-function CategoryMenu({ setClaseFondo,  setCategory, category }:CategoryMenuProps) {
-  const tipos = ["Todo", "Kanji", "Vocabulario", "Verbos", "Adjetivos"];
+function CategoryMenu({ setClaseFondo,  setCategory, category }:Readonly<CategoryMenuProps>) {
+  
 
   return (
-    <div className="menu-tipos">
+    <div className="menu-category">
       <CategoryButton
           
           setClaseFondo={setClaseFondo}
