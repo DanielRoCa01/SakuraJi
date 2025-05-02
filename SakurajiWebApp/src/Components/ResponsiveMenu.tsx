@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import  { useState, useEffect, useRef } from 'react';
 
 import ModalKanaRow from './ModalKanaRow';
 
@@ -26,7 +26,7 @@ interface ResponsiveMenuProps {
 
 function ResponsiveMenu({ removeUnit,totalUnits, appendix, addUnitNumber,setClaseFondo, category, setCategory, setLanguage,language, languages }:Readonly<ResponsiveMenuProps>) {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  const menuRef = useRef<HTMLDivElement>(null);
   // Genera los botones de unidades
   const unitsButtons = [];
   for (let i = 1; i <= totalUnits; i++) {
@@ -36,12 +36,28 @@ function ResponsiveMenu({ removeUnit,totalUnits, appendix, addUnitNumber,setClas
         number={i}
         addUnitNumber={addUnitNumber}
         removeUnit={removeUnit}
+        language={language}
       />
     );
   }
+
+  useEffect(() => {
+    if (!menuOpen) return;
+    function handleClickOutside(event: MouseEvent) {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setMenuOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [menuOpen]);
+
+
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className={`columna-menus${menuOpen ? ' menu-open' : ''}`}>
+    <div ref={menuRef}  className={`columna-menus${menuOpen ? ' menu-open' : ''}`}>
       <div className='menu-tipos-movil'>{language&&<LanguageMenu languages={languages} setLanguage={setLanguage} value={language}/>} </div>
      <div className='menu-button-container'>
        <button

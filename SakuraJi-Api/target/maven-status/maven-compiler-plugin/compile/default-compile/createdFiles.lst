@@ -1,4 +1,5 @@
 com\Learning\JapoApp\dao\LanguageRepository.class
+com\Learning\JapoApp\filters\CorsLoggingFilter.class
 com\Learning\JapoApp\entities\Entry.class
 com\Learning\JapoApp\rest\JapaneseLessonsController.class
 com\Learning\JapoApp\dao\LanguageRepository$2.class

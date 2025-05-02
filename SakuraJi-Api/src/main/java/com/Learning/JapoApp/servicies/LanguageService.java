@@ -59,14 +59,11 @@ public class LanguageService {
                 .flatMap(l -> l.getEntries().stream())
                 .filter(e -> type == null || e.getType().equals(type))
                 .collect(Collectors.toList());
-        logger.info("size: "+size);
-        logger.info("Entries: "+filteredEntries);
+
         int fromIndex = Math.min(page * size, filteredEntries.size());
         int toIndex = Math.min(fromIndex + size, filteredEntries.size());
         List<Entry> pagedEntries = filteredEntries.subList(fromIndex, toIndex);
-        logger.info("fromIndex: "+fromIndex);
-        logger.info("toIndex: "+toIndex);
-        logger.info("pagedEntries: "+pagedEntries);
+
         return new PageResponse<>(pagedEntries, page, size, filteredEntries.size());
     }
     public PageResponse<Grammar> getGrammarsByLesson(

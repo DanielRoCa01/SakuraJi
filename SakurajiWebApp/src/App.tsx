@@ -7,7 +7,7 @@ import EntryCard from './Components/EntryCard'
 import ResponsiveMenu from './Components/ResponsiveMenu'
 
 
-import { API_URL, CATEGORY_GRAMMAR, CATEGORY_VOCABULARY,  LANGUAGE_ENDPOINT, LOGO_IMG } from './Constants'
+import { API_URL, CATEGORY_GRAMMAR, CATEGORY_VOCABULARY,  LANGUAGE_ENDPOINT, LOGO_IMG, NO_CONTENT_IMG } from './Constants'
 
 import LogoContainer from './Components/LogoContainer'
 import Language from './Entities/Language'
@@ -35,12 +35,12 @@ function App() {
     if (unitNumber.includes(numero)) return;
     const newUnits = [...unitNumber, numero];
     setUnitNumber(newUnits);
-    console.log("unitNumber:", newUnits);
+    
   };
   const removeUnit = (numero: number) => {
     const newUnits = unitNumber.filter(n => n !== numero);
     setUnitNumber(newUnits); 
-    console.log("unitNumber:", newUnits);
+   
   };
   
   
@@ -55,7 +55,7 @@ function App() {
   useEffect(() => //Return units from the API
   {
     
-    console.log("Iniciando api",type)
+    
     if(category==="Vocabulary"){
       callEntries()
       return
@@ -75,19 +75,13 @@ function App() {
         s=data
         setLanguages(s); 
         
-        console.log(" languages",languages)
-        console.log("aux languages",s)
       })
       .catch(error => console.error('Error al cargar los datos:', error));
       
   }, []);
   useEffect(()=>{setLanguage(languages[0])},[languages])
   useEffect(()=>{setUnitNumber([])},[language])
-  useEffect(()=>{
-
-    console.log(language?.units)
-    setTotalUnits(language?.units!)
-  },[language])
+  useEffect(()=>{ setTotalUnits(language?.units!)},[language])
   const maxPage=totalElements<=size?0:Math.ceil(totalElements / size)-1
   const handleNextPage = () => {setPage(prev => Math.min(prev + 1, maxPage)); console.log("Page:" +page)};
   const handlePrevPage = () => {setPage(prev => Math.max(prev - 1, 0)); console.log("Page:" +page)};
@@ -164,6 +158,7 @@ function App() {
             language={language}
             languages={languages}
             setLanguage={setLanguage}
+           
           />
           <div className={`card  main ${claseFondo}`}>
             {unitNumber.length > 0 ? (
@@ -198,7 +193,7 @@ function App() {
                     unitNumber.length !== 0 && (
                       <div className="empty-content">
                         <img
-                          src="https://s3.voyapon.com/wp-content/uploads/sites/3/2020/06/27170907/pose_syazai_man.png"
+                          src={NO_CONTENT_IMG}
                           alt="Sumimasen"
                         />
                         <h1>Lo sentimos esta sección no tiene contenido...</h1>
@@ -212,6 +207,7 @@ function App() {
                 <img src={LOGO_IMG} alt="Sumimasen" />
                 <h1>{language?.greeting}</h1>
                 <h2>!!Bienvenido a Sakuraji: {language?.name.toUpperCase()}!!</h2>
+                <h4 className='aviso-menu'>Abra el menu en la flor de la izquierda.</h4>
                 <h4>
                   Para continuar selecione las unidades que desee consultar.
                   <br /> Con las pestañas podrás cambiar el tipo de consulta. <br /> Actual:

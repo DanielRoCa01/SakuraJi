@@ -1,14 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Language from "../Entities/Language";
 
 interface UnitButtonProps {
   removeUnit:(value: number) => void;
   addUnitNumber: (value: number) => void;
   number: number;
-  
+  language:Language|undefined;
   
 }
-function UnitButton({ removeUnit, number, addUnitNumber }: Readonly<UnitButtonProps>) {
+
+function UnitButton({ removeUnit, number, addUnitNumber,language }: Readonly<UnitButtonProps>) {
+
     const [selected,setSelected]=useState(false)
+    useEffect(()=>{setSelected(false)},[language])
     const handdleClick=(number:number)=>{
         console.log("boton clickado")
         if(selected){removeUnit(number)
@@ -16,6 +20,7 @@ function UnitButton({ removeUnit, number, addUnitNumber }: Readonly<UnitButtonPr
         }
         else{addUnitNumber(number)}
         setSelected(!selected)
+        
         
     }
       return (

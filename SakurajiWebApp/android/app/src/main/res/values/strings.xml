@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">sakuraji</string>
+    <string name="title_activity_main">sakuraji</string>
+    <string name="package_name">com.daroca.sakuraji</string>
+    <string name="custom_url_scheme">com.daroca.sakuraji</string>
+</resources>

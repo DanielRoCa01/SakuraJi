@@ -2,6 +2,7 @@ C:\Users\danie\Dani\SakuraJi\SakuraJi-Api\src\main\java\com\Learning\JapoApp\ent
 C:\Users\danie\Dani\SakuraJi\SakuraJi-Api\src\main\java\com\Learning\JapoApp\rest\JapaneseLessonsController.java
 C:\Users\danie\Dani\SakuraJi\SakuraJi-Api\src\main\java\com\Learning\JapoApp\entities\Lesson.java
 C:\Users\danie\Dani\SakuraJi\SakuraJi-Api\src\main\java\com\Learning\JapoApp\servicies\LanguageService.java
+C:\Users\danie\Dani\SakuraJi\SakuraJi-Api\src\main\java\com\Learning\JapoApp\filters\CorsLoggingFilter.java
 C:\Users\danie\Dani\SakuraJi\SakuraJi-Api\src\main\java\com\Learning\JapoApp\dao\LanguageRepository.java
 C:\Users\danie\Dani\SakuraJi\SakuraJi-Api\src\main\java\com\Learning\JapoApp\entities\Language.java
 C:\Users\danie\Dani\SakuraJi\SakuraJi-Api\src\main\java\com\Learning\JapoApp\entities\Grammar.java

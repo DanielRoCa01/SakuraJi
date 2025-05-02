@@ -2,7 +2,8 @@
 import KanaComponent from "./Components/appendix/KanaComponent";
 import ListaContadores from "./Components/appendix/Count";
 
-export const LOGO_IMG="https://daroca-aws-demo-s3.s3.eu-west-1.amazonaws.com/Sakuraji/assets_comunes/logo.png"
+export const LOGO_IMG="./logo.png"
+export const NO_CONTENT_IMG="./no_content.png"
 export const API_URL = import.meta.env.VITE_API_URL;
 
 export  const LANGUAGE_ENDPOINT=`${API_URL}/languages`

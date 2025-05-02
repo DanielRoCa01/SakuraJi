@@ -384,6 +384,9 @@ a {
 .menu-tipos-movil{
   display: none;
 }
+.aviso-menu{
+  display: none;
+}
 
 /* -------------------- */
 /*   RESPONSIVE ZONE    */
@@ -519,6 +522,9 @@ a {
     filter: drop-shadow(0 0 0 rgb(236, 227, 227));
     animation: logo-spin 4s linear  infinite;
   }
+  .aviso-menu{
+    display: block;
+  }
 
 }
 
@@ -536,6 +542,8 @@ a {
   .menu-types{
     margin-left: 2rem;
     z-index: 90;
+    height: 1em;
+    width: 3em;
   }
   
   .card.main {
@@ -548,9 +556,13 @@ a {
     margin-left: 0;
     padding: 0.5em;
   }
-  .home-content{
+  .home-content, .empty-content{
     min-width: 80vw;
     max-width: 90vw;
+  }
+  .empty-content img{
+    margin-left: 5em;
+    width: 6em;
   }
   .main-content{
     min-height: 35em;
@@ -593,6 +605,7 @@ a {
     width:15rem;
     padding-right: 0;
     height: 6em;
+    
   }
   .menu-category {
     
@@ -632,6 +645,9 @@ a {
     height:  2em;
     margin: 0;
     filter: grayscale(100%) brightness(0.8);
+  }
+  .columna-menus{
+    width: 3em;
   }
   .columna-menus.menu-open .menu-toggle {
     margin-top: 0.15em;
@@ -698,12 +714,14 @@ a {
   
   .entry-content {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1em 0.2em;
   }
   .entry-content-picture {
     width: 100%;
     border-right: none;
-    border-bottom: 0.2rem solid rgb(41, 39, 39);
+    border-bottom: 0.2rem solid rgb(233, 220, 220);
     margin-right: 0;
     margin-bottom: 1em;
     padding: 0.5em;
@@ -723,7 +741,7 @@ a {
     min-width: 0;
     width: 100%;
     border-right: none;
-    border-bottom: 0.2rem solid rgb(41, 39, 39);
+    border-bottom: 0.2rem solid rgb(233, 220, 220);
     margin-right: 0;
     padding-right: 0;
     margin-bottom: 0.5em;
@@ -736,9 +754,7 @@ a {
     justify-content: center;
     align-items: center;
   }
-  .empty-content img {
-    width: 6em;
-  }
+ 
   .vocabulary {
     border: 0.3rem solid rgba(224,105,131,254);
     background-color: rgb(241,161,175);
@@ -770,5 +786,11 @@ a {
  .kana-button{
   margin: 2em;
  }
- 
+ .kana-container{
+  max-height: 30em;
+  max-width: 20em;
+ }
+ .aviso-menu{
+  display: block;
+}
 }
