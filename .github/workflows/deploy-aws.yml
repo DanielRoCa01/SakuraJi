@@ -16,6 +16,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v4
       with:
+        distribution: 'temurin'   # <-- Añade esta línea
         java-version: '21'
 
     - name: Build with Maven
