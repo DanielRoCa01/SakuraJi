@@ -89,7 +89,7 @@ function App() {
 
   
     function callEntries() {
-      const lessonNumbersParam = unitNumber.join(',');
+      const lessonNumbersParam = unitNumber.join('&lessonNumber=');
       let endpoint = `${API_URL}/${category.toLowerCase()}/${language?.name.toLowerCase()}?lessonNumber=${lessonNumbersParam}&page=${page}&size=${size}`;
       
       if (type.toLowerCase() !== "todo") {
@@ -111,7 +111,7 @@ function App() {
     }
     useEffect(()=>{console.log("SIZE"+size)},[size])
     function callGrammars() {
-      const lessonNumbersParam = unitNumber.join(',');
+      const lessonNumbersParam = unitNumber.join('&lessonNumber=');
       
       let endpoint = `${API_URL}/${category.toLowerCase()}/${language?.name.toLowerCase()}?lessonNumber=${lessonNumbersParam}&page=${page}&size=${size}`;
       
