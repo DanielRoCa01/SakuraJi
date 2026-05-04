@@ -68,6 +68,7 @@ function App() {
   useEffect(() => //Return total languages from the API
   {
     let s:Language[]=[]
+    console.log("endpoint:", LANGUAGE_ENDPOINT);
     fetch(LANGUAGE_ENDPOINT) 
       .then(response => response.json())
       .then(data => {
